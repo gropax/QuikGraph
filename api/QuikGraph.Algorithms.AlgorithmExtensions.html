@@ -118,7 +118,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_Clone__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___0___0__System_Func___1___0___0___1__QuikGraph_IMutableVertexAndEdgeSet___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.Clone%60%602(QuikGraph.IVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D%2CSystem.Func%7B%60%600%2C%60%600%7D%2CSystem.Func%7B%60%601%2C%60%600%2C%60%600%2C%60%601%7D%2CQuikGraph.IMutableVertexAndEdgeSet%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L1125">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L1237">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_Clone_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.Clone*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_Clone__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___0___0__System_Func___1___0___0___1__QuikGraph_IMutableVertexAndEdgeSet___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.Clone``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1},System.Func{``0,``0},System.Func{``1,``0,``0,``1},QuikGraph.IMutableVertexAndEdgeSet{``0,``1})">Clone&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TVertex, TVertex&gt;, Func&lt;TEdge, TVertex, TVertex, TEdge&gt;, IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;)</h4>
@@ -187,12 +187,43 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertexCloner</code> is <span class="xref">null</span> or creates <span class="xref">null</span> vertex.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeCloner</code> is <span class="xref">null</span> or creates <span class="xref">null</span> edge.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">clone</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_ComputeDisjointSet__2_QuikGraph_IUndirectedGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.ComputeDisjointSet%60%602(QuikGraph.IUndirectedGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L916">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L997">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_ComputeDisjointSet_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ComputeDisjointSet*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_ComputeDisjointSet__2_QuikGraph_IUndirectedGraph___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ComputeDisjointSet``2(QuikGraph.IUndirectedGraph{``0,``1})">ComputeDisjointSet&lt;TVertex, TEdge&gt;(IUndirectedGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -259,12 +290,28 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_ComputePredecessorCost__2_System_Collections_Generic_IDictionary___0___1__System_Collections_Generic_IDictionary___1_System_Double____0_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.ComputePredecessorCost%60%602(System.Collections.Generic.IDictionary%7B%60%600%2C%60%601%7D%2CSystem.Collections.Generic.IDictionary%7B%60%601%2CSystem.Double%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L884">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L964">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_ComputePredecessorCost_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ComputePredecessorCost*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_ComputePredecessorCost__2_System_Collections_Generic_IDictionary___0___1__System_Collections_Generic_IDictionary___1_System_Double____0_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ComputePredecessorCost``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IDictionary{``1,System.Double},``0)">ComputePredecessorCost&lt;TVertex, TEdge&gt;(IDictionary&lt;TVertex, TEdge&gt;, IDictionary&lt;TEdge, Double&gt;, TVertex)</h4>
@@ -343,12 +390,38 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">predecessors</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeCosts</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">target</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_ComputeTransitiveClosure__2_QuikGraph_BidirectionalGraph___0___1__System_Func___0___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.ComputeTransitiveClosure%60%602(QuikGraph.BidirectionalGraph%7B%60%600%2C%60%601%7D%2CSystem.Func%7B%60%600%2C%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L1104">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L1212">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_ComputeTransitiveClosure_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ComputeTransitiveClosure*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_ComputeTransitiveClosure__2_QuikGraph_BidirectionalGraph___0___1__System_Func___0___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ComputeTransitiveClosure``2(QuikGraph.BidirectionalGraph{``0,``1},System.Func{``0,``0,``1})">ComputeTransitiveClosure&lt;TVertex, TEdge&gt;(BidirectionalGraph&lt;TVertex, TEdge&gt;, Func&lt;TVertex, TVertex, TEdge&gt;)</h4>
@@ -357,7 +430,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static BidirectionalGraph&lt;TVertex, TEdge&gt; ComputeTransitiveClosure&lt;TVertex, TEdge&gt;(this BidirectionalGraph&lt;TVertex, TEdge&gt; graph, Func&lt;TVertex, TVertex, TEdge&gt; createEdge)
+    <pre><code class="lang-csharp hljs">public static BidirectionalGraph&lt;TVertex, TEdge&gt; ComputeTransitiveClosure&lt;TVertex, TEdge&gt;(this BidirectionalGraph&lt;TVertex, TEdge&gt; graph, Func&lt;TVertex, TVertex, TEdge&gt; edgeFactory)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -378,7 +451,7 @@
       </tr>
       <tr>
         <td><span class="xref">System.Func</span>&lt;TVertex, TVertex, TEdge&gt;</td>
-        <td><span class="parametername">createEdge</span></td>
+        <td><span class="parametername">edgeFactory</span></td>
         <td><p>Function that create an edge between the 2 given vertices.</p>
 </td>
       </tr>
@@ -421,12 +494,33 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeFactory</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_ComputeTransitiveReduction__2_QuikGraph_BidirectionalGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.ComputeTransitiveReduction%60%602(QuikGraph.BidirectionalGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L1085">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L1191">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_ComputeTransitiveReduction_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ComputeTransitiveReduction*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_ComputeTransitiveReduction__2_QuikGraph_BidirectionalGraph___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ComputeTransitiveReduction``2(QuikGraph.BidirectionalGraph{``0,``1})">ComputeTransitiveReduction&lt;TVertex, TEdge&gt;(BidirectionalGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -493,12 +587,28 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_CondensateEdges__2_QuikGraph_IBidirectionalGraph___0___1__QuikGraph_VertexPredicate___0__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.CondensateEdges%60%602(QuikGraph.IBidirectionalGraph%7B%60%600%2C%60%601%7D%2CQuikGraph.VertexPredicate%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L777">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L850">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_CondensateEdges_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.CondensateEdges*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_CondensateEdges__2_QuikGraph_IBidirectionalGraph___0___1__QuikGraph_VertexPredicate___0__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.CondensateEdges``2(QuikGraph.IBidirectionalGraph{``0,``1},QuikGraph.VertexPredicate{``0})">CondensateEdges&lt;TVertex, TEdge&gt;(IBidirectionalGraph&lt;TVertex, TEdge&gt;, VertexPredicate&lt;TVertex&gt;)</h4>
@@ -571,12 +681,33 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertexPredicate</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_CondensateStronglyConnected__3_QuikGraph_IVertexAndEdgeListGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.CondensateStronglyConnected%60%603(QuikGraph.IVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L731">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L801">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_CondensateStronglyConnected_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.CondensateStronglyConnected*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_CondensateStronglyConnected__3_QuikGraph_IVertexAndEdgeListGraph___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.CondensateStronglyConnected``3(QuikGraph.IVertexAndEdgeListGraph{``0,``1})">CondensateStronglyConnected&lt;TVertex, TEdge, TGraph&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -648,12 +779,28 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_CondensateWeaklyConnected__3_QuikGraph_IVertexAndEdgeListGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.CondensateWeaklyConnected%60%603(QuikGraph.IVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L754">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L825">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_CondensateWeaklyConnected_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.CondensateWeaklyConnected*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_CondensateWeaklyConnected__3_QuikGraph_IVertexAndEdgeListGraph___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.CondensateWeaklyConnected``3(QuikGraph.IVertexAndEdgeListGraph{``0,``1})">CondensateWeaklyConnected&lt;TVertex, TEdge, TGraph&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -725,12 +872,28 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_ConnectedComponents__2_QuikGraph_IUndirectedGraph___0___1__System_Collections_Generic_IDictionary___0_System_Int32__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.ConnectedComponents%60%602(QuikGraph.IUndirectedGraph%7B%60%600%2C%60%601%7D%2CSystem.Collections.Generic.IDictionary%7B%60%600%2CSystem.Int32%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L652">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L718">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_ConnectedComponents_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ConnectedComponents*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_ConnectedComponents__2_QuikGraph_IUndirectedGraph___0___1__System_Collections_Generic_IDictionary___0_System_Int32__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ConnectedComponents``2(QuikGraph.IUndirectedGraph{``0,``1},System.Collections.Generic.IDictionary{``0,System.Int32})">ConnectedComponents&lt;TVertex, TEdge&gt;(IUndirectedGraph&lt;TVertex, TEdge&gt;, IDictionary&lt;TVertex, Int32&gt;)</h4>
@@ -803,12 +966,33 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">components</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_GetEdgeIdentity__2_QuikGraph_IEdgeSet___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.GetEdgeIdentity%60%602(QuikGraph.IEdgeSet%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L112">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L117">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_GetEdgeIdentity_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.GetEdgeIdentity*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_GetEdgeIdentity__2_QuikGraph_IEdgeSet___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.GetEdgeIdentity``2(QuikGraph.IEdgeSet{``0,``1})">GetEdgeIdentity&lt;TVertex, TEdge&gt;(IEdgeSet&lt;TVertex, TEdge&gt;)</h4>
@@ -875,12 +1059,28 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_GetIndexer__2_System_Collections_Generic_IDictionary___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.GetIndexer%60%602(System.Collections.Generic.IDictionary%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L37">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L38">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_GetIndexer_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.GetIndexer*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_GetIndexer__2_System_Collections_Generic_IDictionary___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.GetIndexer``2(System.Collections.Generic.IDictionary{``0,``1})">GetIndexer&lt;TKey, TValue&gt;(IDictionary&lt;TKey, TValue&gt;)</h4>
@@ -946,12 +1146,28 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">dictionary</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_GetVertexIdentity__1_QuikGraph_IVertexSet___0__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.GetVertexIdentity%60%601(QuikGraph.IVertexSet%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L64">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L66">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_GetVertexIdentity_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.GetVertexIdentity*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_GetVertexIdentity__1_QuikGraph_IVertexSet___0__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.GetVertexIdentity``1(QuikGraph.IVertexSet{``0})">GetVertexIdentity&lt;TVertex&gt;(IVertexSet&lt;TVertex&gt;)</h4>
@@ -1016,12 +1232,28 @@
   <div class="markdown level1 remarks"><p>Returns more efficient methods for primitive types,
 otherwise builds a dictionary.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_IncrementalConnectedComponents__2_QuikGraph_IMutableVertexAndEdgeSet___0___1__System_Func_System_Collections_Generic_KeyValuePair_System_Int32_System_Collections_Generic_IDictionary___0_System_Int32_____.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.IncrementalConnectedComponents%60%602(QuikGraph.IMutableVertexAndEdgeSet%7B%60%600%2C%60%601%7D%2CSystem.Func%7BSystem.Collections.Generic.KeyValuePair%7BSystem.Int32%2CSystem.Collections.Generic.IDictionary%7B%60%600%2CSystem.Int32%7D%7D%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L673">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L739">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_IncrementalConnectedComponents_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.IncrementalConnectedComponents*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_IncrementalConnectedComponents__2_QuikGraph_IMutableVertexAndEdgeSet___0___1__System_Func_System_Collections_Generic_KeyValuePair_System_Int32_System_Collections_Generic_IDictionary___0_System_Int32_____" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.IncrementalConnectedComponents``2(QuikGraph.IMutableVertexAndEdgeSet{``0,``1},System.Func{System.Collections.Generic.KeyValuePair{System.Int32,System.Collections.Generic.IDictionary{``0,System.Int32}}}@)">IncrementalConnectedComponents&lt;TVertex, TEdge&gt;(IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;, out Func&lt;KeyValuePair&lt;Int32, IDictionary&lt;TVertex, Int32&gt;&gt;&gt;)</h4>
@@ -1096,12 +1328,28 @@ is shared across multiple calls of the method.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_IsDirectedAcyclicGraph__2_QuikGraph_IVertexListGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.IsDirectedAcyclicGraph%60%602(QuikGraph.IVertexListGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L835">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L912">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_IsDirectedAcyclicGraph_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.IsDirectedAcyclicGraph*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_IsDirectedAcyclicGraph__2_QuikGraph_IVertexListGraph___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.IsDirectedAcyclicGraph``2(QuikGraph.IVertexListGraph{``0,``1})">IsDirectedAcyclicGraph&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -1171,12 +1419,28 @@ is shared across multiple calls of the method.</p>
   <h5 id="QuikGraph_Algorithms_AlgorithmExtensions_IsDirectedAcyclicGraph__2_QuikGraph_IVertexListGraph___0___1___remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Performs a depth first search to look for cycles.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_IsolatedVertices__2_QuikGraph_IBidirectionalGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.IsolatedVertices%60%602(QuikGraph.IBidirectionalGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L498">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L556">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_IsolatedVertices_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.IsolatedVertices*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_IsolatedVertices__2_QuikGraph_IBidirectionalGraph___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.IsolatedVertices``2(QuikGraph.IBidirectionalGraph{``0,``1})">IsolatedVertices&lt;TVertex, TEdge&gt;(IBidirectionalGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -1243,12 +1507,28 @@ is shared across multiple calls of the method.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_MaximumFlow__2_QuikGraph_IMutableVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0___0_QuikGraph_TryFunc___0___1___QuikGraph_EdgeFactory___0___1__QuikGraph_Algorithms_MaximumFlow_ReversedEdgeAugmentorAlgorithm___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.MaximumFlow%60%602(QuikGraph.IMutableVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D%2CSystem.Func%7B%60%601%2CSystem.Double%7D%2C%60%600%2C%60%600%2CQuikGraph.TryFunc%7B%60%600%2C%60%601%7D%40%2CQuikGraph.EdgeFactory%7B%60%600%2C%60%601%7D%2CQuikGraph.Algorithms.MaximumFlow.ReversedEdgeAugmentorAlgorithm%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L1053">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L1158">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_MaximumFlow_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.MaximumFlow*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_MaximumFlow__2_QuikGraph_IMutableVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0___0_QuikGraph_TryFunc___0___1___QuikGraph_EdgeFactory___0___1__QuikGraph_Algorithms_MaximumFlow_ReversedEdgeAugmentorAlgorithm___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.MaximumFlow``2(QuikGraph.IMutableVertexAndEdgeListGraph{``0,``1},System.Func{``1,System.Double},``0,``0,QuikGraph.TryFunc{``0,``1}@,QuikGraph.EdgeFactory{``0,``1},QuikGraph.Algorithms.MaximumFlow.ReversedEdgeAugmentorAlgorithm{``0,``1})">MaximumFlow&lt;TVertex, TEdge&gt;(IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, TVertex, TVertex, out TryFunc&lt;TVertex, TEdge&gt;, EdgeFactory&lt;TVertex, TEdge&gt;, ReversedEdgeAugmentorAlgorithm&lt;TVertex, TEdge&gt;)</h4>
@@ -1352,12 +1632,58 @@ using Edmonds-Karp algorithm.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeCapacities</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">sink</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeFactory</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">reversedEdgeAugmentorAlgorithm</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> and <code data-dev-comment-type="paramref" class="paramref">sink</code> are the same vertex.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_MinimumSpanningTreeKruskal__2_QuikGraph_IUndirectedGraph___0___1__System_Func___1_System_Double__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.MinimumSpanningTreeKruskal%60%602(QuikGraph.IUndirectedGraph%7B%60%600%2C%60%601%7D%2CSystem.Func%7B%60%601%2CSystem.Double%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L975">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L1067">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_MinimumSpanningTreeKruskal_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.MinimumSpanningTreeKruskal*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_MinimumSpanningTreeKruskal__2_QuikGraph_IUndirectedGraph___0___1__System_Func___1_System_Double__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.MinimumSpanningTreeKruskal``2(QuikGraph.IUndirectedGraph{``0,``1},System.Func{``1,System.Double})">MinimumSpanningTreeKruskal&lt;TVertex, TEdge&gt;(IUndirectedGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;)</h4>
@@ -1430,12 +1756,33 @@ using Edmonds-Karp algorithm.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeWeights</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_MinimumSpanningTreePrim__2_QuikGraph_IUndirectedGraph___0___1__System_Func___1_System_Double__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.MinimumSpanningTreePrim%60%602(QuikGraph.IUndirectedGraph%7B%60%600%2C%60%601%7D%2CSystem.Func%7B%60%601%2CSystem.Double%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L943">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L1031">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_MinimumSpanningTreePrim_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.MinimumSpanningTreePrim*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_MinimumSpanningTreePrim__2_QuikGraph_IUndirectedGraph___0___1__System_Func___1_System_Double__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.MinimumSpanningTreePrim``2(QuikGraph.IUndirectedGraph{``0,``1},System.Func{``1,System.Double})">MinimumSpanningTreePrim&lt;TVertex, TEdge&gt;(IUndirectedGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;)</h4>
@@ -1511,12 +1858,33 @@ using Edmonds-Karp algorithm.</p>
   <h5 id="QuikGraph_Algorithms_AlgorithmExtensions_MinimumSpanningTreePrim__2_QuikGraph_IUndirectedGraph___0___1__System_Func___1_System_Double___remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Prim algorithm is simply implemented by calling Dijkstra shortest path.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeWeights</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_OddVertices__2_QuikGraph_IVertexAndEdgeListGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.OddVertices%60%602(QuikGraph.IVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L800">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L874">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_OddVertices_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.OddVertices*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_OddVertices__2_QuikGraph_IVertexAndEdgeListGraph___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.OddVertices``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1})">OddVertices&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -1581,12 +1949,28 @@ using Edmonds-Karp algorithm.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_OfflineLeastCommonAncestor__2_QuikGraph_IVertexListGraph___0___1____0_System_Collections_Generic_IEnumerable_QuikGraph_SEquatableEdge___0___.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.OfflineLeastCommonAncestor%60%602(QuikGraph.IVertexListGraph%7B%60%600%2C%60%601%7D%2C%60%600%2CSystem.Collections.Generic.IEnumerable%7BQuikGraph.SEquatableEdge%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L1014">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L1112">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_OfflineLeastCommonAncestor_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.OfflineLeastCommonAncestor*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_OfflineLeastCommonAncestor__2_QuikGraph_IVertexListGraph___0___1____0_System_Collections_Generic_IEnumerable_QuikGraph_SEquatableEdge___0___" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.OfflineLeastCommonAncestor``2(QuikGraph.IVertexListGraph{``0,``1},``0,System.Collections.Generic.IEnumerable{QuikGraph.SEquatableEdge{``0}})">OfflineLeastCommonAncestor&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex, IEnumerable&lt;SEquatableEdge&lt;TVertex&gt;&gt;)</h4>
@@ -1672,12 +2056,43 @@ Gabow, H. N. and Tarjan, R. E. 1983. A linear-time algorithm for a special case 
 In Proceedings of the Fifteenth Annual ACM Symposium on theory of Computing STOC '83. ACM, New York, NY, 246-251.
 DOI= <a href="http://doi.acm.org/10.1145/800061.808753">http://doi.acm.org/10.1145/800061.808753</a></p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">pairs</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>At least one of <code data-dev-comment-type="paramref" class="paramref">pairs</code> vertices is not part of <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_RankedShortestPathHoffmanPavley__2_QuikGraph_IBidirectionalGraph___0___1__System_Func___1_System_Double____0___0_System_Int32_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.RankedShortestPathHoffmanPavley%60%602(QuikGraph.IBidirectionalGraph%7B%60%600%2C%60%601%7D%2CSystem.Func%7B%60%601%2CSystem.Double%7D%2C%60%600%2C%60%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L409">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L463">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_RankedShortestPathHoffmanPavley_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.RankedShortestPathHoffmanPavley*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_RankedShortestPathHoffmanPavley__2_QuikGraph_IBidirectionalGraph___0___1__System_Func___1_System_Double____0___0_System_Int32_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.RankedShortestPathHoffmanPavley``2(QuikGraph.IBidirectionalGraph{``0,``1},System.Func{``1,System.Double},``0,``0,System.Int32)">RankedShortestPathHoffmanPavley&lt;TVertex, TEdge&gt;(IBidirectionalGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, TVertex, TVertex, Int32)</h4>
@@ -1771,12 +2186,53 @@ DOI= <a href="http://doi.acm.org/10.1145/800061.808753">http://doi.acm.org/10.11
   <h5 id="QuikGraph_Algorithms_AlgorithmExtensions_RankedShortestPathHoffmanPavley__2_QuikGraph_IBidirectionalGraph___0___1__System_Func___1_System_Double____0___0_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Uses <a class="xref" href="QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm-2.html">HoffmanPavleyRankedShortestPathAlgorithm&lt;TVertex, TEdge&gt;</a> algorithm.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeWeights</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">target</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> or <code data-dev-comment-type="paramref" class="paramref">target</code> are not part of <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">maxCount</code> is lower or equal to 1.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_Roots__2_QuikGraph_IBidirectionalGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.Roots%60%602(QuikGraph.IBidirectionalGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L480">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L537">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_Roots_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.Roots*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_Roots__2_QuikGraph_IBidirectionalGraph___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.Roots``2(QuikGraph.IBidirectionalGraph{``0,``1})">Roots&lt;TVertex, TEdge&gt;(IBidirectionalGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -1843,12 +2299,28 @@ DOI= <a href="http://doi.acm.org/10.1145/800061.808753">http://doi.acm.org/10.11
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_Roots__2_QuikGraph_IVertexListGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.Roots%60%602(QuikGraph.IVertexListGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L455">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L511">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_Roots_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.Roots*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_Roots__2_QuikGraph_IVertexListGraph___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.Roots``2(QuikGraph.IVertexListGraph{``0,``1})">Roots&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -1915,12 +2387,28 @@ DOI= <a href="http://doi.acm.org/10.1145/800061.808753">http://doi.acm.org/10.11
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsAStar__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double__System_Func___0_System_Double____0_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsAStar%60%602(QuikGraph.IVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D%2CSystem.Func%7B%60%601%2CSystem.Double%7D%2CSystem.Func%7B%60%600%2CSystem.Double%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L307">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L345">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsAStar_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsAStar*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsAStar__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double__System_Func___0_System_Double____0_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsAStar``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1},System.Func{``1,System.Double},System.Func{``0,System.Double},``0)">ShortestPathsAStar&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, Func&lt;TVertex, Double&gt;, TVertex)</h4>
@@ -2009,12 +2497,48 @@ to get paths in a directed graph.</p>
   <h5 id="QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsAStar__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double__System_Func___0_System_Double____0__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Uses <a class="xref" href="QuikGraph.Algorithms.ShortestPath.AStarShortestPathAlgorithm-2.html">AStarShortestPathAlgorithm&lt;TVertex, TEdge&gt;</a> algorithm.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeWeights</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">costHeuristic</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is not part of <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsBellmanFord__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0_System_Boolean__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsBellmanFord%60%602(QuikGraph.IVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D%2CSystem.Func%7B%60%601%2CSystem.Double%7D%2C%60%600%2CSystem.Boolean%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L334">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L376">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsBellmanFord_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsBellmanFord*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsBellmanFord__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0_System_Boolean__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsBellmanFord``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1},System.Func{``1,System.Double},``0,System.Boolean@)">ShortestPathsBellmanFord&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, TVertex, out Boolean)</h4>
@@ -2103,12 +2627,43 @@ to get paths in a directed graph.</p>
   <h5 id="QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsBellmanFord__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0_System_Boolean___remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Uses <a class="xref" href="QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm-2.html">BellmanFordShortestPathAlgorithm&lt;TVertex, TEdge&gt;</a> algorithm.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeWeights</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is not part of <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDag__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsDag%60%602(QuikGraph.IVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D%2CSystem.Func%7B%60%601%2CSystem.Double%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L372">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L420">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDag_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsDag*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDag__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsDag``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1},System.Func{``1,System.Double},``0)">ShortestPathsDag&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, TVertex)</h4>
@@ -2191,12 +2746,43 @@ that allows to get paths.</p>
   <h5 id="QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDag__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Uses <a class="xref" href="QuikGraph.Algorithms.ShortestPath.DagShortestPathAlgorithm-2.html">DagShortestPathAlgorithm&lt;TVertex, TEdge&gt;</a> algorithm.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeWeights</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is not part of <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDijkstra__2_QuikGraph_IUndirectedGraph___0___1__System_Func___1_System_Double____0_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsDijkstra%60%602(QuikGraph.IUndirectedGraph%7B%60%600%2C%60%601%7D%2CSystem.Func%7B%60%601%2CSystem.Double%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L278">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L309">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDijkstra_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsDijkstra*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDijkstra__2_QuikGraph_IUndirectedGraph___0___1__System_Func___1_System_Double____0_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsDijkstra``2(QuikGraph.IUndirectedGraph{``0,``1},System.Func{``1,System.Double},``0)">ShortestPathsDijkstra&lt;TVertex, TEdge&gt;(IUndirectedGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, TVertex)</h4>
@@ -2279,12 +2865,43 @@ to get paths in an undirected graph.</p>
   <h5 id="QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDijkstra__2_QuikGraph_IUndirectedGraph___0___1__System_Func___1_System_Double____0__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Uses <a class="xref" href="QuikGraph.Algorithms.ShortestPath.UndirectedDijkstraShortestPathAlgorithm-2.html">UndirectedDijkstraShortestPathAlgorithm&lt;TVertex, TEdge&gt;</a> algorithm.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeWeights</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is not part of <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDijkstra__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsDijkstra%60%602(QuikGraph.IVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D%2CSystem.Func%7B%60%601%2CSystem.Double%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L253">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L280">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDijkstra_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsDijkstra*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDijkstra__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.ShortestPathsDijkstra``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1},System.Func{``1,System.Double},``0)">ShortestPathsDijkstra&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TEdge, Double&gt;, TVertex)</h4>
@@ -2367,12 +2984,43 @@ to get paths in a directed graph.</p>
   <h5 id="QuikGraph_Algorithms_AlgorithmExtensions_ShortestPathsDijkstra__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___1_System_Double____0__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Uses <a class="xref" href="QuikGraph.Algorithms.ShortestPath.DijkstraShortestPathAlgorithm-2.html">DijkstraShortestPathAlgorithm&lt;TVertex, TEdge&gt;</a> algorithm.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeWeights</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is not part of <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_Sinks__2_QuikGraph_IVertexListGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.Sinks%60%602(QuikGraph.IVertexListGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L437">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L492">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_Sinks_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.Sinks*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_Sinks__2_QuikGraph_IVertexListGraph___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.Sinks``2(QuikGraph.IVertexListGraph{``0,``1})">Sinks&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -2439,12 +3087,28 @@ to get paths in a directed graph.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstBidirectionalTopologicalSort__2_QuikGraph_IBidirectionalGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort%60%602(QuikGraph.IBidirectionalGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L608">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L671">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstBidirectionalTopologicalSort_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstBidirectionalTopologicalSort__2_QuikGraph_IBidirectionalGraph___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort``2(QuikGraph.IBidirectionalGraph{``0,``1})">SourceFirstBidirectionalTopologicalSort&lt;TVertex, TEdge&gt;(IBidirectionalGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -2522,6 +3186,11 @@ Uses the <a class="xref" href="QuikGraph.Algorithms.TopologicalSort.TopologicalS
     </thead>
     <tbody>
       <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="QuikGraph.NonAcyclicGraphException.html">NonAcyclicGraphException</a></td>
         <td><p>If the input graph has a cycle.</p>
 </td>
@@ -2533,7 +3202,7 @@ Uses the <a class="xref" href="QuikGraph.Algorithms.TopologicalSort.TopologicalS
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstBidirectionalTopologicalSort__2_QuikGraph_IBidirectionalGraph___0___1__QuikGraph_Algorithms_TopologicalSort_TopologicalSortDirection_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort%60%602(QuikGraph.IBidirectionalGraph%7B%60%600%2C%60%601%7D%2CQuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L625">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L689">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstBidirectionalTopologicalSort_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstBidirectionalTopologicalSort__2_QuikGraph_IBidirectionalGraph___0___1__QuikGraph_Algorithms_TopologicalSort_TopologicalSortDirection_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstBidirectionalTopologicalSort``2(QuikGraph.IBidirectionalGraph{``0,``1},QuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection)">SourceFirstBidirectionalTopologicalSort&lt;TVertex, TEdge&gt;(IBidirectionalGraph&lt;TVertex, TEdge&gt;, TopologicalSortDirection)</h4>
@@ -2616,6 +3285,11 @@ Uses the <a class="xref" href="QuikGraph.Algorithms.TopologicalSort.TopologicalS
     </thead>
     <tbody>
       <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="QuikGraph.NonAcyclicGraphException.html">NonAcyclicGraphException</a></td>
         <td><p>If the input graph has a cycle.</p>
 </td>
@@ -2627,7 +3301,7 @@ Uses the <a class="xref" href="QuikGraph.Algorithms.TopologicalSort.TopologicalS
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstTopologicalSort__2_QuikGraph_IUndirectedGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort%60%602(QuikGraph.IUndirectedGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L585">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L647">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstTopologicalSort_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstTopologicalSort__2_QuikGraph_IUndirectedGraph___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort``2(QuikGraph.IUndirectedGraph{``0,``1})">SourceFirstTopologicalSort&lt;TVertex, TEdge&gt;(IUndirectedGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -2704,6 +3378,11 @@ Uses the <a class="xref" href="QuikGraph.Algorithms.TopologicalSort.TopologicalS
     </thead>
     <tbody>
       <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="QuikGraph.NonAcyclicGraphException.html">NonAcyclicGraphException</a></td>
         <td><p>If the input graph has a cycle.</p>
 </td>
@@ -2715,7 +3394,7 @@ Uses the <a class="xref" href="QuikGraph.Algorithms.TopologicalSort.TopologicalS
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstTopologicalSort__2_QuikGraph_IVertexAndEdgeListGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort%60%602(QuikGraph.IVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L563">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L624">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstTopologicalSort_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_SourceFirstTopologicalSort__2_QuikGraph_IVertexAndEdgeListGraph___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.SourceFirstTopologicalSort``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1})">SourceFirstTopologicalSort&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -2792,6 +3471,11 @@ Uses the <a class="xref" href="QuikGraph.Algorithms.TopologicalSort.TopologicalS
     </thead>
     <tbody>
       <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="QuikGraph.NonAcyclicGraphException.html">NonAcyclicGraphException</a></td>
         <td><p>If the input graph has a cycle.</p>
 </td>
@@ -2803,7 +3487,7 @@ Uses the <a class="xref" href="QuikGraph.Algorithms.TopologicalSort.TopologicalS
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_StronglyConnectedComponents__2_QuikGraph_IVertexListGraph___0___1__System_Collections_Generic_IDictionary___0_System_Int32__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.StronglyConnectedComponents%60%602(QuikGraph.IVertexListGraph%7B%60%600%2C%60%601%7D%2CSystem.Collections.Generic.IDictionary%7B%60%600%2CSystem.Int32%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L693">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L762">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_StronglyConnectedComponents_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.StronglyConnectedComponents*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_StronglyConnectedComponents__2_QuikGraph_IVertexListGraph___0___1__System_Collections_Generic_IDictionary___0_System_Int32__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.StronglyConnectedComponents``2(QuikGraph.IVertexListGraph{``0,``1},System.Collections.Generic.IDictionary{``0,System.Int32})">StronglyConnectedComponents&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, IDictionary&lt;TVertex, Int32&gt;)</h4>
@@ -2876,12 +3560,33 @@ Uses the <a class="xref" href="QuikGraph.Algorithms.TopologicalSort.TopologicalS
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">components</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort__2_QuikGraph_IUndirectedGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort%60%602(QuikGraph.IUndirectedGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L541">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L601">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort__2_QuikGraph_IUndirectedGraph___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort``2(QuikGraph.IUndirectedGraph{``0,``1})">TopologicalSort&lt;TVertex, TEdge&gt;(IUndirectedGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -2958,6 +3663,11 @@ Uses the <a class="xref" href="QuikGraph.Algorithms.TopologicalSort.TopologicalS
     </thead>
     <tbody>
       <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="QuikGraph.NonAcyclicGraphException.html">NonAcyclicGraphException</a></td>
         <td><p>If the input graph has a cycle.</p>
 </td>
@@ -2969,7 +3679,7 @@ Uses the <a class="xref" href="QuikGraph.Algorithms.TopologicalSort.TopologicalS
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort__2_QuikGraph_IVertexListGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort%60%602(QuikGraph.IVertexListGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L519">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L578">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_TopologicalSort__2_QuikGraph_IVertexListGraph___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.TopologicalSort``2(QuikGraph.IVertexListGraph{``0,``1})">TopologicalSort&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -3046,6 +3756,11 @@ Uses the <a class="xref" href="QuikGraph.Algorithms.TopologicalSort.TopologicalS
     </thead>
     <tbody>
       <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="QuikGraph.NonAcyclicGraphException.html">NonAcyclicGraphException</a></td>
         <td><p>If the input graph has a cycle.</p>
 </td>
@@ -3057,7 +3772,7 @@ Uses the <a class="xref" href="QuikGraph.Algorithms.TopologicalSort.TopologicalS
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_TreeBreadthFirstSearch__2_QuikGraph_IVertexListGraph___0___1____0_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.TreeBreadthFirstSearch%60%602(QuikGraph.IVertexListGraph%7B%60%600%2C%60%601%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L158">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L170">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_TreeBreadthFirstSearch_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.TreeBreadthFirstSearch*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_TreeBreadthFirstSearch__2_QuikGraph_IVertexListGraph___0___1____0_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.TreeBreadthFirstSearch``2(QuikGraph.IVertexListGraph{``0,``1},``0)">TreeBreadthFirstSearch&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex)</h4>
@@ -3134,12 +3849,38 @@ connected to a vertex in a directed graph.</p>
   <h5 id="QuikGraph_Algorithms_AlgorithmExtensions_TreeBreadthFirstSearch__2_QuikGraph_IVertexListGraph___0___1____0__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Uses <a class="xref" href="QuikGraph.Algorithms.Search.BreadthFirstSearchAlgorithm-2.html">BreadthFirstSearchAlgorithm&lt;TVertex, TEdge&gt;</a> algorithm.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is not part of <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_TreeCyclePoppingRandom__2_QuikGraph_IVertexListGraph___0___1____0_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.TreeCyclePoppingRandom%60%602(QuikGraph.IVertexListGraph%7B%60%600%2C%60%601%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L205">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L223">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_TreeCyclePoppingRandom_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.TreeCyclePoppingRandom*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_TreeCyclePoppingRandom__2_QuikGraph_IVertexListGraph___0___1____0_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.TreeCyclePoppingRandom``2(QuikGraph.IVertexListGraph{``0,``1},``0)">TreeCyclePoppingRandom&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex)</h4>
@@ -3217,12 +3958,38 @@ connected to a vertex in a directed graph.</p>
   <div class="markdown level1 remarks"><p>Uses <a class="xref" href="QuikGraph.Algorithms.RandomWalks.CyclePoppingRandomTreeAlgorithm-2.html">CyclePoppingRandomTreeAlgorithm&lt;TVertex, TEdge&gt;</a> algorithm and
 <a class="xref" href="QuikGraph.Algorithms.RandomWalks.NormalizedMarkovEdgeChain-2.html">NormalizedMarkovEdgeChain&lt;TVertex, TEdge&gt;</a>.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is not part of <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_TreeCyclePoppingRandom__2_QuikGraph_IVertexListGraph___0___1____0_QuikGraph_Algorithms_RandomWalks_IMarkovEdgeChain___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.TreeCyclePoppingRandom%60%602(QuikGraph.IVertexListGraph%7B%60%600%2C%60%601%7D%2C%60%600%2CQuikGraph.Algorithms.RandomWalks.IMarkovEdgeChain%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L226">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L249">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_TreeCyclePoppingRandom_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.TreeCyclePoppingRandom*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_TreeCyclePoppingRandom__2_QuikGraph_IVertexListGraph___0___1____0_QuikGraph_Algorithms_RandomWalks_IMarkovEdgeChain___0___1__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.TreeCyclePoppingRandom``2(QuikGraph.IVertexListGraph{``0,``1},``0,QuikGraph.Algorithms.RandomWalks.IMarkovEdgeChain{``0,``1})">TreeCyclePoppingRandom&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex, IMarkovEdgeChain&lt;TVertex, TEdge&gt;)</h4>
@@ -3305,12 +4072,48 @@ connected to a vertex in a directed graph.</p>
   <h5 id="QuikGraph_Algorithms_AlgorithmExtensions_TreeCyclePoppingRandom__2_QuikGraph_IVertexListGraph___0___1____0_QuikGraph_Algorithms_RandomWalks_IMarkovEdgeChain___0___1___remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Uses <a class="xref" href="QuikGraph.Algorithms.RandomWalks.CyclePoppingRandomTreeAlgorithm-2.html">CyclePoppingRandomTreeAlgorithm&lt;TVertex, TEdge&gt;</a> algorithm.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeChain</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is not part of <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Something went wrong when running the algorithm.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_TreeDepthFirstSearch__2_QuikGraph_IVertexListGraph___0___1____0_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.TreeDepthFirstSearch%60%602(QuikGraph.IVertexListGraph%7B%60%600%2C%60%601%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L181">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L196">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_TreeDepthFirstSearch_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.TreeDepthFirstSearch*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_TreeDepthFirstSearch__2_QuikGraph_IVertexListGraph___0___1____0_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.TreeDepthFirstSearch``2(QuikGraph.IVertexListGraph{``0,``1},``0)">TreeDepthFirstSearch&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, TVertex)</h4>
@@ -3387,12 +4190,38 @@ connected to a vertex in a directed graph.</p>
   <h5 id="QuikGraph_Algorithms_AlgorithmExtensions_TreeDepthFirstSearch__2_QuikGraph_IVertexListGraph___0___1____0__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Uses <a class="xref" href="QuikGraph.Algorithms.Search.DepthFirstSearchAlgorithm-2.html">DepthFirstSearchAlgorithm&lt;TVertex, TEdge&gt;</a> algorithm.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is not part of <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_AlgorithmExtensions_WeaklyConnectedComponents__2_QuikGraph_IVertexListGraph___0___1__System_Collections_Generic_IDictionary___0_System_Int32__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.AlgorithmExtensions.WeaklyConnectedComponents%60%602(QuikGraph.IVertexListGraph%7B%60%600%2C%60%601%7D%2CSystem.Collections.Generic.IDictionary%7B%60%600%2CSystem.Int32%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L712">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/AlgorithmExtensions.cs/#L782">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_AlgorithmExtensions_WeaklyConnectedComponents_" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.WeaklyConnectedComponents*"></a>
   <h4 id="QuikGraph_Algorithms_AlgorithmExtensions_WeaklyConnectedComponents__2_QuikGraph_IVertexListGraph___0___1__System_Collections_Generic_IDictionary___0_System_Int32__" data-uid="QuikGraph.Algorithms.AlgorithmExtensions.WeaklyConnectedComponents``2(QuikGraph.IVertexListGraph{``0,``1},System.Collections.Generic.IDictionary{``0,System.Int32})">WeaklyConnectedComponents&lt;TVertex, TEdge&gt;(IVertexListGraph&lt;TVertex, TEdge&gt;, IDictionary&lt;TVertex, Int32&gt;)</h4>
@@ -3461,6 +4290,27 @@ connected to a vertex in a directed graph.</p>
       <tr>
         <td><span class="parametername">TEdge</span></td>
         <td><p>Edge type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">components</code> is <span class="xref">null</span>.</p>
 </td>
       </tr>
     </tbody>

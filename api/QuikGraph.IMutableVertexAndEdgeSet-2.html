@@ -182,7 +182,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_IMutableVertexAndEdgeSet_2_AddVerticesAndEdge__1_.md&amp;value=---%0Auid%3A%20QuikGraph.IMutableVertexAndEdgeSet%602.AddVerticesAndEdge(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IMutableVertexAndEdgeSet.cs/#L21">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IMutableVertexAndEdgeSet.cs/#L22">View Source</a>
   </span>
   <a id="QuikGraph_IMutableVertexAndEdgeSet_2_AddVerticesAndEdge_" data-uid="QuikGraph.IMutableVertexAndEdgeSet`2.AddVerticesAndEdge*"></a>
   <h4 id="QuikGraph_IMutableVertexAndEdgeSet_2_AddVerticesAndEdge__1_" data-uid="QuikGraph.IMutableVertexAndEdgeSet`2.AddVerticesAndEdge(`1)">AddVerticesAndEdge(TEdge)</h4>
@@ -227,12 +227,28 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edge</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_IMutableVertexAndEdgeSet_2_AddVerticesAndEdgeRange_System_Collections_Generic_IEnumerable__1__.md&amp;value=---%0Auid%3A%20QuikGraph.IMutableVertexAndEdgeSet%602.AddVerticesAndEdgeRange(System.Collections.Generic.IEnumerable%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IMutableVertexAndEdgeSet.cs/#L28">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IMutableVertexAndEdgeSet.cs/#L32">View Source</a>
   </span>
   <a id="QuikGraph_IMutableVertexAndEdgeSet_2_AddVerticesAndEdgeRange_" data-uid="QuikGraph.IMutableVertexAndEdgeSet`2.AddVerticesAndEdgeRange*"></a>
   <h4 id="QuikGraph_IMutableVertexAndEdgeSet_2_AddVerticesAndEdgeRange_System_Collections_Generic_IEnumerable__1__" data-uid="QuikGraph.IMutableVertexAndEdgeSet`2.AddVerticesAndEdgeRange(System.Collections.Generic.IEnumerable{`1})">AddVerticesAndEdgeRange(IEnumerable&lt;TEdge&gt;)</h4>
@@ -273,6 +289,22 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><p>The number of edges added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edges</code> is <span class="xref">null</span> or at least one of them is <span class="xref">null</span>.</p>
 </td>
       </tr>
     </tbody>

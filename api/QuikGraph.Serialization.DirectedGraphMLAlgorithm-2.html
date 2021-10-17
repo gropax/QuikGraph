@@ -210,7 +210,7 @@ from a given directed graph.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Serialization_DirectedGraphMLAlgorithm_2__ctor_QuikGraph_IVertexAndEdgeListGraph__0__1__QuikGraph_VertexIdentity__0__QuikGraph_EdgeIdentity__0__1__.md&amp;value=---%0Auid%3A%20QuikGraph.Serialization.DirectedGraphMLAlgorithm%602.%23ctor(QuikGraph.IVertexAndEdgeListGraph%7B%600%2C%601%7D%2CQuikGraph.VertexIdentity%7B%600%7D%2CQuikGraph.EdgeIdentity%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLAlgorithm.cs/#L31">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLAlgorithm.cs/#L34">View Source</a>
   </span>
   <a id="QuikGraph_Serialization_DirectedGraphMLAlgorithm_2__ctor_" data-uid="QuikGraph.Serialization.DirectedGraphMLAlgorithm`2.#ctor*"></a>
   <h4 id="QuikGraph_Serialization_DirectedGraphMLAlgorithm_2__ctor_QuikGraph_IVertexAndEdgeListGraph__0__1__QuikGraph_VertexIdentity__0__QuikGraph_EdgeIdentity__0__1__" data-uid="QuikGraph.Serialization.DirectedGraphMLAlgorithm`2.#ctor(QuikGraph.IVertexAndEdgeListGraph{`0,`1},QuikGraph.VertexIdentity{`0},QuikGraph.EdgeIdentity{`0,`1})">DirectedGraphMLAlgorithm(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</h4>
@@ -219,7 +219,7 @@ from a given directed graph.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DirectedGraphMLAlgorithm(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, VertexIdentity&lt;TVertex&gt; vertexIdentity, EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentities)</code></pre>
+    <pre><code class="lang-csharp hljs">public DirectedGraphMLAlgorithm(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, VertexIdentity&lt;TVertex&gt; vertexIdentity, EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentity)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -245,8 +245,34 @@ from a given directed graph.</p>
       </tr>
       <tr>
         <td><a class="xref" href="QuikGraph.EdgeIdentity-2.html">EdgeIdentity</a>&lt;TVertex, TEdge&gt;</td>
-        <td><span class="parametername">edgeIdentities</span></td>
+        <td><span class="parametername">edgeIdentity</span></td>
         <td><p>Edge identity method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">visitedGraph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertexIdentity</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeIdentity</code> is <span class="xref">null</span>.</p>
 </td>
       </tr>
     </tbody>
@@ -258,7 +284,7 @@ from a given directed graph.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Serialization_DirectedGraphMLAlgorithm_2_DirectedGraph.md&amp;value=---%0Auid%3A%20QuikGraph.Serialization.DirectedGraphMLAlgorithm%602.DirectedGraph%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLAlgorithm.cs/#L44">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLAlgorithm.cs/#L47">View Source</a>
   </span>
   <a id="QuikGraph_Serialization_DirectedGraphMLAlgorithm_2_DirectedGraph_" data-uid="QuikGraph.Serialization.DirectedGraphMLAlgorithm`2.DirectedGraph*"></a>
   <h4 id="QuikGraph_Serialization_DirectedGraphMLAlgorithm_2_DirectedGraph" data-uid="QuikGraph.Serialization.DirectedGraphMLAlgorithm`2.DirectedGraph">DirectedGraph</h4>
@@ -291,7 +317,7 @@ from a given directed graph.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Serialization_DirectedGraphMLAlgorithm_2_InternalCompute.md&amp;value=---%0Auid%3A%20QuikGraph.Serialization.DirectedGraphMLAlgorithm%602.InternalCompute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLAlgorithm.cs/#L49">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLAlgorithm.cs/#L52">View Source</a>
   </span>
   <a id="QuikGraph_Serialization_DirectedGraphMLAlgorithm_2_InternalCompute_" data-uid="QuikGraph.Serialization.DirectedGraphMLAlgorithm`2.InternalCompute*"></a>
   <h4 id="QuikGraph_Serialization_DirectedGraphMLAlgorithm_2_InternalCompute" data-uid="QuikGraph.Serialization.DirectedGraphMLAlgorithm`2.InternalCompute">InternalCompute()</h4>
@@ -311,7 +337,7 @@ from a given directed graph.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Serialization_DirectedGraphMLAlgorithm_2_FormatEdge.md&amp;value=---%0Auid%3A%20QuikGraph.Serialization.DirectedGraphMLAlgorithm%602.FormatEdge%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLAlgorithm.cs/#L103">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLAlgorithm.cs/#L106">View Source</a>
   </span>
   <h4 id="QuikGraph_Serialization_DirectedGraphMLAlgorithm_2_FormatEdge" data-uid="QuikGraph.Serialization.DirectedGraphMLAlgorithm`2.FormatEdge">FormatEdge</h4>
   <div class="markdown level1 summary"><p>Fired when a new link is added to the <a class="xref" href="QuikGraph.Serialization.DirectedGraphMLAlgorithm-2.html#QuikGraph_Serialization_DirectedGraphMLAlgorithm_2_DirectedGraph">DirectedGraph</a>.</p>
@@ -341,7 +367,7 @@ from a given directed graph.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Serialization_DirectedGraphMLAlgorithm_2_FormatGraph.md&amp;value=---%0Auid%3A%20QuikGraph.Serialization.DirectedGraphMLAlgorithm%602.FormatGraph%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLAlgorithm.cs/#L116">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLAlgorithm.cs/#L119">View Source</a>
   </span>
   <h4 id="QuikGraph_Serialization_DirectedGraphMLAlgorithm_2_FormatGraph" data-uid="QuikGraph.Serialization.DirectedGraphMLAlgorithm`2.FormatGraph">FormatGraph</h4>
   <div class="markdown level1 summary"><p>Fired when the graph is about to be returned.</p>
@@ -371,7 +397,7 @@ from a given directed graph.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Serialization_DirectedGraphMLAlgorithm_2_FormatNode.md&amp;value=---%0Auid%3A%20QuikGraph.Serialization.DirectedGraphMLAlgorithm%602.FormatNode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLAlgorithm.cs/#L90">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLAlgorithm.cs/#L93">View Source</a>
   </span>
   <h4 id="QuikGraph_Serialization_DirectedGraphMLAlgorithm_2_FormatNode" data-uid="QuikGraph.Serialization.DirectedGraphMLAlgorithm`2.FormatNode">FormatNode</h4>
   <div class="markdown level1 summary"><p>Fired when a new node is added to the <a class="xref" href="QuikGraph.Serialization.DirectedGraphMLAlgorithm-2.html#QuikGraph_Serialization_DirectedGraphMLAlgorithm_2_DirectedGraph">DirectedGraph</a>.</p>

@@ -135,7 +135,7 @@ with non negative edge cost.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1__ctor_QuikGraph_AdjacencyGraph__0_QuikGraph_EquatableTaggedEdge__0_System_Double____0__0_System_Int32_System_Func_QuikGraph_EquatableTaggedEdge__0_System_Double__System_Double__System_Func_System_Collections_Generic_IEnumerable_QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm__0__SortedPath__System_Collections_Generic_IEnumerable_QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm__0__SortedPath___.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm%601.%23ctor(QuikGraph.AdjacencyGraph%7B%600%2CQuikGraph.EquatableTaggedEdge%7B%600%2CSystem.Double%7D%7D%2C%600%2C%600%2CSystem.Int32%2CSystem.Func%7BQuikGraph.EquatableTaggedEdge%7B%600%2CSystem.Double%7D%2CSystem.Double%7D%2CSystem.Func%7BSystem.Collections.Generic.IEnumerable%7BQuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm%7B%600%7D.SortedPath%7D%2CSystem.Collections.Generic.IEnumerable%7BQuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm%7B%600%7D.SortedPath%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/ShortestPath/YenShortestPathsAlgorithm.cs/#L128">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/ShortestPath/YenShortestPathsAlgorithm.cs/#L136">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1__ctor_" data-uid="QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.#ctor*"></a>
   <h4 id="QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1__ctor_QuikGraph_AdjacencyGraph__0_QuikGraph_EquatableTaggedEdge__0_System_Double____0__0_System_Int32_System_Func_QuikGraph_EquatableTaggedEdge__0_System_Double__System_Double__System_Func_System_Collections_Generic_IEnumerable_QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm__0__SortedPath__System_Collections_Generic_IEnumerable_QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm__0__SortedPath___" data-uid="QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.#ctor(QuikGraph.AdjacencyGraph{`0,QuikGraph.EquatableTaggedEdge{`0,System.Double}},`0,`0,System.Int32,System.Func{QuikGraph.EquatableTaggedEdge{`0,System.Double},System.Double},System.Func{System.Collections.Generic.IEnumerable{QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm{`0}.SortedPath},System.Collections.Generic.IEnumerable{QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm{`0}.SortedPath}})">YenShortestPathsAlgorithm(AdjacencyGraph&lt;TVertex, EquatableTaggedEdge&lt;TVertex, Double&gt;&gt;, TVertex, TVertex, Int32, Func&lt;EquatableTaggedEdge&lt;TVertex, Double&gt;, Double&gt;, Func&lt;IEnumerable&lt;YenShortestPathsAlgorithm&lt;TVertex&gt;.SortedPath&gt;, IEnumerable&lt;YenShortestPathsAlgorithm&lt;TVertex&gt;.SortedPath&gt;&gt;)</h4>
@@ -197,6 +197,47 @@ with non negative edge cost.</p>
   <h5 id="QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1__ctor_QuikGraph_AdjacencyGraph__0_QuikGraph_EquatableTaggedEdge__0_System_Double____0__0_System_Int32_System_Func_QuikGraph_EquatableTaggedEdge__0_System_Double__System_Double__System_Func_System_Collections_Generic_IEnumerable_QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm__0__SortedPath__System_Collections_Generic_IEnumerable_QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm__0__SortedPath____remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p><span class="xref">System.Double</span> for tag type (edge) which comes from Dijkstra’s algorithm, which is used to get one shortest path.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">target</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is not part of <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">target</code> is not part of <code data-dev-comment-type="paramref" class="paramref">graph</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">k</code> is lower than 1.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
@@ -204,7 +245,7 @@ with non negative edge cost.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1_Execute.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm%601.Execute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/ShortestPath/YenShortestPathsAlgorithm.cs/#L316">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/ShortestPath/YenShortestPathsAlgorithm.cs/#L324">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1_Execute_" data-uid="QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.Execute*"></a>
   <h4 id="QuikGraph_Algorithms_ShortestPath_YenShortestPathsAlgorithm_1_Execute" data-uid="QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm`1.Execute">Execute()</h4>
@@ -227,6 +268,22 @@ with non negative edge cost.</p>
       <tr>
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.SortedPath.html">YenShortestPathsAlgorithm.SortedPath</a>&lt;&gt;&gt;</td>
         <td><p>Found paths.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="QuikGraph.NoPathFoundException.html">NoPathFoundException</a></td>
+        <td><p>No shortest path was found.</p>
 </td>
       </tr>
     </tbody>

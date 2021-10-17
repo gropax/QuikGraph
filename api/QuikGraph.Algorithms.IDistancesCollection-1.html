@@ -105,12 +105,11 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_IDistancesCollection_1_GetDistance__0_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.IDistancesCollection%601.GetDistance(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Algorithms/IDistancesCollection.cs/#L27">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Algorithms/IDistancesCollection.cs/#L29">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_IDistancesCollection_1_GetDistance_" data-uid="QuikGraph.Algorithms.IDistancesCollection`1.GetDistance*"></a>
   <h4 id="QuikGraph_Algorithms_IDistancesCollection_1_GetDistance__0_" data-uid="QuikGraph.Algorithms.IDistancesCollection`1.GetDistance(`0)">GetDistance(TVertex)</h4>
-  <div class="markdown level1 summary"><p>Gets the distance associated to the given <code data-dev-comment-type="paramref" class="paramref">vertex</code>.
-Will throw a <span class="xref">System.Collections.Generic.KeyNotFoundException</span> if the vertex does not exist in the collection.</p>
+  <div class="markdown level1 summary"><p>Gets the distance associated to the given <code data-dev-comment-type="paramref" class="paramref">vertex</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -151,12 +150,33 @@ Will throw a <span class="xref">System.Collections.Generic.KeyNotFoundException<
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="QuikGraph.VertexNotFoundException.html">VertexNotFoundException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> has no recorded distance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_IDistancesCollection_1_GetDistances.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.IDistancesCollection%601.GetDistances%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Algorithms/IDistancesCollection.cs/#L34">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Algorithms/IDistancesCollection.cs/#L36">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_IDistancesCollection_1_GetDistances_" data-uid="QuikGraph.Algorithms.IDistancesCollection`1.GetDistances*"></a>
   <h4 id="QuikGraph_Algorithms_IDistancesCollection_1_GetDistances" data-uid="QuikGraph.Algorithms.IDistancesCollection`1.GetDistances">GetDistances()</h4>
@@ -178,7 +198,7 @@ Will throw a <span class="xref">System.Collections.Generic.KeyNotFoundException<
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;TVertex, <span class="xref">System.Double</span>&gt;&gt;</td>
-        <td><p>The <span class="xref">System.Collections.Generic.KeyValuePair&lt;TKey, TValue&gt;</span> for the known vertices.</p>
+        <td><p>The <span class="xref">System.Collections.Generic.KeyValuePair{Vertex,Distance}</span> for the known vertices.</p>
 </td>
       </tr>
     </tbody>
@@ -188,7 +208,7 @@ Will throw a <span class="xref">System.Collections.Generic.KeyNotFoundException<
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_IDistancesCollection_1_TryGetDistance__0_System_Double__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.IDistancesCollection%601.TryGetDistance(%600%2CSystem.Double%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Algorithms/IDistancesCollection.cs/#L18">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Algorithms/IDistancesCollection.cs/#L19">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_IDistancesCollection_1_TryGetDistance_" data-uid="QuikGraph.Algorithms.IDistancesCollection`1.TryGetDistance*"></a>
   <h4 id="QuikGraph_Algorithms_IDistancesCollection_1_TryGetDistance__0_System_Double__" data-uid="QuikGraph.Algorithms.IDistancesCollection`1.TryGetDistance(`0,System.Double@)">TryGetDistance(TVertex, out Double)</h4>
@@ -235,6 +255,22 @@ Will throw a <span class="xref">System.Collections.Generic.KeyNotFoundException<
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><p>True if the distance was found, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is <span class="xref">null</span>.</p>
 </td>
       </tr>
     </tbody>

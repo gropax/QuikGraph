@@ -26099,21 +26099,21 @@ references:
   commentId: M:QuikGraph.Graphviz.Dot.GraphvizLayerCollection.#ctor
   fullName: QuikGraph.Graphviz.Dot.GraphvizLayerCollection.GraphvizLayerCollection()
   nameWithType: GraphvizLayerCollection.GraphvizLayerCollection()
-- uid: QuikGraph.Graphviz.Dot.GraphvizLayerCollection.#ctor(QuikGraph.Graphviz.Dot.GraphvizLayer[])
-  name: GraphvizLayerCollection(GraphvizLayer[])
-  href: api/QuikGraph.Graphviz.Dot.GraphvizLayerCollection.html#QuikGraph_Graphviz_Dot_GraphvizLayerCollection__ctor_QuikGraph_Graphviz_Dot_GraphvizLayer___
-  commentId: M:QuikGraph.Graphviz.Dot.GraphvizLayerCollection.#ctor(QuikGraph.Graphviz.Dot.GraphvizLayer[])
-  name.vb: GraphvizLayerCollection(GraphvizLayer())
-  fullName: QuikGraph.Graphviz.Dot.GraphvizLayerCollection.GraphvizLayerCollection(QuikGraph.Graphviz.Dot.GraphvizLayer[])
-  fullName.vb: QuikGraph.Graphviz.Dot.GraphvizLayerCollection.GraphvizLayerCollection(QuikGraph.Graphviz.Dot.GraphvizLayer())
-  nameWithType: GraphvizLayerCollection.GraphvizLayerCollection(GraphvizLayer[])
-  nameWithType.vb: GraphvizLayerCollection.GraphvizLayerCollection(GraphvizLayer())
 - uid: QuikGraph.Graphviz.Dot.GraphvizLayerCollection.#ctor(QuikGraph.Graphviz.Dot.GraphvizLayerCollection)
   name: GraphvizLayerCollection(GraphvizLayerCollection)
   href: api/QuikGraph.Graphviz.Dot.GraphvizLayerCollection.html#QuikGraph_Graphviz_Dot_GraphvizLayerCollection__ctor_QuikGraph_Graphviz_Dot_GraphvizLayerCollection_
   commentId: M:QuikGraph.Graphviz.Dot.GraphvizLayerCollection.#ctor(QuikGraph.Graphviz.Dot.GraphvizLayerCollection)
   fullName: QuikGraph.Graphviz.Dot.GraphvizLayerCollection.GraphvizLayerCollection(QuikGraph.Graphviz.Dot.GraphvizLayerCollection)
   nameWithType: GraphvizLayerCollection.GraphvizLayerCollection(GraphvizLayerCollection)
+- uid: QuikGraph.Graphviz.Dot.GraphvizLayerCollection.#ctor(System.Collections.Generic.IList{QuikGraph.Graphviz.Dot.GraphvizLayer})
+  name: GraphvizLayerCollection(IList<GraphvizLayer>)
+  href: api/QuikGraph.Graphviz.Dot.GraphvizLayerCollection.html#QuikGraph_Graphviz_Dot_GraphvizLayerCollection__ctor_System_Collections_Generic_IList_QuikGraph_Graphviz_Dot_GraphvizLayer__
+  commentId: M:QuikGraph.Graphviz.Dot.GraphvizLayerCollection.#ctor(System.Collections.Generic.IList{QuikGraph.Graphviz.Dot.GraphvizLayer})
+  name.vb: GraphvizLayerCollection(IList(Of GraphvizLayer))
+  fullName: QuikGraph.Graphviz.Dot.GraphvizLayerCollection.GraphvizLayerCollection(System.Collections.Generic.IList<QuikGraph.Graphviz.Dot.GraphvizLayer>)
+  fullName.vb: QuikGraph.Graphviz.Dot.GraphvizLayerCollection.GraphvizLayerCollection(System.Collections.Generic.IList(Of QuikGraph.Graphviz.Dot.GraphvizLayer))
+  nameWithType: GraphvizLayerCollection.GraphvizLayerCollection(IList<GraphvizLayer>)
+  nameWithType.vb: GraphvizLayerCollection.GraphvizLayerCollection(IList(Of GraphvizLayer))
 - uid: QuikGraph.Graphviz.Dot.GraphvizLayerCollection.#ctor*
   name: GraphvizLayerCollection
   href: api/QuikGraph.Graphviz.Dot.GraphvizLayerCollection.html#QuikGraph_Graphviz_Dot_GraphvizLayerCollection__ctor_
@@ -26466,21 +26466,21 @@ references:
   commentId: M:QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.#ctor
   fullName: QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.GraphvizRecordCellCollection()
   nameWithType: GraphvizRecordCellCollection.GraphvizRecordCellCollection()
-- uid: QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.#ctor(QuikGraph.Graphviz.Dot.GraphvizRecordCell[])
-  name: GraphvizRecordCellCollection(GraphvizRecordCell[])
-  href: api/QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.html#QuikGraph_Graphviz_Dot_GraphvizRecordCellCollection__ctor_QuikGraph_Graphviz_Dot_GraphvizRecordCell___
-  commentId: M:QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.#ctor(QuikGraph.Graphviz.Dot.GraphvizRecordCell[])
-  name.vb: GraphvizRecordCellCollection(GraphvizRecordCell())
-  fullName: QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.GraphvizRecordCellCollection(QuikGraph.Graphviz.Dot.GraphvizRecordCell[])
-  fullName.vb: QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.GraphvizRecordCellCollection(QuikGraph.Graphviz.Dot.GraphvizRecordCell())
-  nameWithType: GraphvizRecordCellCollection.GraphvizRecordCellCollection(GraphvizRecordCell[])
-  nameWithType.vb: GraphvizRecordCellCollection.GraphvizRecordCellCollection(GraphvizRecordCell())
 - uid: QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.#ctor(QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection)
   name: GraphvizRecordCellCollection(GraphvizRecordCellCollection)
   href: api/QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.html#QuikGraph_Graphviz_Dot_GraphvizRecordCellCollection__ctor_QuikGraph_Graphviz_Dot_GraphvizRecordCellCollection_
   commentId: M:QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.#ctor(QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection)
   fullName: QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.GraphvizRecordCellCollection(QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection)
   nameWithType: GraphvizRecordCellCollection.GraphvizRecordCellCollection(GraphvizRecordCellCollection)
+- uid: QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.#ctor(System.Collections.Generic.IList{QuikGraph.Graphviz.Dot.GraphvizRecordCell})
+  name: GraphvizRecordCellCollection(IList<GraphvizRecordCell>)
+  href: api/QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.html#QuikGraph_Graphviz_Dot_GraphvizRecordCellCollection__ctor_System_Collections_Generic_IList_QuikGraph_Graphviz_Dot_GraphvizRecordCell__
+  commentId: M:QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.#ctor(System.Collections.Generic.IList{QuikGraph.Graphviz.Dot.GraphvizRecordCell})
+  name.vb: GraphvizRecordCellCollection(IList(Of GraphvizRecordCell))
+  fullName: QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.GraphvizRecordCellCollection(System.Collections.Generic.IList<QuikGraph.Graphviz.Dot.GraphvizRecordCell>)
+  fullName.vb: QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.GraphvizRecordCellCollection(System.Collections.Generic.IList(Of QuikGraph.Graphviz.Dot.GraphvizRecordCell))
+  nameWithType: GraphvizRecordCellCollection.GraphvizRecordCellCollection(IList<GraphvizRecordCell>)
+  nameWithType.vb: GraphvizRecordCellCollection.GraphvizRecordCellCollection(IList(Of GraphvizRecordCell))
 - uid: QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.#ctor*
   name: GraphvizRecordCellCollection
   href: api/QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.html#QuikGraph_Graphviz_Dot_GraphvizRecordCellCollection__ctor_

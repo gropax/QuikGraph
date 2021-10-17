@@ -147,7 +147,7 @@ public sealed class SoftHeap&lt;TKey, TValue&gt; : IEnumerable&lt;KeyValuePair&l
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_SoftHeap_2__ctor_System_Double__0_.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.SoftHeap%602.%23ctor(System.Double%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L108">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L110">View Source</a>
   </span>
   <a id="QuikGraph_Collections_SoftHeap_2__ctor_" data-uid="QuikGraph.Collections.SoftHeap`2.#ctor*"></a>
   <h4 id="QuikGraph_Collections_SoftHeap_2__ctor_System_Double__0_" data-uid="QuikGraph.Collections.SoftHeap`2.#ctor(System.Double,`0)">SoftHeap(Double, TKey)</h4>
@@ -182,12 +182,33 @@ public sealed class SoftHeap&lt;TKey, TValue&gt; : IEnumerable&lt;KeyValuePair&l
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">keyMaxValue</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">maximumErrorRate</code> is not in range ]0, 0.5].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_SoftHeap_2__ctor_System_Double__0_System_Comparison__0__.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.SoftHeap%602.%23ctor(System.Double%2C%600%2CSystem.Comparison%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L119">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L124">View Source</a>
   </span>
   <a id="QuikGraph_Collections_SoftHeap_2__ctor_" data-uid="QuikGraph.Collections.SoftHeap`2.#ctor*"></a>
   <h4 id="QuikGraph_Collections_SoftHeap_2__ctor_System_Double__0_System_Comparison__0__" data-uid="QuikGraph.Collections.SoftHeap`2.#ctor(System.Double,`0,System.Comparison{`0})">SoftHeap(Double, TKey, Comparison&lt;TKey&gt;)</h4>
@@ -228,6 +249,32 @@ public sealed class SoftHeap&lt;TKey, TValue&gt; : IEnumerable&lt;KeyValuePair&l
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">keyMaxValue</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">comparison</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">maximumErrorRate</code> is not in range ]0, 0.5].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -235,7 +282,7 @@ public sealed class SoftHeap&lt;TKey, TValue&gt; : IEnumerable&lt;KeyValuePair&l
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_SoftHeap_2_Count.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.SoftHeap%602.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L162">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L167">View Source</a>
   </span>
   <a id="QuikGraph_Collections_SoftHeap_2_Count_" data-uid="QuikGraph.Collections.SoftHeap`2.Count*"></a>
   <h4 id="QuikGraph_Collections_SoftHeap_2_Count" data-uid="QuikGraph.Collections.SoftHeap`2.Count">Count</h4>
@@ -266,7 +313,7 @@ public sealed class SoftHeap&lt;TKey, TValue&gt; : IEnumerable&lt;KeyValuePair&l
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_SoftHeap_2_ErrorRate.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.SoftHeap%602.ErrorRate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L157">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L162">View Source</a>
   </span>
   <a id="QuikGraph_Collections_SoftHeap_2_ErrorRate_" data-uid="QuikGraph.Collections.SoftHeap`2.ErrorRate*"></a>
   <h4 id="QuikGraph_Collections_SoftHeap_2_ErrorRate" data-uid="QuikGraph.Collections.SoftHeap`2.ErrorRate">ErrorRate</h4>
@@ -297,7 +344,7 @@ public sealed class SoftHeap&lt;TKey, TValue&gt; : IEnumerable&lt;KeyValuePair&l
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_SoftHeap_2_KeyComparison.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.SoftHeap%602.KeyComparison%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L145">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L150">View Source</a>
   </span>
   <a id="QuikGraph_Collections_SoftHeap_2_KeyComparison_" data-uid="QuikGraph.Collections.SoftHeap`2.KeyComparison*"></a>
   <h4 id="QuikGraph_Collections_SoftHeap_2_KeyComparison" data-uid="QuikGraph.Collections.SoftHeap`2.KeyComparison">KeyComparison</h4>
@@ -328,7 +375,7 @@ public sealed class SoftHeap&lt;TKey, TValue&gt; : IEnumerable&lt;KeyValuePair&l
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_SoftHeap_2_KeyMaxValue.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.SoftHeap%602.KeyMaxValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L151">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L156">View Source</a>
   </span>
   <a id="QuikGraph_Collections_SoftHeap_2_KeyMaxValue_" data-uid="QuikGraph.Collections.SoftHeap`2.KeyMaxValue*"></a>
   <h4 id="QuikGraph_Collections_SoftHeap_2_KeyMaxValue" data-uid="QuikGraph.Collections.SoftHeap`2.KeyMaxValue">KeyMaxValue</h4>
@@ -359,7 +406,7 @@ public sealed class SoftHeap&lt;TKey, TValue&gt; : IEnumerable&lt;KeyValuePair&l
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_SoftHeap_2_MinRank.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.SoftHeap%602.MinRank%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L140">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L145">View Source</a>
   </span>
   <a id="QuikGraph_Collections_SoftHeap_2_MinRank_" data-uid="QuikGraph.Collections.SoftHeap`2.MinRank*"></a>
   <h4 id="QuikGraph_Collections_SoftHeap_2_MinRank" data-uid="QuikGraph.Collections.SoftHeap`2.MinRank">MinRank</h4>
@@ -392,7 +439,7 @@ public sealed class SoftHeap&lt;TKey, TValue&gt; : IEnumerable&lt;KeyValuePair&l
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_SoftHeap_2_Add__0__1_.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.SoftHeap%602.Add(%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L169">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L176">View Source</a>
   </span>
   <a id="QuikGraph_Collections_SoftHeap_2_Add_" data-uid="QuikGraph.Collections.SoftHeap`2.Add*"></a>
   <h4 id="QuikGraph_Collections_SoftHeap_2_Add__0__1_" data-uid="QuikGraph.Collections.SoftHeap`2.Add(`0,`1)">Add(TKey, TValue)</h4>
@@ -427,12 +474,33 @@ public sealed class SoftHeap&lt;TKey, TValue&gt; : IEnumerable&lt;KeyValuePair&l
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">key</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">key</code> is superior to <a class="xref" href="QuikGraph.Collections.SoftHeap-2.html#QuikGraph_Collections_SoftHeap_2_KeyMaxValue">KeyMaxValue</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_SoftHeap_2_GetEnumerator.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.SoftHeap%602.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L398">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L411">View Source</a>
   </span>
   <a id="QuikGraph_Collections_SoftHeap_2_GetEnumerator_" data-uid="QuikGraph.Collections.SoftHeap`2.GetEnumerator*"></a>
   <h4 id="QuikGraph_Collections_SoftHeap_2_GetEnumerator" data-uid="QuikGraph.Collections.SoftHeap`2.GetEnumerator">GetEnumerator()</h4>
@@ -462,7 +530,7 @@ public sealed class SoftHeap&lt;TKey, TValue&gt; : IEnumerable&lt;KeyValuePair&l
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_SoftHeap_2_RemoveMinimum.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.SoftHeap%602.RemoveMinimum%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L331">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L342">View Source</a>
   </span>
   <a id="QuikGraph_Collections_SoftHeap_2_RemoveMinimum_" data-uid="QuikGraph.Collections.SoftHeap`2.RemoveMinimum*"></a>
   <h4 id="QuikGraph_Collections_SoftHeap_2_RemoveMinimum" data-uid="QuikGraph.Collections.SoftHeap`2.RemoveMinimum">RemoveMinimum()</h4>
@@ -512,7 +580,7 @@ public sealed class SoftHeap&lt;TKey, TValue&gt; : IEnumerable&lt;KeyValuePair&l
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Collections_SoftHeap_2_System_Collections_IEnumerable_GetEnumerator.md&amp;value=---%0Auid%3A%20QuikGraph.Collections.SoftHeap%602.System%23Collections%23IEnumerable%23GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L388">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Collections/SoftHeap.cs/#L401">View Source</a>
   </span>
   <a id="QuikGraph_Collections_SoftHeap_2_System_Collections_IEnumerable_GetEnumerator_" data-uid="QuikGraph.Collections.SoftHeap`2.System#Collections#IEnumerable#GetEnumerator*"></a>
   <h4 id="QuikGraph_Collections_SoftHeap_2_System_Collections_IEnumerable_GetEnumerator" data-uid="QuikGraph.Collections.SoftHeap`2.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>

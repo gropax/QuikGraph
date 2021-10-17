@@ -152,7 +152,7 @@ public sealed class ArrayUndirectedGraph&lt;TVertex, TEdge&gt; : IUndirectedGrap
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2__ctor_QuikGraph_IUndirectedGraph__0__1__.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.%23ctor(QuikGraph.IUndirectedGraph%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L35">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L36">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2__ctor_" data-uid="QuikGraph.ArrayUndirectedGraph`2.#ctor*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2__ctor_QuikGraph_IUndirectedGraph__0__1__" data-uid="QuikGraph.ArrayUndirectedGraph`2.#ctor(QuikGraph.IUndirectedGraph{`0,`1})">ArrayUndirectedGraph(IUndirectedGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -161,7 +161,7 @@ public sealed class ArrayUndirectedGraph&lt;TVertex, TEdge&gt; : IUndirectedGrap
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ArrayUndirectedGraph(IUndirectedGraph&lt;TVertex, TEdge&gt; visitedGraph)</code></pre>
+    <pre><code class="lang-csharp hljs">public ArrayUndirectedGraph(IUndirectedGraph&lt;TVertex, TEdge&gt; baseGraph)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -175,8 +175,24 @@ public sealed class ArrayUndirectedGraph&lt;TVertex, TEdge&gt; : IUndirectedGrap
     <tbody>
       <tr>
         <td><a class="xref" href="QuikGraph.IUndirectedGraph-2.html">IUndirectedGraph</a>&lt;TVertex, TEdge&gt;</td>
-        <td><span class="parametername">visitedGraph</span></td>
-        <td><p>Graph to visit.</p>
+        <td><span class="parametername">baseGraph</span></td>
+        <td><p>Wrapped graph.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">baseGraph</code> is <span class="xref">null</span>.</p>
 </td>
       </tr>
     </tbody>
@@ -188,7 +204,7 @@ public sealed class ArrayUndirectedGraph&lt;TVertex, TEdge&gt; : IUndirectedGrap
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_AllowParallelEdges.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.AllowParallelEdges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L63">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L64">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_AllowParallelEdges_" data-uid="QuikGraph.ArrayUndirectedGraph`2.AllowParallelEdges*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_AllowParallelEdges" data-uid="QuikGraph.ArrayUndirectedGraph`2.AllowParallelEdges">AllowParallelEdges</h4>
@@ -219,7 +235,7 @@ public sealed class ArrayUndirectedGraph&lt;TVertex, TEdge&gt; : IUndirectedGrap
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_EdgeCount.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.EdgeCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L102">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L103">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_EdgeCount_" data-uid="QuikGraph.ArrayUndirectedGraph`2.EdgeCount*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_EdgeCount" data-uid="QuikGraph.ArrayUndirectedGraph`2.EdgeCount">EdgeCount</h4>
@@ -250,7 +266,7 @@ public sealed class ArrayUndirectedGraph&lt;TVertex, TEdge&gt; : IUndirectedGrap
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_EdgeEqualityComparer.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.EdgeEqualityComparer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L55">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L56">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_EdgeEqualityComparer_" data-uid="QuikGraph.ArrayUndirectedGraph`2.EdgeEqualityComparer*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_EdgeEqualityComparer" data-uid="QuikGraph.ArrayUndirectedGraph`2.EdgeEqualityComparer">EdgeEqualityComparer</h4>
@@ -281,7 +297,7 @@ public sealed class ArrayUndirectedGraph&lt;TVertex, TEdge&gt; : IUndirectedGrap
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_Edges.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.Edges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L108">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L109">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_Edges_" data-uid="QuikGraph.ArrayUndirectedGraph`2.Edges*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_Edges" data-uid="QuikGraph.ArrayUndirectedGraph`2.Edges">Edges</h4>
@@ -312,7 +328,7 @@ public sealed class ArrayUndirectedGraph&lt;TVertex, TEdge&gt; : IUndirectedGrap
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_IsDirected.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.IsDirected%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L60">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L61">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_IsDirected_" data-uid="QuikGraph.ArrayUndirectedGraph`2.IsDirected*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_IsDirected" data-uid="QuikGraph.ArrayUndirectedGraph`2.IsDirected">IsDirected</h4>
@@ -343,7 +359,7 @@ public sealed class ArrayUndirectedGraph&lt;TVertex, TEdge&gt; : IUndirectedGrap
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_IsEdgesEmpty.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.IsEdgesEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L99">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L100">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_IsEdgesEmpty_" data-uid="QuikGraph.ArrayUndirectedGraph`2.IsEdgesEmpty*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_IsEdgesEmpty" data-uid="QuikGraph.ArrayUndirectedGraph`2.IsEdgesEmpty">IsEdgesEmpty</h4>
@@ -375,7 +391,7 @@ It is true if this edge set is empty, otherwise false.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_IsVerticesEmpty.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.IsVerticesEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L70">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L71">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_IsVerticesEmpty_" data-uid="QuikGraph.ArrayUndirectedGraph`2.IsVerticesEmpty*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_IsVerticesEmpty" data-uid="QuikGraph.ArrayUndirectedGraph`2.IsVerticesEmpty">IsVerticesEmpty</h4>
@@ -407,7 +423,7 @@ It is true if this vertex set is empty, otherwise false.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_VertexCount.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.VertexCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L73">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L74">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_VertexCount_" data-uid="QuikGraph.ArrayUndirectedGraph`2.VertexCount*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_VertexCount" data-uid="QuikGraph.ArrayUndirectedGraph`2.VertexCount">VertexCount</h4>
@@ -438,7 +454,7 @@ It is true if this vertex set is empty, otherwise false.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_Vertices.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.Vertices%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L79">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L80">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_Vertices_" data-uid="QuikGraph.ArrayUndirectedGraph`2.Vertices*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_Vertices" data-uid="QuikGraph.ArrayUndirectedGraph`2.Vertices">Vertices</h4>
@@ -471,7 +487,7 @@ It is true if this vertex set is empty, otherwise false.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_AdjacentDegree__0_.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.AdjacentDegree(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L143">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L144">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_AdjacentDegree_" data-uid="QuikGraph.ArrayUndirectedGraph`2.AdjacentDegree*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_AdjacentDegree__0_" data-uid="QuikGraph.ArrayUndirectedGraph`2.AdjacentDegree(`0)">AdjacentDegree(TVertex)</h4>
@@ -516,12 +532,33 @@ It is true if this vertex set is empty, otherwise false.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="QuikGraph.VertexNotFoundException.html">VertexNotFoundException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is not part of the graph.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_AdjacentEdge__0_System_Int32_.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.AdjacentEdge(%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L160">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L161">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_AdjacentEdge_" data-uid="QuikGraph.ArrayUndirectedGraph`2.AdjacentEdge*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_AdjacentEdge__0_System_Int32_" data-uid="QuikGraph.ArrayUndirectedGraph`2.AdjacentEdge(`0,System.Int32)">AdjacentEdge(TVertex, Int32)</h4>
@@ -572,12 +609,38 @@ It is true if this vertex set is empty, otherwise false.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>No vertex at <code data-dev-comment-type="paramref" class="paramref">index</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="QuikGraph.VertexNotFoundException.html">VertexNotFoundException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is not part of the graph.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_AdjacentEdges__0_.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.AdjacentEdges(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L132">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L133">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_AdjacentEdges_" data-uid="QuikGraph.ArrayUndirectedGraph`2.AdjacentEdges*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_AdjacentEdges__0_" data-uid="QuikGraph.ArrayUndirectedGraph`2.AdjacentEdges(`0)">AdjacentEdges(TVertex)</h4>
@@ -622,12 +685,33 @@ It is true if this vertex set is empty, otherwise false.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="QuikGraph.VertexNotFoundException.html">VertexNotFoundException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is not part of the graph.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_Clone.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L235">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L233">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_Clone_" data-uid="QuikGraph.ArrayUndirectedGraph`2.Clone*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_Clone" data-uid="QuikGraph.ArrayUndirectedGraph`2.Clone">Clone()</h4>
@@ -659,7 +743,7 @@ It is true if this vertex set is empty, otherwise false.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_ContainsEdge__0__0_.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.ContainsEdge(%600%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L122">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L123">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_ContainsEdge_" data-uid="QuikGraph.ArrayUndirectedGraph`2.ContainsEdge*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_ContainsEdge__0__0_" data-uid="QuikGraph.ArrayUndirectedGraph`2.ContainsEdge(`0,`0)">ContainsEdge(TVertex, TVertex)</h4>
@@ -711,12 +795,33 @@ It is true if this vertex set is empty, otherwise false.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">target</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_ContainsEdge__1_.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.ContainsEdge(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L111">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L112">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_ContainsEdge_" data-uid="QuikGraph.ArrayUndirectedGraph`2.ContainsEdge*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_ContainsEdge__1_" data-uid="QuikGraph.ArrayUndirectedGraph`2.ContainsEdge(`1)">ContainsEdge(TEdge)</h4>
@@ -761,12 +866,28 @@ It is true if this vertex set is empty, otherwise false.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edge</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_ContainsVertex__0_.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.ContainsVertex(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L86">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L87">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_ContainsVertex_" data-uid="QuikGraph.ArrayUndirectedGraph`2.ContainsVertex*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_ContainsVertex__0_" data-uid="QuikGraph.ArrayUndirectedGraph`2.ContainsVertex(`0)">ContainsVertex(TVertex)</h4>
@@ -811,12 +932,28 @@ It is true if this vertex set is empty, otherwise false.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_IsAdjacentEdgesEmpty__0_.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.IsAdjacentEdgesEmpty(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L154">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L155">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_IsAdjacentEdgesEmpty_" data-uid="QuikGraph.ArrayUndirectedGraph`2.IsAdjacentEdgesEmpty*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_IsAdjacentEdgesEmpty__0_" data-uid="QuikGraph.ArrayUndirectedGraph`2.IsAdjacentEdgesEmpty(`0)">IsAdjacentEdgesEmpty(TVertex)</h4>
@@ -861,12 +998,33 @@ It is true if this vertex set is empty, otherwise false.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="QuikGraph.VertexNotFoundException.html">VertexNotFoundException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is not part of the graph.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_TryGetEdge__0__0__1__.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.TryGetEdge(%600%2C%600%2C%601%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L171">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L172">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_TryGetEdge_" data-uid="QuikGraph.ArrayUndirectedGraph`2.TryGetEdge*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_TryGetEdge__0__0__1__" data-uid="QuikGraph.ArrayUndirectedGraph`2.TryGetEdge(`0,`0,`1@)">TryGetEdge(TVertex, TVertex, out TEdge)</h4>
@@ -924,6 +1082,27 @@ It is true if this vertex set is empty, otherwise false.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">target</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="eii">Explicit Interface Implementations
   </h3>
   <span class="small pull-right mobile-hide">
@@ -931,7 +1110,7 @@ It is true if this vertex set is empty, otherwise false.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_System_ICloneable_Clone.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.System%23ICloneable%23Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L244">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L242">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_System_ICloneable_Clone_" data-uid="QuikGraph.ArrayUndirectedGraph`2.System#ICloneable#Clone*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_System_ICloneable_Clone" data-uid="QuikGraph.ArrayUndirectedGraph`2.System#ICloneable#Clone">ICloneable.Clone()</h4>
@@ -961,7 +1140,7 @@ It is true if this vertex set is empty, otherwise false.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_ArrayUndirectedGraph_2_System_Runtime_Serialization_ISerializable_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_.md&amp;value=---%0Auid%3A%20QuikGraph.ArrayUndirectedGraph%602.System%23Runtime%23Serialization%23ISerializable%23GetObjectData(System.Runtime.Serialization.SerializationInfo%2CSystem.Runtime.Serialization.StreamingContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L218">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Graphs/ArrayUndirectedGraph.cs/#L216">View Source</a>
   </span>
   <a id="QuikGraph_ArrayUndirectedGraph_2_System_Runtime_Serialization_ISerializable_GetObjectData_" data-uid="QuikGraph.ArrayUndirectedGraph`2.System#Runtime#Serialization#ISerializable#GetObjectData*"></a>
   <h4 id="QuikGraph_ArrayUndirectedGraph_2_System_Runtime_Serialization_ISerializable_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_" data-uid="QuikGraph.ArrayUndirectedGraph`2.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">ISerializable.GetObjectData(SerializationInfo, StreamingContext)</h4>

@@ -118,7 +118,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EquateGraphs_Equate__2_QuikGraph_IEdgeListGraph___0___1__QuikGraph_IEdgeListGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.EquateGraphs.Equate%60%602(QuikGraph.IEdgeListGraph%7B%60%600%2C%60%601%7D%2CQuikGraph.IEdgeListGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Helpers/GraphEqualityHelpers.cs/#L79">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Helpers/GraphEqualityHelpers.cs/#L81">View Source</a>
   </span>
   <a id="QuikGraph_EquateGraphs_Equate_" data-uid="QuikGraph.EquateGraphs.Equate*"></a>
   <h4 id="QuikGraph_EquateGraphs_Equate__2_QuikGraph_IEdgeListGraph___0___1__QuikGraph_IEdgeListGraph___0___1__" data-uid="QuikGraph.EquateGraphs.Equate``2(QuikGraph.IEdgeListGraph{``0,``1},QuikGraph.IEdgeListGraph{``0,``1})">Equate&lt;TVertex, TEdge&gt;(IEdgeListGraph&lt;TVertex, TEdge&gt;, IEdgeListGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -197,7 +197,7 @@ Uses the default comparer for vertices and edges.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EquateGraphs_Equate__2_QuikGraph_IEdgeListGraph___0___1__QuikGraph_IEdgeListGraph___0___1__System_Collections_Generic_IEqualityComparer___0__System_Collections_Generic_IEqualityComparer___1__.md&amp;value=---%0Auid%3A%20QuikGraph.EquateGraphs.Equate%60%602(QuikGraph.IEdgeListGraph%7B%60%600%2C%60%601%7D%2CQuikGraph.IEdgeListGraph%7B%60%600%2C%60%601%7D%2CSystem.Collections.Generic.IEqualityComparer%7B%60%600%7D%2CSystem.Collections.Generic.IEqualityComparer%7B%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Helpers/GraphEqualityHelpers.cs/#L25">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Helpers/GraphEqualityHelpers.cs/#L27">View Source</a>
   </span>
   <a id="QuikGraph_EquateGraphs_Equate_" data-uid="QuikGraph.EquateGraphs.Equate*"></a>
   <h4 id="QuikGraph_EquateGraphs_Equate__2_QuikGraph_IEdgeListGraph___0___1__QuikGraph_IEdgeListGraph___0___1__System_Collections_Generic_IEqualityComparer___0__System_Collections_Generic_IEqualityComparer___1__" data-uid="QuikGraph.EquateGraphs.Equate``2(QuikGraph.IEdgeListGraph{``0,``1},QuikGraph.IEdgeListGraph{``0,``1},System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IEqualityComparer{``1})">Equate&lt;TVertex, TEdge&gt;(IEdgeListGraph&lt;TVertex, TEdge&gt;, IEdgeListGraph&lt;TVertex, TEdge&gt;, IEqualityComparer&lt;TVertex&gt;, IEqualityComparer&lt;TEdge&gt;)</h4>
@@ -280,6 +280,27 @@ comparer to respectively compare vertices and edges.</p>
       <tr>
         <td><span class="parametername">TEdge</span></td>
         <td><p>Edge type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertexEquality</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeEquality</code> is <span class="xref">null</span>.</p>
 </td>
       </tr>
     </tbody>

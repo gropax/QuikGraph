@@ -156,7 +156,7 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_IImplicitUndirectedGraph_2_AdjacentDegree__0_.md&amp;value=---%0Auid%3A%20QuikGraph.IImplicitUndirectedGraph%602.AdjacentDegree(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IImplicitUndirectedGraph.cs/#L35">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IImplicitUndirectedGraph.cs/#L39">View Source</a>
   </span>
   <a id="QuikGraph_IImplicitUndirectedGraph_2_AdjacentDegree_" data-uid="QuikGraph.IImplicitUndirectedGraph`2.AdjacentDegree*"></a>
   <h4 id="QuikGraph_IImplicitUndirectedGraph_2_AdjacentDegree__0_" data-uid="QuikGraph.IImplicitUndirectedGraph`2.AdjacentDegree(`0)">AdjacentDegree(TVertex)</h4>
@@ -201,12 +201,33 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="QuikGraph.VertexNotFoundException.html">VertexNotFoundException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is not part of the graph.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_IImplicitUndirectedGraph_2_AdjacentEdge__0_System_Int32_.md&amp;value=---%0Auid%3A%20QuikGraph.IImplicitUndirectedGraph%602.AdjacentEdge(%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IImplicitUndirectedGraph.cs/#L52">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IImplicitUndirectedGraph.cs/#L61">View Source</a>
   </span>
   <a id="QuikGraph_IImplicitUndirectedGraph_2_AdjacentEdge_" data-uid="QuikGraph.IImplicitUndirectedGraph`2.AdjacentEdge*"></a>
   <h4 id="QuikGraph_IImplicitUndirectedGraph_2_AdjacentEdge__0_System_Int32_" data-uid="QuikGraph.IImplicitUndirectedGraph`2.AdjacentEdge(`0,System.Int32)">AdjacentEdge(TVertex, Int32)</h4>
@@ -257,12 +278,38 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>No vertex at <code data-dev-comment-type="paramref" class="paramref">index</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="QuikGraph.VertexNotFoundException.html">VertexNotFoundException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is not part of the graph.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_IImplicitUndirectedGraph_2_AdjacentEdges__0_.md&amp;value=---%0Auid%3A%20QuikGraph.IImplicitUndirectedGraph%602.AdjacentEdges(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IImplicitUndirectedGraph.cs/#L26">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IImplicitUndirectedGraph.cs/#L28">View Source</a>
   </span>
   <a id="QuikGraph_IImplicitUndirectedGraph_2_AdjacentEdges_" data-uid="QuikGraph.IImplicitUndirectedGraph`2.AdjacentEdges*"></a>
   <h4 id="QuikGraph_IImplicitUndirectedGraph_2_AdjacentEdges__0_" data-uid="QuikGraph.IImplicitUndirectedGraph`2.AdjacentEdges(`0)">AdjacentEdges(TVertex)</h4>
@@ -307,12 +354,33 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="QuikGraph.VertexNotFoundException.html">VertexNotFoundException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is not part of the graph.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_IImplicitUndirectedGraph_2_ContainsEdge__0__0_.md&amp;value=---%0Auid%3A%20QuikGraph.IImplicitUndirectedGraph%602.ContainsEdge(%600%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IImplicitUndirectedGraph.cs/#L75">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IImplicitUndirectedGraph.cs/#L88">View Source</a>
   </span>
   <a id="QuikGraph_IImplicitUndirectedGraph_2_ContainsEdge_" data-uid="QuikGraph.IImplicitUndirectedGraph`2.ContainsEdge*"></a>
   <h4 id="QuikGraph_IImplicitUndirectedGraph_2_ContainsEdge__0__0_" data-uid="QuikGraph.IImplicitUndirectedGraph`2.ContainsEdge(`0,`0)">ContainsEdge(TVertex, TVertex)</h4>
@@ -364,12 +432,33 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">target</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_IImplicitUndirectedGraph_2_IsAdjacentEdgesEmpty__0_.md&amp;value=---%0Auid%3A%20QuikGraph.IImplicitUndirectedGraph%602.IsAdjacentEdgesEmpty(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IImplicitUndirectedGraph.cs/#L43">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IImplicitUndirectedGraph.cs/#L49">View Source</a>
   </span>
   <a id="QuikGraph_IImplicitUndirectedGraph_2_IsAdjacentEdgesEmpty_" data-uid="QuikGraph.IImplicitUndirectedGraph`2.IsAdjacentEdgesEmpty*"></a>
   <h4 id="QuikGraph_IImplicitUndirectedGraph_2_IsAdjacentEdgesEmpty__0_" data-uid="QuikGraph.IImplicitUndirectedGraph`2.IsAdjacentEdgesEmpty(`0)">IsAdjacentEdgesEmpty(TVertex)</h4>
@@ -414,12 +503,33 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="QuikGraph.VertexNotFoundException.html">VertexNotFoundException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is not part of the graph.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_IImplicitUndirectedGraph_2_TryGetEdge__0__0__1__.md&amp;value=---%0Auid%3A%20QuikGraph.IImplicitUndirectedGraph%602.TryGetEdge(%600%2C%600%2C%601%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IImplicitUndirectedGraph.cs/#L64">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Interfaces/Graphs/IImplicitUndirectedGraph.cs/#L75">View Source</a>
   </span>
   <a id="QuikGraph_IImplicitUndirectedGraph_2_TryGetEdge_" data-uid="QuikGraph.IImplicitUndirectedGraph`2.TryGetEdge*"></a>
   <h4 id="QuikGraph_IImplicitUndirectedGraph_2_TryGetEdge__0__0__1__" data-uid="QuikGraph.IImplicitUndirectedGraph`2.TryGetEdge(`0,`0,`1@)">TryGetEdge(TVertex, TVertex, out TEdge)</h4>
@@ -473,6 +583,27 @@ and edges of type <code data-dev-comment-type="typeparamref" class="typeparamref
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><p>True if an edge was found, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">target</code> is <span class="xref">null</span>.</p>
 </td>
       </tr>
     </tbody>

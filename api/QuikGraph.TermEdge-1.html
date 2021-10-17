@@ -138,7 +138,7 @@ public class TermEdge&lt;TVertex&gt; : ITermEdge&lt;TVertex&gt;, IEdge&lt;TVerte
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_TermEdge_1__ctor__0__0_.md&amp;value=---%0Auid%3A%20QuikGraph.TermEdge%601.%23ctor(%600%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TermEdge.cs/#L24">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TermEdge.cs/#L26">View Source</a>
   </span>
   <a id="QuikGraph_TermEdge_1__ctor_" data-uid="QuikGraph.TermEdge`1.#ctor*"></a>
   <h4 id="QuikGraph_TermEdge_1__ctor__0__0_" data-uid="QuikGraph.TermEdge`1.#ctor(`0,`0)">TermEdge(TVertex, TVertex)</h4>
@@ -174,12 +174,33 @@ using source/target vertices and zero terminals.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">target</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_TermEdge_1__ctor__0__0_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20QuikGraph.TermEdge%601.%23ctor(%600%2C%600%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TermEdge.cs/#L37">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TermEdge.cs/#L43">View Source</a>
   </span>
   <a id="QuikGraph_TermEdge_1__ctor_" data-uid="QuikGraph.TermEdge`1.#ctor*"></a>
   <h4 id="QuikGraph_TermEdge_1__ctor__0__0_System_Int32_System_Int32_" data-uid="QuikGraph.TermEdge`1.#ctor(`0,`0,System.Int32,System.Int32)">TermEdge(TVertex, TVertex, Int32, Int32)</h4>
@@ -227,6 +248,37 @@ using source/target vertices and source/target terminals.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">target</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">sourceTerminal</code> is negative.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">targetTerminal</code> is negative.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -234,7 +286,7 @@ using source/target vertices and source/target terminals.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_TermEdge_1_Source.md&amp;value=---%0Auid%3A%20QuikGraph.TermEdge%601.Source%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TermEdge.cs/#L55">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TermEdge.cs/#L61">View Source</a>
   </span>
   <a id="QuikGraph_TermEdge_1_Source_" data-uid="QuikGraph.TermEdge`1.Source*"></a>
   <h4 id="QuikGraph_TermEdge_1_Source" data-uid="QuikGraph.TermEdge`1.Source">Source</h4>
@@ -265,7 +317,7 @@ using source/target vertices and source/target terminals.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_TermEdge_1_SourceTerminal.md&amp;value=---%0Auid%3A%20QuikGraph.TermEdge%601.SourceTerminal%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TermEdge.cs/#L61">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TermEdge.cs/#L67">View Source</a>
   </span>
   <a id="QuikGraph_TermEdge_1_SourceTerminal_" data-uid="QuikGraph.TermEdge`1.SourceTerminal*"></a>
   <h4 id="QuikGraph_TermEdge_1_SourceTerminal" data-uid="QuikGraph.TermEdge`1.SourceTerminal">SourceTerminal</h4>
@@ -296,7 +348,7 @@ using source/target vertices and source/target terminals.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_TermEdge_1_Target.md&amp;value=---%0Auid%3A%20QuikGraph.TermEdge%601.Target%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TermEdge.cs/#L58">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TermEdge.cs/#L64">View Source</a>
   </span>
   <a id="QuikGraph_TermEdge_1_Target_" data-uid="QuikGraph.TermEdge`1.Target*"></a>
   <h4 id="QuikGraph_TermEdge_1_Target" data-uid="QuikGraph.TermEdge`1.Target">Target</h4>
@@ -327,7 +379,7 @@ using source/target vertices and source/target terminals.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_TermEdge_1_TargetTerminal.md&amp;value=---%0Auid%3A%20QuikGraph.TermEdge%601.TargetTerminal%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TermEdge.cs/#L64">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TermEdge.cs/#L70">View Source</a>
   </span>
   <a id="QuikGraph_TermEdge_1_TargetTerminal_" data-uid="QuikGraph.TermEdge`1.TargetTerminal*"></a>
   <h4 id="QuikGraph_TermEdge_1_TargetTerminal" data-uid="QuikGraph.TermEdge`1.TargetTerminal">TargetTerminal</h4>
@@ -360,7 +412,7 @@ using source/target vertices and source/target terminals.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_TermEdge_1_ToString.md&amp;value=---%0Auid%3A%20QuikGraph.TermEdge%601.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TermEdge.cs/#L67">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Structures/Edges/TermEdge.cs/#L73">View Source</a>
   </span>
   <a id="QuikGraph_TermEdge_1_ToString_" data-uid="QuikGraph.TermEdge`1.ToString*"></a>
   <h4 id="QuikGraph_TermEdge_1_ToString" data-uid="QuikGraph.TermEdge`1.ToString">ToString()</h4>

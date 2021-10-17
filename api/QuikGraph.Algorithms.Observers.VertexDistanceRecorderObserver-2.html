@@ -143,7 +143,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2__ctor_System_Func__1_System_Double__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver%602.%23ctor(System.Func%7B%601%2CSystem.Double%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/Observers/VertexDistanceRecorderObserver.cs/#L21">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/Observers/VertexDistanceRecorderObserver.cs/#L22">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2__ctor_" data-uid="QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver`2.#ctor*"></a>
   <h4 id="QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2__ctor_System_Func__1_System_Double__" data-uid="QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver`2.#ctor(System.Func{`1,System.Double})">VertexDistanceRecorderObserver(Func&lt;TEdge, Double&gt;)</h4>
@@ -172,12 +172,28 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeWeights</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2__ctor_System_Func__1_System_Double__QuikGraph_Algorithms_IDistanceRelaxer_System_Collections_Generic_IDictionary__0_System_Double__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver%602.%23ctor(System.Func%7B%601%2CSystem.Double%7D%2CQuikGraph.Algorithms.IDistanceRelaxer%2CSystem.Collections.Generic.IDictionary%7B%600%2CSystem.Double%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/Observers/VertexDistanceRecorderObserver.cs/#L32">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/Observers/VertexDistanceRecorderObserver.cs/#L36">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2__ctor_" data-uid="QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver`2.#ctor*"></a>
   <h4 id="QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2__ctor_System_Func__1_System_Double__QuikGraph_Algorithms_IDistanceRelaxer_System_Collections_Generic_IDictionary__0_System_Double__" data-uid="QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver`2.#ctor(System.Func{`1,System.Double},QuikGraph.Algorithms.IDistanceRelaxer,System.Collections.Generic.IDictionary{`0,System.Double})">VertexDistanceRecorderObserver(Func&lt;TEdge, Double&gt;, IDistanceRelaxer, IDictionary&lt;TVertex, Double&gt;)</h4>
@@ -218,6 +234,32 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeWeights</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">distanceRelaxer</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">distances</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -225,7 +267,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2_DistanceRelaxer.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver%602.DistanceRelaxer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/Observers/VertexDistanceRecorderObserver.cs/#L45">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/Observers/VertexDistanceRecorderObserver.cs/#L49">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2_DistanceRelaxer_" data-uid="QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver`2.DistanceRelaxer*"></a>
   <h4 id="QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2_DistanceRelaxer" data-uid="QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver`2.DistanceRelaxer">DistanceRelaxer</h4>
@@ -256,7 +298,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2_Distances.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver%602.Distances%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/Observers/VertexDistanceRecorderObserver.cs/#L57">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/Observers/VertexDistanceRecorderObserver.cs/#L61">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2_Distances_" data-uid="QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver`2.Distances*"></a>
   <h4 id="QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2_Distances" data-uid="QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver`2.Distances">Distances</h4>
@@ -287,7 +329,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2_EdgeWeights.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver%602.EdgeWeights%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/Observers/VertexDistanceRecorderObserver.cs/#L51">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/Observers/VertexDistanceRecorderObserver.cs/#L55">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2_EdgeWeights_" data-uid="QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver`2.EdgeWeights*"></a>
   <h4 id="QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2_EdgeWeights" data-uid="QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver`2.EdgeWeights">EdgeWeights</h4>
@@ -320,7 +362,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2_Attach_QuikGraph_Algorithms_ITreeBuilderAlgorithm__0__1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver%602.Attach(QuikGraph.Algorithms.ITreeBuilderAlgorithm%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/Observers/VertexDistanceRecorderObserver.cs/#L63">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/Observers/VertexDistanceRecorderObserver.cs/#L67">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2_Attach_" data-uid="QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver`2.Attach*"></a>
   <h4 id="QuikGraph_Algorithms_Observers_VertexDistanceRecorderObserver_2_Attach_QuikGraph_Algorithms_ITreeBuilderAlgorithm__0__1__" data-uid="QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver`2.Attach(QuikGraph.Algorithms.ITreeBuilderAlgorithm{`0,`1})">Attach(ITreeBuilderAlgorithm&lt;TVertex, TEdge&gt;)</h4>
@@ -361,6 +403,22 @@ object that can be used to detach from the events.</p>
       <tr>
         <td><span class="xref">System.IDisposable</span></td>
         <td><p><span class="xref">System.IDisposable</span> allowing to detach from registered events.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">algorithm</code> is <span class="xref">null</span>.</p>
 </td>
       </tr>
     </tbody>

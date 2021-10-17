@@ -151,7 +151,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Serialization_DirectedGraphMLExtensions_OpenAsDGML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_String_.md&amp;value=---%0Auid%3A%20QuikGraph.Serialization.DirectedGraphMLExtensions.OpenAsDGML%60%602(QuikGraph.IVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L213">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L239">View Source</a>
   </span>
   <a id="QuikGraph_Serialization_DirectedGraphMLExtensions_OpenAsDGML_" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.OpenAsDGML*"></a>
   <h4 id="QuikGraph_Serialization_DirectedGraphMLExtensions_OpenAsDGML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_String_" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.OpenAsDGML``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1},System.String)">OpenAsDGML&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, String)</h4>
@@ -208,12 +208,28 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Serialization.DirectedGraphMLExtensions.ToDirectedGraphML%60%602(QuikGraph.IVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L93">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L104">View Source</a>
   </span>
   <a id="QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML_" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.ToDirectedGraphML*"></a>
   <h4 id="QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.ToDirectedGraphML``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1})">ToDirectedGraphML&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -222,7 +238,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph)
+    <pre><code class="lang-csharp hljs">public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -237,7 +253,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="QuikGraph.IVertexAndEdgeListGraph-2.html">IVertexAndEdgeListGraph</a>&lt;TVertex, TEdge&gt;</td>
-        <td><span class="parametername">visitedGraph</span></td>
+        <td><span class="parametername">graph</span></td>
         <td><p>Graph to convert to <a class="xref" href="QuikGraph.Serialization.DirectedGraphML.DirectedGraph.html">DirectedGraph</a>.</p>
 </td>
       </tr>
@@ -280,12 +296,28 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__.md&amp;value=---%0Auid%3A%20QuikGraph.Serialization.DirectedGraphMLExtensions.ToDirectedGraphML%60%602(QuikGraph.IVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D%2CQuikGraph.VertexIdentity%7B%60%600%7D%2CQuikGraph.EdgeIdentity%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L155">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L171">View Source</a>
   </span>
   <a id="QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML_" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.ToDirectedGraphML*"></a>
   <h4 id="QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.ToDirectedGraphML``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1},QuikGraph.VertexIdentity{``0},QuikGraph.EdgeIdentity{``0,``1})">ToDirectedGraphML&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;)</h4>
@@ -294,7 +326,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, VertexIdentity&lt;TVertex&gt; vertexIdentity, EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentity)
+    <pre><code class="lang-csharp hljs">public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, VertexIdentity&lt;TVertex&gt; vertexIdentity, EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentity)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -309,7 +341,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="QuikGraph.IVertexAndEdgeListGraph-2.html">IVertexAndEdgeListGraph</a>&lt;TVertex, TEdge&gt;</td>
-        <td><span class="parametername">visitedGraph</span></td>
+        <td><span class="parametername">graph</span></td>
         <td><p>Graph to convert to <a class="xref" href="QuikGraph.Serialization.DirectedGraphML.DirectedGraph.html">DirectedGraph</a>.</p>
 </td>
       </tr>
@@ -364,12 +396,38 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertexIdentity</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeIdentity</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_Action___0_QuikGraph_Serialization_DirectedGraphML_DirectedGraphNode__System_Action___1_QuikGraph_Serialization_DirectedGraphML_DirectedGraphLink__.md&amp;value=---%0Auid%3A%20QuikGraph.Serialization.DirectedGraphMLExtensions.ToDirectedGraphML%60%602(QuikGraph.IVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D%2CQuikGraph.VertexIdentity%7B%60%600%7D%2CQuikGraph.EdgeIdentity%7B%60%600%2C%60%601%7D%2CSystem.Action%7B%60%600%2CQuikGraph.Serialization.DirectedGraphML.DirectedGraphNode%7D%2CSystem.Action%7B%60%601%2CQuikGraph.Serialization.DirectedGraphML.DirectedGraphLink%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L182">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L201">View Source</a>
   </span>
   <a id="QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML_" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.ToDirectedGraphML*"></a>
   <h4 id="QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__QuikGraph_VertexIdentity___0__QuikGraph_EdgeIdentity___0___1__System_Action___0_QuikGraph_Serialization_DirectedGraphML_DirectedGraphNode__System_Action___1_QuikGraph_Serialization_DirectedGraphML_DirectedGraphLink__" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.ToDirectedGraphML``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1},QuikGraph.VertexIdentity{``0},QuikGraph.EdgeIdentity{``0,``1},System.Action{``0,QuikGraph.Serialization.DirectedGraphML.DirectedGraphNode},System.Action{``1,QuikGraph.Serialization.DirectedGraphML.DirectedGraphLink})">ToDirectedGraphML&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, VertexIdentity&lt;TVertex&gt;, EdgeIdentity&lt;TVertex, TEdge&gt;, Action&lt;TVertex, DirectedGraphNode&gt;, Action&lt;TEdge, DirectedGraphLink&gt;)</h4>
@@ -378,7 +436,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, VertexIdentity&lt;TVertex&gt; vertexIdentity, EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentity, Action&lt;TVertex, DirectedGraphNode&gt; formatNode, Action&lt;TEdge, DirectedGraphLink&gt; formatEdge)
+    <pre><code class="lang-csharp hljs">public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, VertexIdentity&lt;TVertex&gt; vertexIdentity, EdgeIdentity&lt;TVertex, TEdge&gt; edgeIdentity, Action&lt;TVertex, DirectedGraphNode&gt; formatNode, Action&lt;TEdge, DirectedGraphLink&gt; formatEdge)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -393,7 +451,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="QuikGraph.IVertexAndEdgeListGraph-2.html">IVertexAndEdgeListGraph</a>&lt;TVertex, TEdge&gt;</td>
-        <td><span class="parametername">visitedGraph</span></td>
+        <td><span class="parametername">graph</span></td>
         <td><p>Graph to convert to <a class="xref" href="QuikGraph.Serialization.DirectedGraphML.DirectedGraph.html">DirectedGraph</a>.</p>
 </td>
       </tr>
@@ -460,12 +518,38 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertexIdentity</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeIdentity</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___0_QuikGraph_GraphColor__.md&amp;value=---%0Auid%3A%20QuikGraph.Serialization.DirectedGraphMLExtensions.ToDirectedGraphML%60%602(QuikGraph.IVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D%2CSystem.Func%7B%60%600%2CQuikGraph.GraphColor%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L113">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L126">View Source</a>
   </span>
   <a id="QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML_" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.ToDirectedGraphML*"></a>
   <h4 id="QuikGraph_Serialization_DirectedGraphMLExtensions_ToDirectedGraphML__2_QuikGraph_IVertexAndEdgeListGraph___0___1__System_Func___0_QuikGraph_GraphColor__" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.ToDirectedGraphML``2(QuikGraph.IVertexAndEdgeListGraph{``0,``1},System.Func{``0,QuikGraph.GraphColor})">ToDirectedGraphML&lt;TVertex, TEdge&gt;(IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, Func&lt;TVertex, GraphColor&gt;)</h4>
@@ -474,7 +558,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; visitedGraph, Func&lt;TVertex, GraphColor&gt; vertexColors)
+    <pre><code class="lang-csharp hljs">public static DirectedGraph ToDirectedGraphML&lt;TVertex, TEdge&gt;(this IVertexAndEdgeListGraph&lt;TVertex, TEdge&gt; graph, Func&lt;TVertex, GraphColor&gt; verticesColors)
     where TEdge : IEdge&lt;TVertex&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -489,13 +573,13 @@
     <tbody>
       <tr>
         <td><a class="xref" href="QuikGraph.IVertexAndEdgeListGraph-2.html">IVertexAndEdgeListGraph</a>&lt;TVertex, TEdge&gt;</td>
-        <td><span class="parametername">visitedGraph</span></td>
+        <td><span class="parametername">graph</span></td>
         <td><p>Graph to convert to <a class="xref" href="QuikGraph.Serialization.DirectedGraphML.DirectedGraph.html">DirectedGraph</a>.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Func</span>&lt;TVertex, <a class="xref" href="QuikGraph.GraphColor.html">GraphColor</a>&gt;</td>
-        <td><span class="parametername">vertexColors</span></td>
+        <td><span class="parametername">verticesColors</span></td>
         <td><p>Function that gives the color of a vertex.</p>
 </td>
       </tr>
@@ -538,12 +622,33 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">verticesColors</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Serialization_DirectedGraphMLExtensions_WriteXml_QuikGraph_Serialization_DirectedGraphML_DirectedGraph_System_IO_Stream_.md&amp;value=---%0Auid%3A%20QuikGraph.Serialization.DirectedGraphMLExtensions.WriteXml(QuikGraph.Serialization.DirectedGraphML.DirectedGraph%2CSystem.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L61">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L69">View Source</a>
   </span>
   <a id="QuikGraph_Serialization_DirectedGraphMLExtensions_WriteXml_" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.WriteXml*"></a>
   <h4 id="QuikGraph_Serialization_DirectedGraphMLExtensions_WriteXml_QuikGraph_Serialization_DirectedGraphML_DirectedGraph_System_IO_Stream_" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.WriteXml(QuikGraph.Serialization.DirectedGraphML.DirectedGraph,System.IO.Stream)">WriteXml(DirectedGraph, Stream)</h4>
@@ -578,12 +683,33 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">stream</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Serialization_DirectedGraphMLExtensions_WriteXml_QuikGraph_Serialization_DirectedGraphML_DirectedGraph_System_IO_TextWriter_.md&amp;value=---%0Auid%3A%20QuikGraph.Serialization.DirectedGraphMLExtensions.WriteXml(QuikGraph.Serialization.DirectedGraphML.DirectedGraph%2CSystem.IO.TextWriter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L76">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L86">View Source</a>
   </span>
   <a id="QuikGraph_Serialization_DirectedGraphMLExtensions_WriteXml_" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.WriteXml*"></a>
   <h4 id="QuikGraph_Serialization_DirectedGraphMLExtensions_WriteXml_QuikGraph_Serialization_DirectedGraphML_DirectedGraph_System_IO_TextWriter_" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.WriteXml(QuikGraph.Serialization.DirectedGraphML.DirectedGraph,System.IO.TextWriter)">WriteXml(DirectedGraph, TextWriter)</h4>
@@ -618,12 +744,33 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">writer</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Serialization_DirectedGraphMLExtensions_WriteXml_QuikGraph_Serialization_DirectedGraphML_DirectedGraph_System_String_.md&amp;value=---%0Auid%3A%20QuikGraph.Serialization.DirectedGraphMLExtensions.WriteXml(QuikGraph.Serialization.DirectedGraphML.DirectedGraph%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L32">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L34">View Source</a>
   </span>
   <a id="QuikGraph_Serialization_DirectedGraphMLExtensions_WriteXml_" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.WriteXml*"></a>
   <h4 id="QuikGraph_Serialization_DirectedGraphMLExtensions_WriteXml_QuikGraph_Serialization_DirectedGraphML_DirectedGraph_System_String_" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.WriteXml(QuikGraph.Serialization.DirectedGraphML.DirectedGraph,System.String)">WriteXml(DirectedGraph, String)</h4>
@@ -658,12 +805,33 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">filePath</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Serialization_DirectedGraphMLExtensions_WriteXml_QuikGraph_Serialization_DirectedGraphML_DirectedGraph_System_Xml_XmlWriter_.md&amp;value=---%0Auid%3A%20QuikGraph.Serialization.DirectedGraphMLExtensions.WriteXml(QuikGraph.Serialization.DirectedGraphML.DirectedGraph%2CSystem.Xml.XmlWriter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L46">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph.Serialization/DirectedGraphMLExtensions.cs/#L52">View Source</a>
   </span>
   <a id="QuikGraph_Serialization_DirectedGraphMLExtensions_WriteXml_" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.WriteXml*"></a>
   <h4 id="QuikGraph_Serialization_DirectedGraphMLExtensions_WriteXml_QuikGraph_Serialization_DirectedGraphML_DirectedGraph_System_Xml_XmlWriter_" data-uid="QuikGraph.Serialization.DirectedGraphMLExtensions.WriteXml(QuikGraph.Serialization.DirectedGraphML.DirectedGraph,System.Xml.XmlWriter)">WriteXml(DirectedGraph, XmlWriter)</h4>
@@ -694,6 +862,27 @@
         <td><span class="xref">System.Xml.XmlWriter</span></td>
         <td><span class="parametername">writer</span></td>
         <td><p>XML writer in which writing graph data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">writer</code> is <span class="xref">null</span>.</p>
 </td>
       </tr>
     </tbody>

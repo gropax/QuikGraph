@@ -211,7 +211,7 @@ Mihalis Yannakakis and Fanica Gavril algorithm.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_VertexCover_MinimumVertexCoverApproximationAlgorithm_2__ctor_QuikGraph_IUndirectedGraph__0__1__.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.VertexCover.MinimumVertexCoverApproximationAlgorithm%602.%23ctor(QuikGraph.IUndirectedGraph%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/VertexCover/MinimumVertexCoverApproximationAlgorithm.cs/#L33">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/VertexCover/MinimumVertexCoverApproximationAlgorithm.cs/#L34">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_VertexCover_MinimumVertexCoverApproximationAlgorithm_2__ctor_" data-uid="QuikGraph.Algorithms.VertexCover.MinimumVertexCoverApproximationAlgorithm`2.#ctor*"></a>
   <h4 id="QuikGraph_Algorithms_VertexCover_MinimumVertexCoverApproximationAlgorithm_2__ctor_QuikGraph_IUndirectedGraph__0__1__" data-uid="QuikGraph.Algorithms.VertexCover.MinimumVertexCoverApproximationAlgorithm`2.#ctor(QuikGraph.IUndirectedGraph{`0,`1})">MinimumVertexCoverApproximationAlgorithm(IUndirectedGraph&lt;TVertex, TEdge&gt;)</h4>
@@ -243,12 +243,28 @@ Mihalis Yannakakis and Fanica Gavril algorithm.</p>
   <h5 id="QuikGraph_Algorithms_VertexCover_MinimumVertexCoverApproximationAlgorithm_2__ctor_QuikGraph_IUndirectedGraph__0__1___remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This constructor will use <a class="xref" href="QuikGraph.Utils.CryptoRandom.html">CryptoRandom</a> ad random number generator.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_VertexCover_MinimumVertexCoverApproximationAlgorithm_2__ctor_QuikGraph_IUndirectedGraph__0__1__System_Random_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.VertexCover.MinimumVertexCoverApproximationAlgorithm%602.%23ctor(QuikGraph.IUndirectedGraph%7B%600%2C%601%7D%2CSystem.Random)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/VertexCover/MinimumVertexCoverApproximationAlgorithm.cs/#L55">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/VertexCover/MinimumVertexCoverApproximationAlgorithm.cs/#L59">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_VertexCover_MinimumVertexCoverApproximationAlgorithm_2__ctor_" data-uid="QuikGraph.Algorithms.VertexCover.MinimumVertexCoverApproximationAlgorithm`2.#ctor*"></a>
   <h4 id="QuikGraph_Algorithms_VertexCover_MinimumVertexCoverApproximationAlgorithm_2__ctor_QuikGraph_IUndirectedGraph__0__1__System_Random_" data-uid="QuikGraph.Algorithms.VertexCover.MinimumVertexCoverApproximationAlgorithm`2.#ctor(QuikGraph.IUndirectedGraph{`0,`1},System.Random)">MinimumVertexCoverApproximationAlgorithm(IUndirectedGraph&lt;TVertex, TEdge&gt;, Random)</h4>
@@ -283,6 +299,27 @@ Mihalis Yannakakis and Fanica Gavril algorithm.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">rng</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -290,7 +327,7 @@ Mihalis Yannakakis and Fanica Gavril algorithm.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_VertexCover_MinimumVertexCoverApproximationAlgorithm_2_CoverSet.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.VertexCover.MinimumVertexCoverApproximationAlgorithm%602.CoverSet%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/VertexCover/MinimumVertexCoverApproximationAlgorithm.cs/#L66">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/VertexCover/MinimumVertexCoverApproximationAlgorithm.cs/#L70">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_VertexCover_MinimumVertexCoverApproximationAlgorithm_2_CoverSet_" data-uid="QuikGraph.Algorithms.VertexCover.MinimumVertexCoverApproximationAlgorithm`2.CoverSet*"></a>
   <h4 id="QuikGraph_Algorithms_VertexCover_MinimumVertexCoverApproximationAlgorithm_2_CoverSet" data-uid="QuikGraph.Algorithms.VertexCover.MinimumVertexCoverApproximationAlgorithm`2.CoverSet">CoverSet</h4>
@@ -323,7 +360,7 @@ Mihalis Yannakakis and Fanica Gavril algorithm.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_VertexCover_MinimumVertexCoverApproximationAlgorithm_2_InternalCompute.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.VertexCover.MinimumVertexCoverApproximationAlgorithm%602.InternalCompute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/VertexCover/MinimumVertexCoverApproximationAlgorithm.cs/#L74">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/VertexCover/MinimumVertexCoverApproximationAlgorithm.cs/#L78">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_VertexCover_MinimumVertexCoverApproximationAlgorithm_2_InternalCompute_" data-uid="QuikGraph.Algorithms.VertexCover.MinimumVertexCoverApproximationAlgorithm`2.InternalCompute*"></a>
   <h4 id="QuikGraph_Algorithms_VertexCover_MinimumVertexCoverApproximationAlgorithm_2_InternalCompute" data-uid="QuikGraph.Algorithms.VertexCover.MinimumVertexCoverApproximationAlgorithm`2.InternalCompute">InternalCompute()</h4>

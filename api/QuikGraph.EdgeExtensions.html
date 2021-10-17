@@ -118,7 +118,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EdgeExtensions_GetOtherVertex__1_QuikGraph_IEdge___0____0_.md&amp;value=---%0Auid%3A%20QuikGraph.EdgeExtensions.GetOtherVertex%60%601(QuikGraph.IEdge%7B%60%600%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L39">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L42">View Source</a>
   </span>
   <a id="QuikGraph_EdgeExtensions_GetOtherVertex_" data-uid="QuikGraph.EdgeExtensions.GetOtherVertex*"></a>
   <h4 id="QuikGraph_EdgeExtensions_GetOtherVertex__1_QuikGraph_IEdge___0____0_" data-uid="QuikGraph.EdgeExtensions.GetOtherVertex``1(QuikGraph.IEdge{``0},``0)">GetOtherVertex&lt;TVertex&gt;(IEdge&lt;TVertex&gt;, TVertex)</h4>
@@ -185,12 +185,33 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edge</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EdgeExtensions_GetUndirectedVertexEquality__2.md&amp;value=---%0Auid%3A%20QuikGraph.EdgeExtensions.GetUndirectedVertexEquality%60%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L294">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L308">View Source</a>
   </span>
   <a id="QuikGraph_EdgeExtensions_GetUndirectedVertexEquality_" data-uid="QuikGraph.EdgeExtensions.GetUndirectedVertexEquality*"></a>
   <h4 id="QuikGraph_EdgeExtensions_GetUndirectedVertexEquality__2" data-uid="QuikGraph.EdgeExtensions.GetUndirectedVertexEquality``2">GetUndirectedVertexEquality&lt;TVertex, TEdge&gt;()</h4>
@@ -246,7 +267,7 @@ have to be compared.</p>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EdgeExtensions_HasCycles__2_System_Collections_Generic_IEnumerable___1__.md&amp;value=---%0Auid%3A%20QuikGraph.EdgeExtensions.HasCycles%60%602(System.Collections.Generic.IEnumerable%7B%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L113">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L120">View Source</a>
   </span>
   <a id="QuikGraph_EdgeExtensions_HasCycles_" data-uid="QuikGraph.EdgeExtensions.HasCycles*"></a>
   <h4 id="QuikGraph_EdgeExtensions_HasCycles__2_System_Collections_Generic_IEnumerable___1__" data-uid="QuikGraph.EdgeExtensions.HasCycles``2(System.Collections.Generic.IEnumerable{``1})">HasCycles&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;)</h4>
@@ -316,12 +337,28 @@ have to be compared.</p>
   <h5 id="QuikGraph_EdgeExtensions_HasCycles__2_System_Collections_Generic_IEnumerable___1___remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Note that this function only work when given a path.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">path</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EdgeExtensions_IsAdjacent__1_QuikGraph_IEdge___0____0_.md&amp;value=---%0Auid%3A%20QuikGraph.EdgeExtensions.IsAdjacent%60%601(QuikGraph.IEdge%7B%60%600%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L59">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L64">View Source</a>
   </span>
   <a id="QuikGraph_EdgeExtensions_IsAdjacent_" data-uid="QuikGraph.EdgeExtensions.IsAdjacent*"></a>
   <h4 id="QuikGraph_EdgeExtensions_IsAdjacent__1_QuikGraph_IEdge___0____0_" data-uid="QuikGraph.EdgeExtensions.IsAdjacent``1(QuikGraph.IEdge{``0},``0)">IsAdjacent&lt;TVertex&gt;(IEdge&lt;TVertex&gt;, TVertex)</h4>
@@ -389,12 +426,33 @@ have to be compared.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edge</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EdgeExtensions_IsPath__2_System_Collections_Generic_IEnumerable___1__.md&amp;value=---%0Auid%3A%20QuikGraph.EdgeExtensions.IsPath%60%602(System.Collections.Generic.IEnumerable%7B%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L78">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L84">View Source</a>
   </span>
   <a id="QuikGraph_EdgeExtensions_IsPath_" data-uid="QuikGraph.EdgeExtensions.IsPath*"></a>
   <h4 id="QuikGraph_EdgeExtensions_IsPath__2_System_Collections_Generic_IEnumerable___1__" data-uid="QuikGraph.EdgeExtensions.IsPath``2(System.Collections.Generic.IEnumerable{``1})">IsPath&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;)</h4>
@@ -461,12 +519,28 @@ have to be compared.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">path</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EdgeExtensions_IsPathWithoutCycles__2_System_Collections_Generic_IEnumerable___1__.md&amp;value=---%0Auid%3A%20QuikGraph.EdgeExtensions.IsPathWithoutCycles%60%602(System.Collections.Generic.IEnumerable%7B%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L150">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L158">View Source</a>
   </span>
   <a id="QuikGraph_EdgeExtensions_IsPathWithoutCycles_" data-uid="QuikGraph.EdgeExtensions.IsPathWithoutCycles*"></a>
   <h4 id="QuikGraph_EdgeExtensions_IsPathWithoutCycles__2_System_Collections_Generic_IEnumerable___1__" data-uid="QuikGraph.EdgeExtensions.IsPathWithoutCycles``2(System.Collections.Generic.IEnumerable{``1})">IsPathWithoutCycles&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;)</h4>
@@ -533,12 +607,28 @@ have to be compared.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">path</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EdgeExtensions_IsPredecessor__2_System_Collections_Generic_IDictionary___0___1____0___0_.md&amp;value=---%0Auid%3A%20QuikGraph.EdgeExtensions.IsPredecessor%60%602(System.Collections.Generic.IDictionary%7B%60%600%2C%60%601%7D%2C%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L209">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L221">View Source</a>
   </span>
   <a id="QuikGraph_EdgeExtensions_IsPredecessor_" data-uid="QuikGraph.EdgeExtensions.IsPredecessor*"></a>
   <h4 id="QuikGraph_EdgeExtensions_IsPredecessor__2_System_Collections_Generic_IDictionary___0___1____0___0_" data-uid="QuikGraph.EdgeExtensions.IsPredecessor``2(System.Collections.Generic.IDictionary{``0,``1},``0,``0)">IsPredecessor&lt;TVertex, TEdge&gt;(IDictionary&lt;TVertex, TEdge&gt;, TVertex, TVertex)</h4>
@@ -617,12 +707,38 @@ have to be compared.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">predecessors</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">root</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EdgeExtensions_IsSelfEdge__1_QuikGraph_IEdge___0__.md&amp;value=---%0Auid%3A%20QuikGraph.EdgeExtensions.IsSelfEdge%60%601(QuikGraph.IEdge%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L23">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L24">View Source</a>
   </span>
   <a id="QuikGraph_EdgeExtensions_IsSelfEdge_" data-uid="QuikGraph.EdgeExtensions.IsSelfEdge*"></a>
   <h4 id="QuikGraph_EdgeExtensions_IsSelfEdge__1_QuikGraph_IEdge___0__" data-uid="QuikGraph.EdgeExtensions.IsSelfEdge``1(QuikGraph.IEdge{``0})">IsSelfEdge&lt;TVertex&gt;(IEdge&lt;TVertex&gt;)</h4>
@@ -683,12 +799,28 @@ have to be compared.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edge</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EdgeExtensions_ReverseEdges__2_System_Collections_Generic_IEnumerable___1__.md&amp;value=---%0Auid%3A%20QuikGraph.EdgeExtensions.ReverseEdges%60%602(System.Collections.Generic.IEnumerable%7B%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L397">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L418">View Source</a>
   </span>
   <a id="QuikGraph_EdgeExtensions_ReverseEdges_" data-uid="QuikGraph.EdgeExtensions.ReverseEdges*"></a>
   <h4 id="QuikGraph_EdgeExtensions_ReverseEdges__2_System_Collections_Generic_IEnumerable___1__" data-uid="QuikGraph.EdgeExtensions.ReverseEdges``2(System.Collections.Generic.IEnumerable{``1})">ReverseEdges&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;)</h4>
@@ -755,12 +887,28 @@ have to be compared.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edges</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EdgeExtensions_SortedVertexEquality__1_QuikGraph_IEdge___0____0___0_.md&amp;value=---%0Auid%3A%20QuikGraph.EdgeExtensions.SortedVertexEquality%60%601(QuikGraph.IEdge%7B%60%600%7D%2C%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L360">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L380">View Source</a>
   </span>
   <a id="QuikGraph_EdgeExtensions_SortedVertexEquality_" data-uid="QuikGraph.EdgeExtensions.SortedVertexEquality*"></a>
   <h4 id="QuikGraph_EdgeExtensions_SortedVertexEquality__1_QuikGraph_IEdge___0____0___0_" data-uid="QuikGraph.EdgeExtensions.SortedVertexEquality``1(QuikGraph.IEdge{``0},``0,``0)">SortedVertexEquality&lt;TVertex&gt;(IEdge&lt;TVertex&gt;, TVertex, TVertex)</h4>
@@ -835,12 +983,38 @@ have to be compared.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edge</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">target</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EdgeExtensions_ToVertexPair__1_QuikGraph_IEdge___0__.md&amp;value=---%0Auid%3A%20QuikGraph.EdgeExtensions.ToVertexPair%60%601(QuikGraph.IEdge%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L192">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L201">View Source</a>
   </span>
   <a id="QuikGraph_EdgeExtensions_ToVertexPair_" data-uid="QuikGraph.EdgeExtensions.ToVertexPair*"></a>
   <h4 id="QuikGraph_EdgeExtensions_ToVertexPair__1_QuikGraph_IEdge___0__" data-uid="QuikGraph.EdgeExtensions.ToVertexPair``1(QuikGraph.IEdge{``0})">ToVertexPair&lt;TVertex&gt;(IEdge&lt;TVertex&gt;)</h4>
@@ -901,12 +1075,28 @@ have to be compared.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edge</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EdgeExtensions_TryGetPath__2_System_Collections_Generic_IDictionary___0___1____0_System_Collections_Generic_IEnumerable___1___.md&amp;value=---%0Auid%3A%20QuikGraph.EdgeExtensions.TryGetPath%60%602(System.Collections.Generic.IDictionary%7B%60%600%2C%60%601%7D%2C%60%600%2CSystem.Collections.Generic.IEnumerable%7B%60%601%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L249">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L263">View Source</a>
   </span>
   <a id="QuikGraph_EdgeExtensions_TryGetPath_" data-uid="QuikGraph.EdgeExtensions.TryGetPath*"></a>
   <h4 id="QuikGraph_EdgeExtensions_TryGetPath__2_System_Collections_Generic_IDictionary___0___1____0_System_Collections_Generic_IEnumerable___1___" data-uid="QuikGraph.EdgeExtensions.TryGetPath``2(System.Collections.Generic.IDictionary{``0,``1},``0,System.Collections.Generic.IEnumerable{``1}@)">TryGetPath&lt;TVertex, TEdge&gt;(IDictionary&lt;TVertex, TEdge&gt;, TVertex, out IEnumerable&lt;TEdge&gt;)</h4>
@@ -985,12 +1175,33 @@ have to be compared.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">predecessors</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertex</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_EdgeExtensions_UndirectedVertexEquality__1_QuikGraph_IEdge___0____0___0_.md&amp;value=---%0Auid%3A%20QuikGraph.EdgeExtensions.UndirectedVertexEquality%60%601(QuikGraph.IEdge%7B%60%600%7D%2C%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L318">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Extensions/EdgeExtensions.cs/#L335">View Source</a>
   </span>
   <a id="QuikGraph_EdgeExtensions_UndirectedVertexEquality_" data-uid="QuikGraph.EdgeExtensions.UndirectedVertexEquality*"></a>
   <h4 id="QuikGraph_EdgeExtensions_UndirectedVertexEquality__1_QuikGraph_IEdge___0____0___0_" data-uid="QuikGraph.EdgeExtensions.UndirectedVertexEquality``1(QuikGraph.IEdge{``0},``0,``0)">UndirectedVertexEquality&lt;TVertex&gt;(IEdge&lt;TVertex&gt;, TVertex, TVertex)</h4>
@@ -1062,6 +1273,32 @@ or <code data-dev-comment-type="paramref" class="paramref">target</code> and <co
       <tr>
         <td><span class="parametername">TVertex</span></td>
         <td><p>Vertex type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edge</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">target</code> is <span class="xref">null</span>.</p>
 </td>
       </tr>
     </tbody>

@@ -118,7 +118,7 @@
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_Create__2_QuikGraph_IMutableUndirectedGraph___0___1__QuikGraph_VertexFactory___0__QuikGraph_EdgeFactory___0___1__System_Random_System_Int32_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.Create%60%602(QuikGraph.IMutableUndirectedGraph%7B%60%600%2C%60%601%7D%2CQuikGraph.VertexFactory%7B%60%600%7D%2CQuikGraph.EdgeFactory%7B%60%600%2C%60%601%7D%2CSystem.Random%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L206">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L232">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_RandomGraphFactory_Create_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.Create*"></a>
   <h4 id="QuikGraph_Algorithms_RandomGraphFactory_Create__2_QuikGraph_IMutableUndirectedGraph___0___1__QuikGraph_VertexFactory___0__QuikGraph_EdgeFactory___0___1__System_Random_System_Int32_System_Int32_System_Boolean_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.Create``2(QuikGraph.IMutableUndirectedGraph{``0,``1},QuikGraph.VertexFactory{``0},QuikGraph.EdgeFactory{``0,``1},System.Random,System.Int32,System.Int32,System.Boolean)">Create&lt;TVertex, TEdge&gt;(IMutableUndirectedGraph&lt;TVertex, TEdge&gt;, VertexFactory&lt;TVertex&gt;, EdgeFactory&lt;TVertex, TEdge&gt;, Random, Int32, Int32, Boolean)</h4>
@@ -206,12 +206,53 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertexFactory</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeFactory</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">rng</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertexCount</code> is negative or equal 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeCount</code> is negative.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_Create__2_QuikGraph_IMutableVertexAndEdgeListGraph___0___1__QuikGraph_VertexFactory___0__QuikGraph_EdgeFactory___0___1__System_Random_System_Int32_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.Create%60%602(QuikGraph.IMutableVertexAndEdgeListGraph%7B%60%600%2C%60%601%7D%2CQuikGraph.VertexFactory%7B%60%600%7D%2CQuikGraph.EdgeFactory%7B%60%600%2C%60%601%7D%2CSystem.Random%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L180">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L200">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_RandomGraphFactory_Create_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.Create*"></a>
   <h4 id="QuikGraph_Algorithms_RandomGraphFactory_Create__2_QuikGraph_IMutableVertexAndEdgeListGraph___0___1__QuikGraph_VertexFactory___0__QuikGraph_EdgeFactory___0___1__System_Random_System_Int32_System_Int32_System_Boolean_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.Create``2(QuikGraph.IMutableVertexAndEdgeListGraph{``0,``1},QuikGraph.VertexFactory{``0},QuikGraph.EdgeFactory{``0,``1},System.Random,System.Int32,System.Int32,System.Boolean)">Create&lt;TVertex, TEdge&gt;(IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;, VertexFactory&lt;TVertex&gt;, EdgeFactory&lt;TVertex, TEdge&gt;, Random, Int32, Int32, Boolean)</h4>
@@ -299,12 +340,53 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertexFactory</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeFactory</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">rng</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertexCount</code> is negative or equal 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edgeCount</code> is negative.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_GetEdge__2_QuikGraph_IEdgeSet___0___1__System_Random_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.GetEdge%60%602(QuikGraph.IEdgeSet%7B%60%600%2C%60%601%7D%2CSystem.Random)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L72">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L80">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_RandomGraphFactory_GetEdge_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetEdge*"></a>
   <h4 id="QuikGraph_Algorithms_RandomGraphFactory_GetEdge__2_QuikGraph_IEdgeSet___0___1__System_Random_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetEdge``2(QuikGraph.IEdgeSet{``0,``1},System.Random)">GetEdge&lt;TVertex, TEdge&gt;(IEdgeSet&lt;TVertex, TEdge&gt;, Random)</h4>
@@ -377,12 +459,33 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">rng</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_GetEdge__2_System_Collections_Generic_IEnumerable___1__System_Int32_System_Random_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.GetEdge%60%602(System.Collections.Generic.IEnumerable%7B%60%601%7D%2CSystem.Int32%2CSystem.Random)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L93">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L105">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_RandomGraphFactory_GetEdge_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetEdge*"></a>
   <h4 id="QuikGraph_Algorithms_RandomGraphFactory_GetEdge__2_System_Collections_Generic_IEnumerable___1__System_Int32_System_Random_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetEdge``2(System.Collections.Generic.IEnumerable{``1},System.Int32,System.Random)">GetEdge&lt;TVertex, TEdge&gt;(IEnumerable&lt;TEdge&gt;, Int32, Random)</h4>
@@ -461,12 +564,43 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">edges</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">rng</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">count</code> is negative or equal 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">count</code> is higher than <code data-dev-comment-type="paramref" class="paramref">edges</code> count.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_GetVertex__1_QuikGraph_IVertexSet___0__System_Random_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.GetVertex%60%601(QuikGraph.IVertexSet%7B%60%600%7D%2CSystem.Random)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L19">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L21">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_RandomGraphFactory_GetVertex_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetVertex*"></a>
   <h4 id="QuikGraph_Algorithms_RandomGraphFactory_GetVertex__1_QuikGraph_IVertexSet___0__System_Random_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetVertex``1(QuikGraph.IVertexSet{``0},System.Random)">GetVertex&lt;TVertex&gt;(IVertexSet&lt;TVertex&gt;, Random)</h4>
@@ -533,12 +667,33 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">graph</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">rng</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/KeRNeLith/QuikGraph/new/master/apiSpec/new?filename=QuikGraph_Algorithms_RandomGraphFactory_GetVertex__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Random_.md&amp;value=---%0Auid%3A%20QuikGraph.Algorithms.RandomGraphFactory.GetVertex%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Int32%2CSystem.Random)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L38">View Source</a>
+    <a href="https://github.com/KeRNeLith/QuikGraph/blob/master/src/QuikGraph/Algorithms/RandomGraphFactory.cs/#L44">View Source</a>
   </span>
   <a id="QuikGraph_Algorithms_RandomGraphFactory_GetVertex_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetVertex*"></a>
   <h4 id="QuikGraph_Algorithms_RandomGraphFactory_GetVertex__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Random_" data-uid="QuikGraph.Algorithms.RandomGraphFactory.GetVertex``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Random)">GetVertex&lt;TVertex&gt;(IEnumerable&lt;TVertex&gt;, Int32, Random)</h4>
@@ -607,6 +762,37 @@ and <code data-dev-comment-type="paramref" class="paramref">edgeCount</code> edg
       <tr>
         <td><span class="parametername">TVertex</span></td>
         <td><p>Vertex type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">vertices</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">rng</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">count</code> is negative or equal 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">count</code> is higher than <code data-dev-comment-type="paramref" class="paramref">vertices</code> count.</p>
 </td>
       </tr>
     </tbody>

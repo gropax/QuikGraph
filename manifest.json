@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "RELEASE_NOTES.html",
-          "hash": "Ex7s7aXKQ6FuWI61DPB5iAfx0iieH4DXARd9faQaWyw="
+          "hash": "/5omsNXhFje7MZi8QIagKuycWYAD8YZIFBqn8cIFQto="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.AdjacencyGraph-2.html",
-          "hash": "fSiOKwIwnlVx0WhuL4VAfwa4oUOrXryPKFIy4kYLNEs="
+          "hash": "h/IjxZ9VOr4AuX6W4a6DcHgocoEwjFHqBEDrksR51fI="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.AlgorithmBase-1.html",
-          "hash": "070JNhF88WzNrsbbq3sADSyMx1z52K0BmxyKjjxjRRM="
+          "hash": "TqtL1OicubzbXsPDQe9Ebq8V4FXkmCn/rz+0tHAc5L0="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.AlgorithmEventHandler-1.html",
-          "hash": "wLWhlU2qr+qDKIK0lBOwV3TeEmiMT+cZaU66RYo3MAg="
+          "hash": "EZrAkdG2mMmvEFfxfgko5VGTxHrLAKDUJgl8VMUGGBU="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.AlgorithmExtensions.html",
-          "hash": "9Ea/ajEtEBCiCUHu14zMSqlGlcsdaJeoyyMBDhWSKX8="
+          "hash": "xX/hhbQB9J07K0cq8Q+oZqlzGG4mHL+zBQ1Y7Y6Ytco="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Assignment.HungarianAlgorithm.Steps.html",
-          "hash": "WaIIQLjbl7uqi8rIerytxgOobsZ5z0p3USn5F+BT8IA="
+          "hash": "kLZHAUm4qDmsynmqxMY9D8y/JEVyJHH4bJMypRGhAN8="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Assignment.HungarianAlgorithm.html",
-          "hash": "w/TfxoZ7suRxjkYkUB1JsFhy7/K7wexSx5MktqCFHUM="
+          "hash": "Ph/ba0jjOkyLm3t/Fq2ab/1tw+1QTeGv40Zh4uf9qPM="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Assignment.HungarianIteration.html",
-          "hash": "9P608SS2KwmCsB5hjWbOsyxYDjm7SSVXyek+vnHc6ak="
+          "hash": "IVnRgCyPWaQkf2QbSigxGtlzYFluMRyh8DCJ2r0oRVw="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Assignment.html",
-          "hash": "IzC+7LReM/CEAOjPJHCeMXgYBjkt206DeQVS86nfVs0="
+          "hash": "ovwq6+IugS5xMnc+sro24qY9fSWACUXa7zMmp3L80Ug="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Cliques.MaximumCliqueAlgorithmBase-2.html",
-          "hash": "B0Bt4zwikVXlHylTyI5LgzBJz9Q5gsPUS+oONcAXsZw="
+          "hash": "utrZrsX2iHLFHygeZBvZi4aLIzg41J0fJZYHxcPzdZw="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Cliques.html",
-          "hash": "o0gDugUuEwe196UvmXmkUdln87y8QGf/Jtu3QFU4QIg="
+          "hash": "sVBdXDJLtRuTI6WHODaN/BBel/MO/CaDifyOM1G5SZ0="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ComponentWithEdges.html",
-          "hash": "zIylCl2IiJ0JQ1z8xw9NAR7F4JnsjzGhrTEBpaAtu5A="
+          "hash": "IhuKk7RO8+dhkYu+ZsXmkcBcWiEgIJS7x17ycQO87nA="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ComputationState.html",
-          "hash": "FzjisY06UmFeN+IisOD6YthIZfu5SG7dyJqXKGJlGlk="
+          "hash": "tu7VYmpyMJ8NOvHbjUWCvKuDEsAWuuP4xsaMKQ+bpvs="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Condensation.CondensationGraphAlgorithm-3.html",
-          "hash": "EFEam3eC8TIbr3LC0pnxF0Ho9MVsFKC5xDoNVhPxTwQ="
+          "hash": "0Acsy1jfUD/7KeyJvhB1RVIHYFp9gMks3Kz/46iIAp4="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Condensation.CondensedEdge-3.html",
-          "hash": "SZrPxcedkY0DqrLtwkhHwXpuN6Ub9YElCmrjq69bFmE="
+          "hash": "PSBEZr1BoNVUs7WFsh7CLkGUm/JE9+yzrONM5G1hRXw="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Condensation.EdgeMergeCondensationGraphAlgorithm-2.html",
-          "hash": "4IwP/pBCV3LVSK4WYXqtfzoEJWEksxejUREgCD79nzM="
+          "hash": "HxzXVFrmdWVKYxcAT5MhhqYVcAfkEOYsMmfF0JPWbD0="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Condensation.MergedEdge-2.html",
-          "hash": "0GfgFwlGvfUIQeJ882Sj6wv2ioOxnQi+QY6fapn3q5o="
+          "hash": "TiDxthiPtcY3GWUAbgHAhF1Z6WXZJDRQesmFxa6MT54="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Condensation.MergedEdge.html",
-          "hash": "H0yMTQoZCHzg6eABiFtI6YJ/84zp7TU/LOXXnEQkk3I="
+          "hash": "qhw2a8BCD5pSa+f8egFZK0sDRS8tZ5r9nnr0PNz0yho="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Condensation.html",
-          "hash": "lRIyJSivAxh9Uy96tReYPuTjyoFrGFFhgHW2CmcvVgo="
+          "hash": "ZCUXqLhVYA0+fYKV6yedcMxGJ77yeY/xIc89rD+HDHg="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ConnectedComponents.ConnectedComponentsAlgorithm-2.html",
-          "hash": "3G2i5av2Qj6J//UeP+qv2ZUWtRAXE2f0VSKNNmeOMrw="
+          "hash": "BAUUNfzPmtD+khvFN6lhIUrqB4C1S2wE+UT7Jg4lJwI="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ConnectedComponents.IncrementalConnectedComponentsAlgorithm-2.html",
-          "hash": "urCQH9aDyq8XmwBOSCgFjmYc9AULPS5H84CTlxDGTJM="
+          "hash": "OhcN1nu3p1ygAwRQe/ISAC1wG4oxiQo5bF3/x+XWhAo="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ConnectedComponents.StronglyConnectedComponentsAlgorithm-2.html",
-          "hash": "ktBa9ShaKhWoGQvewWhZ25hAchiU0YQLJbA600Re35s="
+          "hash": "tSlhv3DfaBQbJpOOKmkN9KoRH7fg5EXMLCKrj6tOmXM="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ConnectedComponents.WeaklyConnectedComponentsAlgorithm-2.html",
-          "hash": "aS0wBP9Lk6scnEVCE4vNWgvFVYLBK+JyGbilLnrwNwk="
+          "hash": "a2wL4KKGy5mrZoDIRVHN3BR72C1BVX/NEdM7tL0sCHQ="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ConnectedComponents.html",
-          "hash": "24g0islo5YeQ6E2HeC/rJzHzYB8Z5JhtFhkEO6zMUys="
+          "hash": "x3Tq01phVgvfMoDGrPyaCcnd2A3ehQpTzIfL4IUxP0g="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.DistanceRelaxers.html",
-          "hash": "hnnoZm0yjAAOGWDgsRqt/p+ky0LHY0zlpAf8GlL0cVo="
+          "hash": "uixjMZFDvBdAbDXxQ82pmY3BSWBO97au/W6kNOTolqc="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.EulerianTrailAlgorithm-2.html",
-          "hash": "XYvd4shxyM0bQ5wgXg+mXf3eZq1GaHB22T2LavKwp/c="
+          "hash": "Jgx2Zg62yDJ9467LUdQSad9yfAJcCzUgJQgAsb1d8MM="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.DefaultFinishedPredicate.html",
-          "hash": "WVBrce7naPFYx3X7EYnTyqU2opU2jRSr49oLQbe1Abk="
+          "hash": "m0Yke+rcL7tKrqywV71bqgJc8KWk9GcS2kB90gbiSiM="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Exploration.CloneableVertexGraphExplorerAlgorithm-2.html",
-          "hash": "pmRNA4RDYIGn3dHpQG/odAZh4mQeVAp0LyUOq9NSrtQ="
+          "hash": "4HzzpZZfHoGhMTkiPh3lWt6qV6ywSQ6xZeqz8zaxaMk="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Exploration.ITransitionFactory-2.html",
-          "hash": "6tHDLSrnW9/bjY7xNoNGUx+u1qUcCx9IMmgi9DSFBuA="
+          "hash": "/dxmBmSr1/Ru6m7qCGHzo6vqYJ+i794lveIiviSdC8w="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Exploration.TransitionFactoryImplicitGraph-2.html",
-          "hash": "lBKh5pRNCRh4XPFv34DurYS6H5ZdA1WtP9AtJIAd/0c="
+          "hash": "scMGB3ieCDaxrgS7GZGM4R6kif059n/WbHeO6cUNRYo="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Exploration.html",
-          "hash": "IUQ6aXkjp2en7md0gETrkNOARkHFnrEk111wyuEvyfQ="
+          "hash": "QAUsyFMXv26PTop8RRECOskyYvtsBJazYlGsKvmsnbE="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.GraphPartition.KernighanLinAlgorithm-2.html",
-          "hash": "pDZcS+4Sddked5+1ciCBPeTf5J/hG309xtmtuTFSYVQ="
+          "hash": "jgQhviWhk1LrWCfl6l9ttcWeZW0m9xz0Ac7I6wAoawk="
         }
       },
       "is_incremental": false,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.GraphPartition.Partition-1.html",
-          "hash": "jBWbVWmz9Ntwf/cABeU4U31B3KPwEJyqI3MSpLIr62M="
+          "hash": "PKEK5//J9lyMHedn+FhVdsIgltw9R4i6P8/y+xyk67E="
         }
       },
       "is_incremental": false,
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.GraphPartition.PartitionHelpers.html",
-          "hash": "DnIzfCF20Ql3IaMLARScD63JvqcodORiCB+e/KgIWbY="
+          "hash": "RDo/n2BOkvQ2MIqAeouLC+JWY3ykmoifUoNlRf9dadg="
         }
       },
       "is_incremental": false,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.GraphPartition.html",
-          "hash": "+0fiYm6QpaUZ2MVJlptK0/QHGnr08NJWSrN5ZX08pL4="
+          "hash": "E9FYYinGGDqWdGPMOLtAr6IQOjE62QIJCPTIevCSga0="
         }
       },
       "is_incremental": false,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IAlgorithm-1.html",
-          "hash": "v1VooppnbyI/MdeJe9WEca/XJvQ3gnblcduUoEZgjX0="
+          "hash": "QBYR3JKH6YhSo72Bp0zB/KWR5X3k0Cp/EPdtDrzcxpk="
         }
       },
       "is_incremental": false,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IComputation.html",
-          "hash": "cLU4G3qM1yz+i/4mVagREEPOwr1Hi7qaLP/i6ywHz64="
+          "hash": "uzFGQ8X/go/xLnVjO5KkPulJNOXiJzj2pbuxS03rpv4="
         }
       },
       "is_incremental": false,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IConnectedComponentAlgorithm-3.html",
-          "hash": "//W7WG4hLuNGz0HvENDuTbOoMHnocRuU6TlbqRa4jys="
+          "hash": "s1Phwg9TRaHVe/lWloCcGjF0fx8KyJ6MHPsMbw/Qd0c="
         }
       },
       "is_incremental": false,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IDistanceRecorderAlgorithm-1.html",
-          "hash": "MlsMf+/vgLh3lSumxeYfTkC99+rkH19YwB93HmBfCXY="
+          "hash": "Ojo43K4lAUMnfqd7Cx1u3cc0hKtYZ2uzFEq7ovYK8C4="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IDistanceRelaxer.html",
-          "hash": "DAW9+gaAl+tekf7Q2mhccwN48kHz/5Y99CIdwQwkAsw="
+          "hash": "7i8NR1sDrUDORqo4BaNIr+II2Vk3ReU03Pgf7KmYKaY="
         }
       },
       "is_incremental": false,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IDistancesCollection-1.html",
-          "hash": "OC76KVps7hjr7y3Nf8zd1yk6PwLKfWd41dHxCHS4hSc="
+          "hash": "1hz8GZW1ddvhE7Qt1vSc7bw/lUakW6XdINv+dfe9CAQ="
         }
       },
       "is_incremental": false,
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IEdgeColorizerAlgorithm-2.html",
-          "hash": "klz89ozy10xkde39jgvOxyoRJY9WIimuK5D9T846DUM="
+          "hash": "S2mMqBYTC0QHb79Aqh5MkIL5vo7MYRCcoEBGFC/6xeo="
         }
       },
       "is_incremental": false,
@@ -513,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IEdgePredecessorRecorderAlgorithm-2.html",
-          "hash": "h1XiPtp08ubd5d2oHVM1p2IbTfPxebSQhcvEQmGAX7c="
+          "hash": "ymm/CR5tdGWwbq+3ORFPR37jVFqtiiaxIAC7/L6CH/U="
         }
       },
       "is_incremental": false,
@@ -525,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ITreeBuilderAlgorithm-2.html",
-          "hash": "brlpxF4MIOOw2vFF+3eW73hmoNcV864WgPqVPAjDFqo="
+          "hash": "IVPC+T75dywW+wfa6nKwVvukqwImnbhd1Fy3ghXSUfM="
         }
       },
       "is_incremental": false,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IUndirectedTreeBuilderAlgorithm-2.html",
-          "hash": "xSatvamaVqAg0v/NW4SDNDoDnxDsUmx5R49Ass53mvg="
+          "hash": "RHrsiTzkkuU8u92bRnnoVEdaK8gPOcEN+edzs/xMY6k="
         }
       },
       "is_incremental": false,
@@ -549,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IUndirectedVertexPredecessorRecorderAlgorithm-2.html",
-          "hash": "Zng1sYZdHDN10m8nW2Kd4gfLZ0pCBmLQKGI0hfcALeM="
+          "hash": "CCLPnIUl3obhHCXbh8LG7uYGjURDXYa5Bm1XwM8BpFU="
         }
       },
       "is_incremental": false,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IVertexColorizerAlgorithm-1.html",
-          "hash": "QWuc0WG+BZZ17WOQ06nQXQsyBgiF4KUskx7dF0jWmH4="
+          "hash": "PwPO9g/iMs58t+h9eFI2VRVFp83yttI/s5px2izDWvs="
         }
       },
       "is_incremental": false,
@@ -573,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IVertexPredecessorRecorderAlgorithm-2.html",
-          "hash": "FjyUYv/8Dx/sqRVy5cTT/wmnGhjSlSeBq/DooPPq2CM="
+          "hash": "FsisoG+0iPiyTpzlyy39DBPH5hs/fvIKba/2mJZl3DY="
         }
       },
       "is_incremental": false,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IVertexTimeStamperAlgorithm-1.html",
-          "hash": "e2BpbukvZlSYqRWy9iZQ49/mstDY2XFrmW6WOV1PH68="
+          "hash": "z4Tzv2dfwap+Jc4zwL0V6B8wBlYbM0niujehHVo8q/0="
         }
       },
       "is_incremental": false,
@@ -597,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IsEulerianGraphAlgorithm-2.html",
-          "hash": "AA6gWdyk2Z1/1NRhmOcZfTkJkYOCckDobFzm9YO7TuE="
+          "hash": "m7QmpNti9SvhBD0TCwGluldmlpOZgVdlZH6Pz3u89pY="
         }
       },
       "is_incremental": false,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IsEulerianGraphAlgorithm.html",
-          "hash": "rVpGu4sbb//WQXeAu/cmVs8JgUcDC4ruUUAzMaME3Ss="
+          "hash": "JhnzPh/JA8q2RK8GopkA4Q3yNNL+75g4IkWBpe52W08="
         }
       },
       "is_incremental": false,
@@ -621,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IsHamiltonianGraphAlgorithm-2.html",
-          "hash": "YmaLnq+d6IjpBcKbzZheFZv/IWkonJ2iXQehHahUNkc="
+          "hash": "4r0DCh5ne0TqoiHyS+TcO2A58abkTfXwFlAJNAyryVU="
         }
       },
       "is_incremental": false,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.IsHamiltonianGraphAlgorithm.html",
-          "hash": "BqNnmyZoTTBAT/dX3r9J8DckmS0J/MZcMJu0A7zr3OE="
+          "hash": "shFMYbfPUWG76fiTcCLZG5Rm9n6JJxOsBzTlda4fp28="
         }
       },
       "is_incremental": false,
@@ -645,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumBipartiteMatchingAlgorithm-2.html",
-          "hash": "kiTfoeWR/tuGkm3nshErKFUBP3S7AIA3RpvaqBPdThY="
+          "hash": "E6yqTIIFsIm9nvntD+EX1hyOCq0uHqBEG4dX3cYv+/4="
         }
       },
       "is_incremental": false,
@@ -657,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.AllVerticesGraphAugmentorAlgorithm-2.html",
-          "hash": "jrN3O0NpOEeRZaCH+mqo70dN8EHXkVtJM8bzJ9fcSCM="
+          "hash": "p8y5GzRXoPMfsMAyy6VRq0Jo+w8n3S8jAtxd1nF+Vic="
         }
       },
       "is_incremental": false,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.EdmondsKarpMaximumFlowAlgorithm-2.html",
-          "hash": "ajmAP2fd+6orxVuyek97cBj+yGuaz8YOJYBM109T9nc="
+          "hash": "tcJ0QTavzjTF8PSi/VZdPjHRauOcpYpUjil+4pcoeRI="
         }
       },
       "is_incremental": false,
@@ -681,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.GraphAugmentorAlgorithmBase-3.html",
-          "hash": "I9m+SMcb8ocarVacEIAcsLlkcvgVzxGFXUhXMa38KDg="
+          "hash": "z0mYSSyk4IuI32Uy4RVlYapxdAFzeN110B+DxYhMzdk="
         }
       },
       "is_incremental": false,
@@ -693,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.GraphBalancerAlgorithm-2.html",
-          "hash": "lIYPBujXcw9X9wTrZdbxkOkhEQmPNl5IFUykEyvtmS8="
+          "hash": "xMMRFZZBY4NTp+n4cdLcxla7THzJ+ogbPW4c5QKCAog="
         }
       },
       "is_incremental": false,
@@ -705,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.MaximumFlowAlgorithm-2.html",
-          "hash": "PT6vorwNWa5CSto0ZVHcD2aJ0vyJGHLP7hrv6hf1qN0="
+          "hash": "Y4H7aKIO+iE3NCn9QNkobptlQdZBmLjeAhEzZXnjda8="
         }
       },
       "is_incremental": false,
@@ -717,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.MultiSourceSinkGraphAugmentorAlgorithm-2.html",
-          "hash": "k01sQU2ecDTyR8loyNn7OJb5PWb9qq7pXoPesL+DRNE="
+          "hash": "80MIGM8bpC9hRhIayvKS2BL6E6b6NdUA4kJi2yRLCLw="
         }
       },
       "is_incremental": false,
@@ -729,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.ReversedEdgeAugmentorAlgorithm-2.html",
-          "hash": "5Au2Ezo0IhbzLzT8KjTtDFDFqCmV3MrhMTKoLC19d7c="
+          "hash": "kXVX4Rxq5IhUcZqTA4udVFRl/0okPMTNtyfgmuiwRaI="
         }
       },
       "is_incremental": false,
@@ -741,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MaximumFlow.html",
-          "hash": "VDVfXKwukIW6l4X7bLJnA3ezcJ5MY3VoeNx5MvmWKVk="
+          "hash": "sdee+sY6YXlZATfDdDgDDolFpWKNJkEMkdXQO2rZTyE="
         }
       },
       "is_incremental": false,
@@ -753,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MinimumSpanningTree.IMinimumSpanningTreeAlgorithm-2.html",
-          "hash": "hyyPfUXBxXiYnggaYwGrcJHcvW9NgdUINYFS16c+4gw="
+          "hash": "oV4mDqhmJP+wLu4dIOgK4uyYU2JN9xPA3sAlQHll36g="
         }
       },
       "is_incremental": false,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MinimumSpanningTree.KruskalMinimumSpanningTreeAlgorithm-2.html",
-          "hash": "CqFRFCDcys92V0ThVRu5g3lfqGn1i60vpVA/eoY1Ae4="
+          "hash": "YFVmRIpdxb5uNKw3sq4LMWfWPevPmPZM2niD2hRBQ4Q="
         }
       },
       "is_incremental": false,
@@ -777,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MinimumSpanningTree.PrimMinimumSpanningTreeAlgorithm-2.html",
-          "hash": "s4XOGrP+Js/xiGGqAF00Jo1+YX3xskElufmCjs8WI7I="
+          "hash": "3Uyli+EOtFH6oOZM5BJkNk1TH4bJayZIFOVvkflCsI4="
         }
       },
       "is_incremental": false,
@@ -789,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.MinimumSpanningTree.html",
-          "hash": "RDke8yx3JFIfNWtG398ykl//YWik0hQXcjKkC2sZmEo="
+          "hash": "hGbuNyDE2B3BkjAIgoXc7nKUwkimOQq8G0Xd+DQWLjE="
         }
       },
       "is_incremental": false,
@@ -801,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Observers.EdgePredecessorRecorderObserver-2.html",
-          "hash": "KhQNFoLA8i/tKaDFG5fODHx+f9YzFWgXzzgsZa6sxSY="
+          "hash": "r7icve7xOb5CTr2Qv1chlLMT1kwcDFWORK4lrD9XU2U="
         }
       },
       "is_incremental": false,
@@ -813,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Observers.EdgeRecorderObserver-2.html",
-          "hash": "PIQ2g5RNqJgiacH0hl2kGZ3rESq08YQpUM2JAvP+WfQ="
+          "hash": "zolNqJyuU9PV541PUsEu+d9+azrCQQWjazcUdF+/3xQ="
         }
       },
       "is_incremental": false,
@@ -825,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Observers.IObserver-1.html",
-          "hash": "/hrrWOI3eh7SePBCvISQGVtopOnoLsE/9eK2Eg5Xau4="
+          "hash": "BHvsNHtnvoJjdUNv1GOtP7t4ZWE5bxTuM7kFiPkRyrc="
         }
       },
       "is_incremental": false,
@@ -837,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Observers.UndirectedVertexDistanceRecorderObserver-2.html",
-          "hash": "FjgNndxoNRk35WlmTTpibi3pdbJyagAJ4lIChx35scE="
+          "hash": "J4RrBoD2a3X7dawZzuv3je6qED2HW96XLo+CmvM9Smc="
         }
       },
       "is_incremental": false,
@@ -849,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Observers.UndirectedVertexPredecessorRecorderObserver-2.html",
-          "hash": "2wQMozhQjqaEeap8x01sjkvcDLXD2ediz81BbkUdckQ="
+          "hash": "3AWwXPYSbItue9ze2XA/gfNoI85jJHuCg/+dGdHPns0="
         }
       },
       "is_incremental": false,
@@ -861,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Observers.VertexDistanceRecorderObserver-2.html",
-          "hash": "5qTzhMikHyQkPQ8CYYQNNNhBXVyDtunO9vtUiU5W+CE="
+          "hash": "xqcZSNwuVnVh56Do3zKj5ezyhouj9UBqwLu9u6gS9q4="
         }
       },
       "is_incremental": false,
@@ -873,7 +873,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Observers.VertexPredecessorPathRecorderObserver-2.html",
-          "hash": "eJTQK5YPrXtQ5pEbnZnvI8Yc7ruypsiIwPcYuF0U8sI="
+          "hash": "4GhRnBRmskZCvXyp1EBGI9CcKzKwBs+vv8mSaL4PG7M="
         }
       },
       "is_incremental": false,
@@ -885,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Observers.VertexPredecessorRecorderObserver-2.html",
-          "hash": "BCjaeK+lMNC98v+MAPvk9vVE4qlQMxobBeIM9vf9WcY="
+          "hash": "tlW9mrZks+lv3r23243qUBVGgyCpNDf7wyG1ZY0kh1Y="
         }
       },
       "is_incremental": false,
@@ -897,7 +897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Observers.VertexRecorderObserver-1.html",
-          "hash": "/a/MiViDEtSNoEiFKP8ISzhQDunNMN4Tv11/yxg7C5U="
+          "hash": "vmACWpZZcH7BtA4rrrCbWKHXzLzB7DlJgy0cOlAXnBQ="
         }
       },
       "is_incremental": false,
@@ -909,7 +909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Observers.VertexTimeStamperObserver-1.html",
-          "hash": "jcqYIGIKX8RLq9rgo9C+iDIqwtRryrGUwh8tk9JwDUs="
+          "hash": "qJtWsyvb6RFJh7HNW/P2rIWyIkN91yCtE26tyikqoo8="
         }
       },
       "is_incremental": false,
@@ -921,7 +921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Observers.html",
-          "hash": "JVehwIuFlVMFzHaeX4LJcftASZXtjzXUP1O6mSSTC8o="
+          "hash": "0RdME/idQ6i9wHVFq5CGj885+km9SgFq7IQ6xsN2+rw="
         }
       },
       "is_incremental": false,
@@ -933,7 +933,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RandomGraphFactory.html",
-          "hash": "BKzOxPdBImCPWwffQJoq7H2qnFloy0KfSwS+jh/fVms="
+          "hash": "mIdKStq3Gqk/6/7Z7ff3Ck+gth12JmoTyoRNNvgHqyo="
         }
       },
       "is_incremental": false,
@@ -945,7 +945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RandomWalks.CyclePoppingRandomTreeAlgorithm-2.html",
-          "hash": "/1xk1s8IkKi3XoxiVM/k8HyIZYfDmOQydQUKhXcAf0U="
+          "hash": "12LQj+NDyfqdQN2iOv1cgHKYPTZyDCuUOfij9zZbtSU="
         }
       },
       "is_incremental": false,
@@ -957,7 +957,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RandomWalks.IEdgeChain-2.html",
-          "hash": "lTWjQPoMMxSllkWq/3Oezhbk8DE34x72GIYfa8Qs1yM="
+          "hash": "mIRz7NmHjaChW9FBmxAJOTEIAH+CEapKJ9i0RCnfDZE="
         }
       },
       "is_incremental": false,
@@ -969,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RandomWalks.IMarkovEdgeChain-2.html",
-          "hash": "kCfQIFiDUHdQkJ+HIQ1gbKN4wx3WNtxwDiHbONCPGJg="
+          "hash": "ntUQPGlhDY/IWADW4Frl9Lc9QGueexcaaeRtXTWt33s="
         }
       },
       "is_incremental": false,
@@ -981,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RandomWalks.MarkovEdgeChainBase-2.html",
-          "hash": "fDuA8jFl0iCmj4JEyvQwX46o/O8wnZa8ua7K8zSXhkQ="
+          "hash": "UqcfZBq50T4Cy/+lk4ikGW+khht2jOsoJAdAvdSl18M="
         }
       },
       "is_incremental": false,
@@ -993,7 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RandomWalks.NormalizedMarkovEdgeChain-2.html",
-          "hash": "Y3Gg6eq/HCkYS2nAZmc5DDmp9zNj8TMmEgRK5+ytPps="
+          "hash": "5IIm0q/V3Nv1u3owaDm8QOvYO3A2qN8LAGedQd7yt4M="
         }
       },
       "is_incremental": false,
@@ -1005,7 +1005,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RandomWalks.RandomWalkAlgorithm-2.html",
-          "hash": "X3rPw0r22qUI0jBu5JyIAV3VcT3RB9uDWtIMwz30+8A="
+          "hash": "uE5SkP+z+4vh3UP6zT5t0GDaptaYfwy4Ff7SrK9BIeM="
         }
       },
       "is_incremental": false,
@@ -1017,7 +1017,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RandomWalks.RoundRobinEdgeChain-2.html",
-          "hash": "hH/gkmI/utC5sd4yop+ZZmgkrxtHu0osfzquOzQLs8E="
+          "hash": "+7acu4pcCZaC0i3h3Me6IC8GQWOkxpVQhVYojL1lEy0="
         }
       },
       "is_incremental": false,
@@ -1029,7 +1029,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RandomWalks.VanishingWeightedMarkovEdgeChain-2.html",
-          "hash": "lDGhyUqOxRsiA6kr7FPoe0gpSPatjsXvEnj/lk86u8A="
+          "hash": "gXfBux/s/+eF+/fGl3GiEeHJoOH4K7bs8Nl004AQccY="
         }
       },
       "is_incremental": false,
@@ -1041,7 +1041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RandomWalks.WeightedMarkovEdgeChain-2.html",
-          "hash": "foIWJH6RyeCow5+eLyjnEEbRcOujSnHwfIzj4QFwyOo="
+          "hash": "UeMV78cWCFCmdIv1tVWPi86CNx9EI70bPnNtxSRcyzk="
         }
       },
       "is_incremental": false,
@@ -1053,7 +1053,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RandomWalks.WeightedMarkovEdgeChainBase-2.html",
-          "hash": "g1WlkKm9bMeQgkWeJwPYvAkX33vUh4zmWa0DT78pw5w="
+          "hash": "osjrRYS6sNuxLNy7vbCN6V854T0Eyqydid5BL4kxQ4M="
         }
       },
       "is_incremental": false,
@@ -1065,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RandomWalks.html",
-          "hash": "mtlxFhcJoBl7dVgbIxocXPIHPrrSsyhrGZ57vVJiXUs="
+          "hash": "6EZUl4/Ajf01g+VQsW5+mtSkY7IVvKn9v2YynwGoqQQ="
         }
       },
       "is_incremental": false,
@@ -1077,7 +1077,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RankedShortestPath.HoffmanPavleyRankedShortestPathAlgorithm-2.html",
-          "hash": "IL1bBZYQIja18EfGdpOBT9ubOu++8M9qwllreNnvQKs="
+          "hash": "ol0joMWPIOTc13OjKLm3yjusvg7Y/jQBX3BFjzHPWyU="
         }
       },
       "is_incremental": false,
@@ -1089,7 +1089,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RankedShortestPath.RankedShortestPathAlgorithmBase-3.html",
-          "hash": "ffv6ErgEUmmyEkMJwZfhKj+Q55PzHZp8F58QJpq36uI="
+          "hash": "PXQjqWhdibfCUs+seOj81K4YMryCSvBVGbbsHXP/DLY="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RankedShortestPath.html",
-          "hash": "EVX2+qgHn5ShMpC+8N+Ts7OoIYv4sPG0HpavBB+xobE="
+          "hash": "tb3zmPVpx6TZ31emVrv2LxuIfRIKBnRzAXvY9ai/6as="
         }
       },
       "is_incremental": false,
@@ -1113,7 +1113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Ranking.PageRankAlgorithm-2.html",
-          "hash": "x5uKcw+lDRPUdctpI68FE+Erw4+DwIAyucIgNLRyduk="
+          "hash": "9Bb8Gcv/dR2edW4d8uq8adbZcBDNX/Q7LeWdnIiwg+8="
         }
       },
       "is_incremental": false,
@@ -1125,7 +1125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Ranking.html",
-          "hash": "OeYwse6ymJOw01ildCGZenGptWbQfUW75mK9/jLnTe0="
+          "hash": "zUxiM6oTrvlbrRr6dVGhOQ0SJ3r6Pb0+u1BmCR06VNw="
         }
       },
       "is_incremental": false,
@@ -1137,7 +1137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RootedAlgorithmBase-2.html",
-          "hash": "vpTzyThWuYBSgAcWm7Op53NDgGUIl4jNCrkoM7CTsaQ="
+          "hash": "mG1CfueUBfDXjchKQrybvveCNnrsdyoMd+0lnQa+b5A="
         }
       },
       "is_incremental": false,
@@ -1149,7 +1149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.RootedSearchAlgorithmBase-2.html",
-          "hash": "hOVW4Y+BkBvGsSMet/I9DZy1Vr0o8CfkY2lW3A6sB2M="
+          "hash": "gM10NCq6RdF99CSLYbfkuQze/kzmOqreyLimBkbHzTA="
         }
       },
       "is_incremental": false,
@@ -1161,7 +1161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.BestFirstFrontierSearchAlgorithm-2.html",
-          "hash": "B9j0K63qVL6AvX8sM3E/YowedkJ3vWIHXZUzmhV+eO8="
+          "hash": "I5eJ2OUHWzmX0LfX8nXaOd0ZKunl9UCZrxmPJu6+25w="
         }
       },
       "is_incremental": false,
@@ -1173,7 +1173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.BidirectionalDepthFirstSearchAlgorithm-2.html",
-          "hash": "fP46k5TBLWX403OEM9ovWi/h0mtwbMRSyiUaB5nl8JY="
+          "hash": "QNUxi0HJHmXzcMdfxCxdhC+elv+qDVq4uUOCTZKySVM="
         }
       },
       "is_incremental": false,
@@ -1185,7 +1185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.BreadthFirstSearchAlgorithm-2.html",
-          "hash": "hb3y55D7l1n1/tR0qdlFhehCC9yTC9T/vTWCIMGPyj8="
+          "hash": "b4LsqCh0UZP3zERYtzuNU195nR1sVWY/8wL72UjNz+U="
         }
       },
       "is_incremental": false,
@@ -1197,7 +1197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.DepthFirstSearchAlgorithm-2.html",
-          "hash": "W2nI9uRzLNKmVr14kI8kikym6W7zF7664a83HXOa4Rw="
+          "hash": "kUTyWxIZtM5No3B2wY6XHql38CBUu7xRbPnzrOSpRXo="
         }
       },
       "is_incremental": false,
@@ -1209,7 +1209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.EdgeDepthFirstSearchAlgorithm-2.html",
-          "hash": "6/LePCUJfVCBMn4sAE7IUZMVWIm7WKeBa6r2hxfI7AQ="
+          "hash": "xz0wiThHu5HrqxjjpPx39axc1eHNZDn/83cRsZaYexo="
         }
       },
       "is_incremental": false,
@@ -1221,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.ImplicitDepthFirstSearchAlgorithm-2.html",
-          "hash": "fv3XfaAL+OA+RHxoy3FBJTYP+BDHNuAZ8sAOD8dPfks="
+          "hash": "hjTHgfGFdAvGyIlLpc3M17gMpeGrjJir6Bks0fj++pI="
         }
       },
       "is_incremental": false,
@@ -1233,7 +1233,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.ImplicitEdgeDepthFirstSearchAlgorithm-2.html",
-          "hash": "vZwjfaHRCfIQdKC51rAhBSXZQV12e0e4nv7+N/94p48="
+          "hash": "nLRyMDB1bGAfys2g7Qm5bevla9ivlvR1Vp4ocICN6D4="
         }
       },
       "is_incremental": false,
@@ -1245,7 +1245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.UndirectedBreadthFirstSearchAlgorithm-2.html",
-          "hash": "6LWib6qHq9RMJxcezZSQ8HaSdjuHJPja6wCqro1NHM4="
+          "hash": "z4Kj0jJlqLDP/mgMT9t9HjWL+OUM+pQEem4UOIwO/04="
         }
       },
       "is_incremental": false,
@@ -1257,7 +1257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.UndirectedDepthFirstSearchAlgorithm-2.html",
-          "hash": "6GgwBIC15QiK1e8oWB46Mq006py9KMhu9g1M8Njuv2I="
+          "hash": "pdQj2FYARYMm8WkMRyuEwQ3rlojAwCGfehPT5pyKaY0="
         }
       },
       "is_incremental": false,
@@ -1269,7 +1269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Search.html",
-          "hash": "g3GCjWlpIOZHk87srK595RsElh2yQg/30RXrDMmG9yg="
+          "hash": "dzd5TEhNBHSmr0LcHixqynuuX2HDVmWrC/RhGfDm8Ys="
         }
       },
       "is_incremental": false,
@@ -1281,7 +1281,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Services.IAlgorithmComponent.html",
-          "hash": "EPpzafDTaZEAuLlrV9mOFErNrt+VxmbwuekxrYvYSdk="
+          "hash": "j7hSszBAKquk8FW+1ynXFOGeWLlJ3nXoOU2y9o5LhrI="
         }
       },
       "is_incremental": false,
@@ -1293,7 +1293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Services.IAlgorithmServices.html",
-          "hash": "40PgEp7lxDnkUoNHLHo2UAqzdHKORXWBvxFIJDQotF4="
+          "hash": "S4f9dNzu2t+LcgUyaALfaP+QUD+T1urqwoBTYxkmwMg="
         }
       },
       "is_incremental": false,
@@ -1305,7 +1305,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Services.ICancelManager.html",
-          "hash": "VlVKmZ7dc2c/6TtjuFRAVfcm+iBq7olxNIjHqoeK+1s="
+          "hash": "HF5S5VS1H7/n5/SkyOG2WChaPvnc602/AwZMKqBV1Vw="
         }
       },
       "is_incremental": false,
@@ -1317,7 +1317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.Services.html",
-          "hash": "cVlGQbseaeCUO/qwBXTd85FZxJ7KGXHsrB0uLyKVsU8="
+          "hash": "5mIGwD+7GghV4aULh9dasQeUlb+lYl6SZP/NcsuUmkY="
         }
       },
       "is_incremental": false,
@@ -1329,7 +1329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.AStarShortestPathAlgorithm-2.html",
-          "hash": "EGlsM5zrcsgjbZqtXXbEZPWCDvdHWazaSohyq/GYPXE="
+          "hash": "wLBJEy5vLVpFzmKj1zmE8w2vW608U3fPsbWhxmqjGxc="
         }
       },
       "is_incremental": false,
@@ -1341,7 +1341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.BellmanFordShortestPathAlgorithm-2.html",
-          "hash": "IuXljY8CikU7k9valKvtGnHjGV1sxrdzvWMm1PG02mI="
+          "hash": "ejnFe4W93akkLS2C0LhJjUUdrfWWhuXc9p2mATOt0OY="
         }
       },
       "is_incremental": false,
@@ -1353,7 +1353,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.DagShortestPathAlgorithm-2.html",
-          "hash": "Z0onpeziDJbH5iXAOb76mRnoB1hNRqRGhEW25UKlK8g="
+          "hash": "sG/zu9MhTc1gkoNowCem2790e6OWbQHgIqsS7mOilio="
         }
       },
       "is_incremental": false,
@@ -1365,7 +1365,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.DijkstraShortestPathAlgorithm-2.html",
-          "hash": "oGSBm+JCo8fmXTaF584W/+MdVDgghKeNGysP/FcQMf8="
+          "hash": "AQgx8Y4j3hWZB/LTQYBARgSottFLJtOvNyfz8aT1pHM="
         }
       },
       "is_incremental": false,
@@ -1377,7 +1377,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.FloydWarshallAllShortestPathAlgorithm-2.html",
-          "hash": "c0FYb16dvKFBhf5i8ivwpQKzuXoB08Wrt7YETyzGTus="
+          "hash": "/UYAg0mhT3amwR6cIHReceyRIYztsab1RTET180WPvE="
         }
       },
       "is_incremental": false,
@@ -1389,7 +1389,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.ShortestPathAlgorithmBase-3.html",
-          "hash": "5ZRF1v4M1FZdpwD6KN5TncfHvwvwlUDg8hYzAR5pHSc="
+          "hash": "WxPew3Hg1YFBjJvRY4Q5inwQGUqhh21MAjKygPcMB1M="
         }
       },
       "is_incremental": false,
@@ -1401,7 +1401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.UndirectedDijkstraShortestPathAlgorithm-2.html",
-          "hash": "0EQBRCrEZrA1CJBPgFtkUyJPUJK8qthVLIsE0CcEmOA="
+          "hash": "bk441lV1crkjBvRSBvqw14RJQKQBz+w9UCTd85JXN+I="
         }
       },
       "is_incremental": false,
@@ -1413,7 +1413,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.UndirectedShortestPathAlgorithmBase-2.html",
-          "hash": "UVYNfPHHCIT+gsPkdT4CSyzYSgOBZZZXfVHt6MKiCEc="
+          "hash": "J7m1i9KzBVypbYQy/goKxSvuBs/bp3ndW+UTeYJ+65E="
         }
       },
       "is_incremental": false,
@@ -1425,7 +1425,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.SortedPath.html",
-          "hash": "XPwFdDcvzplPpd7bTSyHYVlnwwAEtNGu8KaBuPqZLvk="
+          "hash": "NgfXfcHgS32Oaa/l5AdX4q7xj543lqUiSDCO7GzBsr4="
         }
       },
       "is_incremental": false,
@@ -1437,7 +1437,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.YenShortestPathsAlgorithm-1.html",
-          "hash": "sSFJDzutwe161jYzXSAsZM0Oa6408QSy2lQk/Phr9Wo="
+          "hash": "C1/H1cqWBJ2MEy5i6WuwndGwHn/ztWKTbXDwqB7nxdY="
         }
       },
       "is_incremental": false,
@@ -1449,7 +1449,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.ShortestPath.html",
-          "hash": "uOX4zU90A49HwUGQ5pTFdOZqH3a7DY/uQlOUL7DRt/8="
+          "hash": "2HmEi4S0uUxBSVQZoK/584SdurBCDZWbzuXwc9lFuzo="
         }
       },
       "is_incremental": false,
@@ -1461,7 +1461,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TSP.TSP-3.html",
-          "hash": "HokV1nVzSMNrZtvskbCMTW+ase8upmR1z5hYp71PSLI="
+          "hash": "ArtmjQw9RBUPeql7QPecSGXdnSOSvj7TTUVjGY6C7Ec="
         }
       },
       "is_incremental": false,
@@ -1473,7 +1473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TSP.html",
-          "hash": "m7oT/4tj5mp0IZOOaxFAG9+JW2RK5PnkBPsydVL4BwM="
+          "hash": "0LEi9h04EyGYvmmBiYJAG8IE5q+3XdAHtdRe1pUdhd8="
         }
       },
       "is_incremental": false,
@@ -1485,7 +1485,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TarjanOfflineLeastCommonAncestorAlgorithm-2.html",
-          "hash": "HjSwM6YIRG7Tp08kuqWdyYriVU37LNN5X+PiRzSnUUM="
+          "hash": "ERqR/rVjYSI9t84Gcd22jW3qTO7L88hBZ+WkjR7v9Rk="
         }
       },
       "is_incremental": false,
@@ -1497,7 +1497,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TopologicalSort.SourceFirstBidirectionalTopologicalSortAlgorithm-2.html",
-          "hash": "WR65HDsOXz55tDxVzN3aamiqCh9M0G8VCYa2BDzsiMY="
+          "hash": "Ym5nw2h8ILPCuM9HnUrQ9d37dwacF6qe9PCEgKzeiBY="
         }
       },
       "is_incremental": false,
@@ -1509,7 +1509,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TopologicalSort.SourceFirstTopologicalSortAlgorithm-2.html",
-          "hash": "M2t3KGhs2zW1E32IQ4xdonQ+HYBp2q4zdyzVTtRySSw="
+          "hash": "r+QGdwfQTylcGfN2n1nKX53cAolA7hYF5d+NLqjxKJM="
         }
       },
       "is_incremental": false,
@@ -1521,7 +1521,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TopologicalSort.TopologicalSortAlgorithm-2.html",
-          "hash": "4l1DCGGCBPYdmZzUADqPmfvqfEmbZVdAQrRValPwoOE="
+          "hash": "s/a75mXrHsL1mNyOIdd/0I/0szzfWOdobBCjrmxSm9k="
         }
       },
       "is_incremental": false,
@@ -1533,7 +1533,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TopologicalSort.TopologicalSortDirection.html",
-          "hash": "U/G+mnbUwhYrekOVv/NV7fTOj4xyx1gUzCO1I03wQqY="
+          "hash": "q97Y2rit4RnqnJcN7+AgW/EMaR7GQ/ROX4Tm2kmPWaI="
         }
       },
       "is_incremental": false,
@@ -1545,7 +1545,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TopologicalSort.UndirectedFirstTopologicalSortAlgorithm-2.html",
-          "hash": "u56GM60f6U8vOO4Z5eZzyKTHn+0UU8lND5uM7H65HeQ="
+          "hash": "C3fbe1wHc7P3GnlxzTij92SFXYOyJ5ipnoXh9a64eDk="
         }
       },
       "is_incremental": false,
@@ -1557,7 +1557,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TopologicalSort.UndirectedTopologicalSortAlgorithm-2.html",
-          "hash": "R84y1NrNh1vUCst0YcK/8svXrMl12Wb2CDM+t88ArNY="
+          "hash": "ixh368Z3NKb7xUt7rB5XZHHJGuEE9EI0w2XvtQ1et3g="
         }
       },
       "is_incremental": false,
@@ -1569,7 +1569,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TopologicalSort.html",
-          "hash": "4NOJQLhx2UQjSRaU7z804omFfmwwSDfNy8j1kykAp/s="
+          "hash": "gGbP+fZ1colgB+BTe0pi8VqGxP4AXxjLGpDS3n180p4="
         }
       },
       "is_incremental": false,
@@ -1581,7 +1581,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TransitiveClosureAlgorithm-2.html",
-          "hash": "7qDSqQW7JAYgusQPsK4iX8g3t/kEGugmKBQy2NB8s1s="
+          "hash": "bSUI6SvDAKEUeZ0v4KBpuAbb2L1kXqhXY87H1T8Mn6g="
         }
       },
       "is_incremental": false,
@@ -1593,7 +1593,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.TransitiveReductionAlgorithm-2.html",
-          "hash": "5kmQYyjYTZoWbMeBaM3OUoO4XVmJJU3M+PF7JFvGCpw="
+          "hash": "feCIQmUcMRHx6o1aGhcXuDAdRiTqbzAcDdm9Y1uZuw4="
         }
       },
       "is_incremental": false,
@@ -1605,7 +1605,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.VertexColoring.VertexColoringAlgorithm-2.html",
-          "hash": "l44qOIDFMfiBdFMAqu13NQ+IpXqJhuikldPgyEkBdKo="
+          "hash": "uK6QjZEVrbg73POmfDH9/nd05xnNhaEHZfXautLj/Nk="
         }
       },
       "is_incremental": false,
@@ -1617,7 +1617,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.VertexColoring.html",
-          "hash": "V+utez5V4XVl7XrAH7R+RXQAhxpXDfwIZPJgnc/aoTc="
+          "hash": "LlfSReo/hLN1aZp1CWnFhDF/6vOENn7DZ0N6QqS3XXI="
         }
       },
       "is_incremental": false,
@@ -1629,7 +1629,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.VertexCover.MinimumVertexCoverApproximationAlgorithm-2.html",
-          "hash": "+T33NxU8rvSuButemjk6By4hmVhVkNxGEcYsMhNMF/M="
+          "hash": "MagBA9kyLLHJIQWIgmsYhyhTiLqmruR4nkzKrbbAZtM="
         }
       },
       "is_incremental": false,
@@ -1641,7 +1641,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.VertexCover.html",
-          "hash": "6BFA9ynoOfGRNovAbERkOh0gJYj3r9fEcmxwigTg/2M="
+          "hash": "hkjoKKaTAG+RNgTTJKMRAlIY5X8kRt+PXiPQTp8XzIA="
         }
       },
       "is_incremental": false,
@@ -1653,7 +1653,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Algorithms.html",
-          "hash": "n5Bl1xRQmJiawe/bIV6kid//+ra830XnrRpGjp3Nyq8="
+          "hash": "qof1cJ3wMLSraOXysa/hqEJdYbo1e3xoIFknrW7MeOw="
         }
       },
       "is_incremental": false,
@@ -1665,7 +1665,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ArrayAdjacencyGraph-2.html",
-          "hash": "5Sldi3DyvNq7AzCcdtep8++Vp1JbhSTGfnK6x/TU/uM="
+          "hash": "nK+2M+frCU/LtHLvMehdBdpwscVd6YBlGw6Owc+bXkM="
         }
       },
       "is_incremental": false,
@@ -1677,7 +1677,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ArrayBidirectionalGraph-2.html",
-          "hash": "Zw8FwmWnvDamkpOakUrSviX6EarO9Y8dIdQ7jCicpHE="
+          "hash": "jC/ffFXHu0EQfZMi5H6fVL3T8ppGmcIAxnMUDxeUfPc="
         }
       },
       "is_incremental": false,
@@ -1689,7 +1689,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ArrayUndirectedGraph-2.html",
-          "hash": "Vf/ryFDAN3jxz2HeRSLEwtPiSPeg1qfLzEgRc7i0dQk="
+          "hash": "pUzmVtsibtzYGUHlURbqhrzzpwky6AgGUQa5c0+GU+E="
         }
       },
       "is_incremental": false,
@@ -1701,7 +1701,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.BidirectionalAdapterGraph-2.html",
-          "hash": "Rs2m9Vhm+tYqTnbPMGUT5xC1t8+5lDfUa8wnLI8x2dY="
+          "hash": "LpzZBOPLJ+7Fgj+JZ6TbUjE64OCMyaWp0Ux2cacDdm0="
         }
       },
       "is_incremental": false,
@@ -1713,7 +1713,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.BidirectionalGraph-2.html",
-          "hash": "qnDTs+/Dlab25BhEaXsLW+Gr/piGGJ91uD8sZQ1O7q4="
+          "hash": "BOmgMg04BQAUb6fEHeh1y0NEUQI87G7+siiARq1nFMk="
         }
       },
       "is_incremental": false,
@@ -1725,7 +1725,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.BidirectionalMatrixGraph-1.html",
-          "hash": "YclyTAiBUeVWi/KXt98OWZeb0Z7BrNsSxOmhfhNoC3Q="
+          "hash": "Uoohl2ON4x6g8xtiP16HkOn68ujgXELpV/K0HsXkXeM="
         }
       },
       "is_incremental": false,
@@ -1737,7 +1737,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ClusteredAdjacencyGraph-2.html",
-          "hash": "/sqhknIbGpvtGhUws+ImeahrWX9iKJotcQIBxf07cZ0="
+          "hash": "H3HxWxAv98xqwYLdI/XfblUEMJB1YWXHbDhO+v8XsDk="
         }
       },
       "is_incremental": false,
@@ -1749,7 +1749,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.BinaryHeap-2.html",
-          "hash": "k5GBhy2ROqB3eCY0KEEK2yd0evw+wL8Rs5jQnG64tRY="
+          "hash": "tN5p84Bw6EZ4pscO0ylRv6g5CSV9w/1JU60HpH84oOM="
         }
       },
       "is_incremental": false,
@@ -1761,7 +1761,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.BinaryQueue-2.html",
-          "hash": "wrT6qyO+zcx9GS/ewfq3PXXUDniBnubImiolz+NqQDs="
+          "hash": "0kX1taBVAP7Q3NkInKUxwC05YaE4ZhXcXwnq/sAIxHQ="
         }
       },
       "is_incremental": false,
@@ -1773,7 +1773,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.EdgeEdgeDictionary-2.html",
-          "hash": "NAWHvhh7urFy/OYTJ+fkoPuBIljD3cAugklzYAQCxcs="
+          "hash": "NL1H8FXMBqzhDtpitwG5p/aC+MHwO8r+jda3Zv84m3U="
         }
       },
       "is_incremental": false,
@@ -1785,7 +1785,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.EdgeList-2.html",
-          "hash": "ODFC9IGKIFNQy9hoyxEBpMOkoO9LABNQ0EaEhG+ul4g="
+          "hash": "27j53zEVTx0Nd9plmyalvDYLIr9tCxMnimY/Hcvu6X4="
         }
       },
       "is_incremental": false,
@@ -1797,7 +1797,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.FibonacciHeap-2.html",
-          "hash": "FMCYXyZ/0BEvnwzI5QsUrSusP4aBpWkkCwCqahMMSFk="
+          "hash": "BvMw+Y2mLBJPDtHuCU387zMftqtAfNlvihYyMl8Hbcc="
         }
       },
       "is_incremental": false,
@@ -1809,7 +1809,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.FibonacciHeapCell-2.html",
-          "hash": "PIsUQNc9WvGsJv3ZtKgxAwb071nt63TbFPSOr+PPkBs="
+          "hash": "e7TYIIik3wpVLp6bba+tnFTAKfFCWz+eKoNqZNz84M4="
         }
       },
       "is_incremental": false,
@@ -1821,7 +1821,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.FibonacciHeapLinkedList-2.html",
-          "hash": "ZaHv0BrwKYxyId2ks3aWqquBKSZ1/Jfvofidvsw3n0o="
+          "hash": "0AgvCq7Zv/CP14tFk/XnbQu+mdAFaPBN/GnJPQLWO54="
         }
       },
       "is_incremental": false,
@@ -1833,7 +1833,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.FibonacciQueue-2.html",
-          "hash": "ysmKhX+TZiePQ6t8ZEuCjuKFJJhSfcmP9XZ1rAFjoHk="
+          "hash": "4p8OYwDAXk0i44JMtOr4yFUzsI0QNEzEXaSUs/b3cC8="
         }
       },
       "is_incremental": false,
@@ -1845,7 +1845,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.ForestDisjointSet-1.html",
-          "hash": "9+lNj2IKeGibTT08EemewG+pWLfUF6fRlObdd3VTmB8="
+          "hash": "seBA/sRr0ytQa9ZiCS9uIRzff3r7E7r6l+udkCIhxEM="
         }
       },
       "is_incremental": false,
@@ -1857,7 +1857,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.HeapDirection.html",
-          "hash": "JGkOMnSNMYcbRIGDA/MuGqSabFXnCOy4kXBUkE6isnY="
+          "hash": "4um16Gqa2XO4W5RzX5uYLAaESJgVADGAsj53sNyevMc="
         }
       },
       "is_incremental": false,
@@ -1869,7 +1869,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.IDisjointSet-1.html",
-          "hash": "dYxM1ZN1njqgXVMZqy3uxR95J4P9amYZN5eEteO/zPk="
+          "hash": "o4VxqEAWTasLPRuXYCY/FittGTAsYBLQULn/p1uZy3E="
         }
       },
       "is_incremental": false,
@@ -1881,7 +1881,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.IEdgeList-2.html",
-          "hash": "HAiSXkPs4UhH07lhG5xFaGZEWOLK3N+mqwtABUexUbI="
+          "hash": "7q9VIxTs5ur4yy/8KzcEuhMfC1mespnaWnOmgaP0xs8="
         }
       },
       "is_incremental": false,
@@ -1893,7 +1893,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.IPriorityQueue-1.html",
-          "hash": "kqZ6vltQqRaxZM4SeIFCKbWGZ94xSpgNfI9yhpUXTDo="
+          "hash": "fedtnZFDEAYDN4cOGkC19vNsCH8PBx9SJXdQvNPeaBQ="
         }
       },
       "is_incremental": false,
@@ -1905,7 +1905,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.IQueue-1.html",
-          "hash": "+72u4LcPfiChlPBNAFmDDOKU06Mj4cu42YYnkq5n2zQ="
+          "hash": "OQAJNmC8QJyDEa50HzuEbl/dNvMMV6Ssv7FmocZ3Ok0="
         }
       },
       "is_incremental": false,
@@ -1917,7 +1917,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.IVertexEdgeDictionary-2.html",
-          "hash": "Q78VMZ79FTRi4ggGaKK1sS4HFk6/OaQLrgJY2gLsXfs="
+          "hash": "zIZ9TGcf66oTUI+BNaA6FHlGstNwpZTQVdXBZqat2uk="
         }
       },
       "is_incremental": false,
@@ -1929,7 +1929,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.Queue-1.html",
-          "hash": "9SqQMRV3xw04FouP70KQFuQ/jCbIOfs3RGgedQddZdA="
+          "hash": "zYro3JjANhWcaNo/VS8UTx5MYf9QOcQhMnZZ8I3PrCI="
         }
       },
       "is_incremental": false,
@@ -1941,7 +1941,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.SoftHeap-2.html",
-          "hash": "XdFESAuEIqn9soETxicdI+68EG7cXntKGTddgEawMSI="
+          "hash": "FgUBzq6OBHkmVwuXtgCESG+gtBs/g5YOoAKUTPhoA9o="
         }
       },
       "is_incremental": false,
@@ -1953,7 +1953,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.VertexEdgeDictionary-2.html",
-          "hash": "cIHMCffu8QJUSd1TRiELcrdvLtS70vvMhXFOZq7lbYc="
+          "hash": "psUPlQtYOD5Tv+i8GHqoLpXZfylDuDRRzU2cjuiW8bY="
         }
       },
       "is_incremental": false,
@@ -1965,7 +1965,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.VertexList-1.html",
-          "hash": "UC2buueAhktIysk4Owp6zalAun1+PFKKgG9fFIYcbhE="
+          "hash": "8e3JqPvQrfLGL+hjy4bhksbXtSWQsLAF6LFuIGHy4z4="
         }
       },
       "is_incremental": false,
@@ -1977,7 +1977,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Collections.html",
-          "hash": "+Ex1Y4IrlEh6kTdSaK6iGyxE9Hh992Cvs8Zx6x2PVR0="
+          "hash": "vXLv/opo8GguY1dlNWXXy6/5ZKyOdh8+zb58DQW/x0Y="
         }
       },
       "is_incremental": false,
@@ -1989,7 +1989,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.CompressedSparseRowGraph-1.html",
-          "hash": "AAl/pwHzXpSJBFnl1H5D2CgPK+r5gOQyrR6mQD1wrEI="
+          "hash": "VlSDD7Ql4Q/KZmZ1I17gw2FUSMo88otCX1FOof0F7zg="
         }
       },
       "is_incremental": false,
@@ -2001,7 +2001,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.CreateEdge-2.html",
-          "hash": "yoaqrF/UIIm9QmncrzsmSm156fWsNFGEKAB+uvDOwaE="
+          "hash": "RsvSDlrgCbTb2zHajNeR1TLqCV9vlO/s0ZpLi9keVig="
         }
       },
       "is_incremental": false,
@@ -2013,7 +2013,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.CreateVertexDelegate-2.html",
-          "hash": "nYCsc2oA5IeWhqEc3UUA6Lo5/QLj5Z+mZR84kySlZPo="
+          "hash": "Dvo7xBf2ZdGdbQIAfbm8Xx0y4yCNJ3YcAjz0wojSTzw="
         }
       },
       "is_incremental": false,
@@ -2025,7 +2025,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Data.DataRelationEdge.html",
-          "hash": "toupaawqEaKSsxQcPxB1ZIIfEHPjK9cc1kO8O/O6/1I="
+          "hash": "16Rp1mru2eQUGps4xR9VFAEr1H59tETE9wlu+tluq5g="
         }
       },
       "is_incremental": false,
@@ -2037,7 +2037,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Data.DataSetGraph.html",
-          "hash": "0hY5BoY5f8CE5pRz858Z5YLrfGuHSmZotVEeFe6gbx0="
+          "hash": "j4u6She19FcSY9RemkSl1Hl2HJDr9zJhpTMGy4fz/NM="
         }
       },
       "is_incremental": false,
@@ -2049,7 +2049,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Data.DataSetGraphExtensions.html",
-          "hash": "yVxJ3TATRft/A1YVESBGNJbJV3D7V6Moc1scEQgAGt0="
+          "hash": "2pUI9tKVNUDzE/v8d+6gbxKqgLAXYUrptljzQ1jqFCQ="
         }
       },
       "is_incremental": false,
@@ -2061,7 +2061,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Data.DataSetGraphPopulatorAlgorithm.html",
-          "hash": "0MI3IwCvaa3k4tY+5v2c4av//VPvsgoQWJkVA27tUBI="
+          "hash": "T9jGjrO08AVYrlbl5931qpQLnUR7K0vVVVK/O0y90ME="
         }
       },
       "is_incremental": false,
@@ -2073,7 +2073,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Data.DataSetGraphvizAlgorithm.html",
-          "hash": "EMQuLFOvW0mtplsiKtlj27xwK2hVN3zUzhaZzdETw/o="
+          "hash": "HHCu8yE5ivYfY0V81zbGUu63jGYOYadVqmANef4jQgo="
         }
       },
       "is_incremental": false,
@@ -2085,7 +2085,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Data.html",
-          "hash": "SS7Pot1hFgqSpc/lS7kgkvP/9qkhLuWamvMLu9bEbzY="
+          "hash": "XN9NbTedcIzG1OyKeKZ7V8oQKdnCDeeqkzaI80jaBMs="
         }
       },
       "is_incremental": false,
@@ -2097,7 +2097,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.DelegateBidirectionalIncidenceGraph-2.html",
-          "hash": "T8xPMIWyA2SxAIA8zBwyowBd7T0K35UBRLSVlIxe4l8="
+          "hash": "gtJj073VsPqv5XltVQljPZkkyr00/h3d9hiWwQ8/3Vo="
         }
       },
       "is_incremental": false,
@@ -2109,7 +2109,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.DelegateImplicitGraph-2.html",
-          "hash": "2HXjLvxATTawuCZ8RX2V0PGraH/zn1TZ/E61Hz00zgw="
+          "hash": "mEnWWg7lybrbSz8UMgwPIV1z2sgkUTkgFNRoLK+Is5E="
         }
       },
       "is_incremental": false,
@@ -2121,7 +2121,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.DelegateImplicitUndirectedGraph-2.html",
-          "hash": "9BkapV5C0LUvtBtjb1v4z59qOoYCdgfx6Lu8kOaZaLA="
+          "hash": "7VOKSVCpc25/mlBZYW4+mrxwmqmbnd7LBnYu8VQvhG8="
         }
       },
       "is_incremental": false,
@@ -2133,7 +2133,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.DelegateIncidenceGraph-2.html",
-          "hash": "LMTQjdXmrSXSgi3Lf3xiA/RFiCg6tG3eWIwvZqtyeMc="
+          "hash": "hfWM1A+fSBpIAAATvoiO60oFHqjPtnS+6ZNf/jhPZSc="
         }
       },
       "is_incremental": false,
@@ -2145,7 +2145,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.DelegateUndirectedGraph-2.html",
-          "hash": "oVNsRbuJK0bp4l2mSbHGBQx4EUfqMSIxSs4IySjF0Vc="
+          "hash": "R8Z+0jybneAmWI+4fgU9TNbJ0szl1Yor71khsmIcT3o="
         }
       },
       "is_incremental": false,
@@ -2157,7 +2157,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.DelegateVertexAndEdgeListGraph-2.html",
-          "hash": "YtIitIp+jzOzfEaHEqd+5IsJIpiJrxrFVz0sgOG1Wto="
+          "hash": "dC2/rv7iVG6TI7BoULlsXyBJsW06YvxZWvu9VDQEU7U="
         }
       },
       "is_incremental": false,
@@ -2169,7 +2169,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Edge-1.html",
-          "hash": "6CnKukQcWEP46fzeKNdQd3AvtgR3uA6mTHa/KscxOGc="
+          "hash": "0aX4R70wDBlMPaDDHQfgn+7vQdOV+AccIBW2ovQrmWM="
         }
       },
       "is_incremental": false,
@@ -2181,7 +2181,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EdgeAction-2.html",
-          "hash": "YVD+SWgrQSN7TNAQYTF4B8lYfrnhq2BbVqQR6nrdhnA="
+          "hash": "2PKoFW1oqAJwnuJqKbH81LVoelpQ6/duQCjRBKA6mMc="
         }
       },
       "is_incremental": false,
@@ -2193,7 +2193,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EdgeEdgeAction-2.html",
-          "hash": "7rJjQG/3jZ6JRe870JdnEh4AbyhmoP1yY8qOqVDJWy0="
+          "hash": "SAcl1RlmwmuuDB+MXgK55+la3k5cmIHO6VOLz7D+J+8="
         }
       },
       "is_incremental": false,
@@ -2205,7 +2205,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EdgeEqualityComparer-1.html",
-          "hash": "gLsc/144pl14s0f0MyXQOtDRhY5WZLrwJkI3giTFjEY="
+          "hash": "8yHKmzubtVSjKRM+TcL2mNCeCALaQ2B36fm2BUi89DI="
         }
       },
       "is_incremental": false,
@@ -2217,7 +2217,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EdgeEventArgs-2.html",
-          "hash": "orEb/g4onTamGJxRzSezOA75pnos0JbdFASQWLUY0Ec="
+          "hash": "JYtVuVA4SgXiT4qLoEaZx4B4roG4rLhL0+P0MUkk3Xc="
         }
       },
       "is_incremental": false,
@@ -2229,7 +2229,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EdgeEventHandler-2.html",
-          "hash": "y7SRSE4y8+o6qhhnjqseWATXy0WdKWO7wdGfGuPPUp4="
+          "hash": "XxKW1dJJ+iVHXeOdUcHGNwJLMX6q7Hv3BkyiVN8SKko="
         }
       },
       "is_incremental": false,
@@ -2241,7 +2241,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EdgeExtensions.html",
-          "hash": "nqoRd8lPIGGXQholPO1lD+TcztXLrK0MpDrGxCHFZ3E="
+          "hash": "Bb9yRlD7YqQfsJ09m0sNGQl3IQK68g92PIn4x1rqCWU="
         }
       },
       "is_incremental": false,
@@ -2253,7 +2253,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EdgeFactory-2.html",
-          "hash": "QXFQ/31VZjktyMqqbv807ZGagnpwsC/8VD2XcnUZ5qQ="
+          "hash": "jiEHrrX2Yf/kNaQPciHyCkEfzo6hSAghXzpm8FXXvns="
         }
       },
       "is_incremental": false,
@@ -2265,7 +2265,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EdgeIdentity-2.html",
-          "hash": "rgjNbQdiNBakghUdZs/qVMRx8khfFRTeJhMbgmWI2ww="
+          "hash": "oSk/jKTqtyEtzPbPCPF4RNoalFpRcZZgWaHgHxsDexk="
         }
       },
       "is_incremental": false,
@@ -2277,7 +2277,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EdgeListGraph-2.html",
-          "hash": "okLioqYCg7cRtfvWj9bET7EVBRmyla6iFh5Y6tb3Ys0="
+          "hash": "RbGm++s/+/xTJkWRgiYsQEO+fMzWow/OaUgXwvKZZY0="
         }
       },
       "is_incremental": false,
@@ -2289,7 +2289,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EdgePredicate-2.html",
-          "hash": "cVXMHmpNuC1hwYL1kjORs2O3PvEGZOTKEPuadkh2cSA="
+          "hash": "X6khNqtRABD50I+YFpo9HZY5BlDkgOdWkQKdyTepPHk="
         }
       },
       "is_incremental": false,
@@ -2301,7 +2301,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EquatableEdge-1.html",
-          "hash": "NVELbXbZfyavistRXLC+TOlhExrEIjNRicYfDdg2M/o="
+          "hash": "IrwCofX+atbz547XzTK7HyKslEjjPICrjrelcEoDnkA="
         }
       },
       "is_incremental": false,
@@ -2313,7 +2313,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EquatableTaggedEdge-2.html",
-          "hash": "8opIZDnbnzRSpZMiX17a/QSDhXXEAN52nHKRqDGZLxM="
+          "hash": "b/xwh+VxT4otVDEprAtVCSrhhLUFSjiwm3N88CHZLZk="
         }
       },
       "is_incremental": false,
@@ -2325,7 +2325,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EquatableTermEdge-1.html",
-          "hash": "LnPINkxpBdE/7YkjjaCA1YNWR2QtqSwRmsOqIGkrZaQ="
+          "hash": "3qU0o5/ok02rx+8I/cqkSrf9cVfK3WWEjWSzKA6ZlPI="
         }
       },
       "is_incremental": false,
@@ -2337,7 +2337,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EquatableUndirectedEdge-1.html",
-          "hash": "XgnpunECFTLZkekThpVllOU+OU0PD0eoJ51+hB0SWwE="
+          "hash": "R5DsBY3+icaFZs9ZejNxAP4yAPYAVj1ZYQjOpUcjesk="
         }
       },
       "is_incremental": false,
@@ -2349,7 +2349,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.EquateGraphs.html",
-          "hash": "6R25nQNei2R5zkrM3P9JCO4eW0RF3gJaIcheYJpe6Ug="
+          "hash": "PK/qNdbr5R6M9IWMzd3x7pXjxsM0HBA+B7PsfgVb6XY="
         }
       },
       "is_incremental": false,
@@ -2361,7 +2361,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.GraphColor.html",
-          "hash": "DYVpBKKxFP72M6P37w4gE4kkP/JSQ2vY9ZOM+YywL/w="
+          "hash": "bnW6t/6GdHgmRX160fCTgNX5x+8fubdyh1NOA7DAonU="
         }
       },
       "is_incremental": false,
@@ -2373,7 +2373,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.GraphExtensions.html",
-          "hash": "HnT9IVHJ71C/MN4m7J2TVymn/LHd9jO2gaYO8lKGaNo="
+          "hash": "2xXmRstB8hdxfPirITeyv4CQeKw9v+zj4ZfmTp1Xpl8="
         }
       },
       "is_incremental": false,
@@ -2385,7 +2385,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.CondensatedGraphRenderer-3.html",
-          "hash": "bxk8ND+I8MpqXxtP0urfgy9IeAFUXrqe1QyL3jvro6c="
+          "hash": "Ywu8t+8AA0II8+7IZzHgyJ5uZU2NWda62oZLBe+k1Pg="
         }
       },
       "is_incremental": false,
@@ -2397,7 +2397,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizArrow.html",
-          "hash": "Z8nPkeQL7goprP+GBA+WQSagEhMBTB6IvgjpQeZOpSs="
+          "hash": "2gb6Y8YALksaGFXLxFOR4AA3fY/BG43ZT6CclXP9ais="
         }
       },
       "is_incremental": false,
@@ -2409,7 +2409,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizArrowClipping.html",
-          "hash": "XkypdK1vZKW0mLUP37PodeoUYeXHpkUChAfh9A9ai5Q="
+          "hash": "Y8qDuxHJZ8HXJM+cgwHZoVd69QVYii6TlKme3bea1yw="
         }
       },
       "is_incremental": false,
@@ -2421,7 +2421,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizArrowFilling.html",
-          "hash": "qmGAwYwA7d3vcGL0RtL3H1t0aU5VkIuR8mISaAtxs+A="
+          "hash": "M94/aPuTSBQNN/P+ZXo4kzLPLMepYiDTW8n9Tv6rN/M="
         }
       },
       "is_incremental": false,
@@ -2433,7 +2433,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizArrowShape.html",
-          "hash": "wTH6sHcnsPt8vIy4/jGWJxgY4ZUdKNWqn7jrU2iSPH4="
+          "hash": "lnxtaG7ZrmQ8exBEfTuX2eOTBZsQ3sa2fmwm4wZWl+o="
         }
       },
       "is_incremental": false,
@@ -2445,7 +2445,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizClusterMode.html",
-          "hash": "7iIrq31815oTpoEb9ZmBOOKjYAZWjYtK4tZuXzhf6rY="
+          "hash": "fZhpMqCcdgoZhWa495W2Fu6RL/8+AwiGb8dg0N+NcFk="
         }
       },
       "is_incremental": false,
@@ -2457,7 +2457,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizColor.html",
-          "hash": "hdiQnozfPfzAQCFQ4d1HU8zgzZ8V9nsTTl8npJru3o4="
+          "hash": "vV4jall9QT9QelB6MK4VlibLFgay7dSU8urCjvKZCB8="
         }
       },
       "is_incremental": false,
@@ -2469,7 +2469,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizEdge.html",
-          "hash": "oqKA/Ai2RwU+vhm1YdLzrYdOCcK1XAnXTngXVvLgPCs="
+          "hash": "oPBQkBLL388T6MedYeK56DTLA5JdMvjzYMTZ4Dmz8MY="
         }
       },
       "is_incremental": false,
@@ -2481,7 +2481,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizEdgeDirection.html",
-          "hash": "pCbCX4dVxvbeLnE2lFIeAh3aA+iMmCzjREVgMtyXJOs="
+          "hash": "tBmK8x7QP9UvX5M2VHnTiHnXA2eoQAJxjK8FBAyHW78="
         }
       },
       "is_incremental": false,
@@ -2493,7 +2493,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizEdgeExtremity.html",
-          "hash": "ApRvW46EcmglHPkIfF6L87X4W/iLecHDIWCQNV6ZHzM="
+          "hash": "6tl3In86RXYb3LLgenkm+HF/m/EQDkbzGBp0+ZZX0Qo="
         }
       },
       "is_incremental": false,
@@ -2505,7 +2505,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizEdgeLabel.html",
-          "hash": "HLKTGVswVb5MjllkPJTiFoTu9Bn6i4hPNe7nBNjKOfU="
+          "hash": "FqlZTcg8rXFnvVgRpOTDg7cMjGWc6yp+CWLe2BGTuvg="
         }
       },
       "is_incremental": false,
@@ -2517,7 +2517,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizEdgeStyle.html",
-          "hash": "TfV8WycFL78/FFytZ8eap7SJABHx5Qs6lj6cgbo1ElM="
+          "hash": "E1zcXtu5Ehs4tBSVNwCwwqV3NjQyKsS/ae3dKnLiMiA="
         }
       },
       "is_incremental": false,
@@ -2529,7 +2529,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizFont.html",
-          "hash": "hHvroB6N8ZwEyRkkYUoEZaSzj5stqrIQ+Y6a3Qk5n9M="
+          "hash": "W6t/WS7ZdXEZSzaaJjSJkYn7xVGQgM/vUc9ebfDxbOo="
         }
       },
       "is_incremental": false,
@@ -2541,7 +2541,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizGraph.html",
-          "hash": "51rNnpgfcxBsi2ISlaUlD2KyvbURTSUe8Q+cvTNmPCA="
+          "hash": "WT20V4abNMuiR/qfTRt1GKnjB/kZogOJpDtfUueW7NA="
         }
       },
       "is_incremental": false,
@@ -2553,7 +2553,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizImageType.html",
-          "hash": "jcacd0wQYw0KH3zP+EwvNk2LpElaeVavRMkYPy+1RQs="
+          "hash": "PlSo+ed4s6lqmjN92fBBRWN9eqJoKztvkiOaMLDrXns="
         }
       },
       "is_incremental": false,
@@ -2565,7 +2565,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizLabelJustification.html",
-          "hash": "1q/uwUz5h5q+6giAEJbQylVpCryKsg7xD6sNQulr8a8="
+          "hash": "IbJoqNw+4ipy2GSTNS2HlExgm5tTze0yhXJ6OVM14Yc="
         }
       },
       "is_incremental": false,
@@ -2577,7 +2577,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizLabelLocation.html",
-          "hash": "hnwdtFf6SkJC29OOMFgmDy3Pg1tflgw3twVOjweIEq8="
+          "hash": "UgXeXP6EqN0HPfo7LNmlR66P+/IEITi/fOA5BXUKRKE="
         }
       },
       "is_incremental": false,
@@ -2589,7 +2589,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizLayer.html",
-          "hash": "9DzS3FnGoKc6BT8dAS2B/DCARWQG+9DYEAH0Rl3FdXw="
+          "hash": "xufn96dYrOSaPAy+aq2tPUKkJmjsLvJRrU9hj+MImGA="
         }
       },
       "is_incremental": false,
@@ -2601,7 +2601,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizLayerCollection.html",
-          "hash": "noJrDYIpUFSA6pM02CoXkr7GOSw8+GiIO/Va/dpRL4Q="
+          "hash": "6VebCKcb/F3qYZpDZcaWIEQ7qfKd6iULSsiqobUrzqI="
         }
       },
       "is_incremental": false,
@@ -2613,7 +2613,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizOutputMode.html",
-          "hash": "JCXkWJxWrfpDqRhzSUAWI+1LUN3Hpqc3Cmdb42NKZqs="
+          "hash": "gpSxChaL81QDNKhgmv+eMrz/1wyfnmYAsxz1ouWPilA="
         }
       },
       "is_incremental": false,
@@ -2625,7 +2625,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizPageDirection.html",
-          "hash": "PaMowchNICHVWM+7ZMFUZRzxipaFMqdU4hV8NGQAzJY="
+          "hash": "eF6JNpPdvtS9MsqVwLeXLLaVWYePZi5JHmQUjz+qzXI="
         }
       },
       "is_incremental": false,
@@ -2637,7 +2637,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizPoint.html",
-          "hash": "0QMDva2uNmvM6J5WAA0dHZnDlGK9aqSuIY71X57iIDI="
+          "hash": "pY7E3X9FvJSkoeXzWumMGLbEjepWHsEsJgqA48jD4OE="
         }
       },
       "is_incremental": false,
@@ -2649,7 +2649,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizRankDirection.html",
-          "hash": "giNjawPOiVweLpoZKqDYjG2FdpJ8zXhOldzkISoIrYY="
+          "hash": "KByL6UCCqDiQhIos91xx4zcZj1NExv/rvu7ntISqKoU="
         }
       },
       "is_incremental": false,
@@ -2661,7 +2661,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizRatioMode.html",
-          "hash": "+dVEZI0tc0AtAbBa5A3iB+CyNpLowZ3n/oFLDWA7Glg="
+          "hash": "pRsc3bSaLeyLenB9ebZ2AVFO5s74Kim9MgEmnm7dH80="
         }
       },
       "is_incremental": false,
@@ -2673,7 +2673,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizRecord.html",
-          "hash": "CEWyDg37Td4BH9k6kvcvZplbE2L88sQvtc95a6Gb8ZI="
+          "hash": "PL5s+xMO+BxoTPKJP1qgoyEa7QR8o4QzadnasMZejz0="
         }
       },
       "is_incremental": false,
@@ -2685,7 +2685,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizRecordCell.html",
-          "hash": "uwlkDQN4Up+hJm3kyywe4gsd2deheRZSK9vYEzYlGa4="
+          "hash": "JDsHGRiAp55YctDH9CC/gJvzpP+SnhkAD5UwH7K1rg0="
         }
       },
       "is_incremental": false,
@@ -2697,7 +2697,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizRecordCellCollection.html",
-          "hash": "LClRlDS37jig1dWl9fkC7ENafFRU5tYkhTGzRyxBe+o="
+          "hash": "EZwye9Wf6Vi22k0JbvHdUV04dCFnKMdWo3PP2lR147c="
         }
       },
       "is_incremental": false,
@@ -2709,7 +2709,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizSize.html",
-          "hash": "zEbJCvf7l9OyU5Ih414Z9yxsWHgHQEIVAD8b23jSyo4="
+          "hash": "hirLAzoXJb0XvOF+yTavyPJ6h1hn+PSg90LHQc5tNtE="
         }
       },
       "is_incremental": false,
@@ -2721,7 +2721,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizSizeF.html",
-          "hash": "WRsHyoyv2k9gIzxPd4XCVizp1lsDVDHAUkIc+hFy14g="
+          "hash": "Ovx7zqjInCOJ8pzjK1jdYWiCyE1lL9Oj75jMEQjUctc="
         }
       },
       "is_incremental": false,
@@ -2733,7 +2733,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizSplineType.html",
-          "hash": "8RYeLeGVQy3OQFMzGddANSJ2D4/R+fkvQl0UWqjZduw="
+          "hash": "Ed3G6JQxMUoSIveltPnpysPr/TbBCr6Tg5aNePjs8g4="
         }
       },
       "is_incremental": false,
@@ -2745,7 +2745,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizVertex.html",
-          "hash": "BKzhcVgM2ggSLNKD2DvGI3YoWBJhDiQDBXH6kGR05Eg="
+          "hash": "hks7UG/eWu97q6LHE2Hhcuk/0ZX6kCDSDPGpTqo4wYQ="
         }
       },
       "is_incremental": false,
@@ -2757,7 +2757,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizVertexShape.html",
-          "hash": "GV8+8dQXukWlpjx6skwkoFDg+OUsYjRPAVXc83rRYkQ="
+          "hash": "P1o9SYVG39RReVxWQ3DzWT8MGdj2f4TKYsJkfccU0Bs="
         }
       },
       "is_incremental": false,
@@ -2769,7 +2769,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.GraphvizVertexStyle.html",
-          "hash": "/rf6csLvV3Tb6BZn8rnN5NTrj/NK1zlzfvXjUHW/Nz4="
+          "hash": "TxYwg6I4MEHksPHxw/KGt7OmotVAllwHYa7cC7gNM1k="
         }
       },
       "is_incremental": false,
@@ -2781,7 +2781,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.Dot.html",
-          "hash": "CVmwjzNsjirpDpwPWrv/pGl7JTQAI2N3tfSPBhSLU/Q="
+          "hash": "9POVTRe1FAYmO4/UblPGyroj4dKfPz149HFdZPWaHRo="
         }
       },
       "is_incremental": false,
@@ -2793,7 +2793,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.DotEscapers.html",
-          "hash": "xvakF2lFEevZEaHP8DNMdheI49VfnPZUexF1MD4dc4w="
+          "hash": "anWHuARQoIX/17+SKO23jXwg8GHbT9++t2V+32TgPqk="
         }
       },
       "is_incremental": false,
@@ -2805,7 +2805,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.EdgeMergeCondensatedGraphRenderer-2.html",
-          "hash": "1Z7XKFWq5mkbraPLnLeXBEBndAckIs9fD2uddBbbJcM="
+          "hash": "nSW9wehppJoDtItnT4j3WewefMJlfZkvMTWmQXOqPjI="
         }
       },
       "is_incremental": false,
@@ -2817,7 +2817,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.FileDotEngine.html",
-          "hash": "ZlWH5ahwnz8XxPeOiLIqosfhRjtDEYjGvaELcEYaZ20="
+          "hash": "OD9bTytHCrN/9YXA4jB1GQtjuMD5M2efDvwu9JsM1OI="
         }
       },
       "is_incremental": false,
@@ -2829,7 +2829,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.FormatClusterEventArgs-2.html",
-          "hash": "yb7Ckh0VauuNs5vF1RMX6trNqFkSq5Hz1SIk8lkpROE="
+          "hash": "b+6DmjpBfGSUem2N8kU05JawFRC8pf48oSVABN+aWgg="
         }
       },
       "is_incremental": false,
@@ -2841,7 +2841,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.FormatClusterEventHandler-2.html",
-          "hash": "qTfQ9pn3FwUA+wgdX/tf+WQzF2Bi4D/PmvxFCzMRKWY="
+          "hash": "H1Qe7yhBSXWBFT/jpq3RVw4HfXmglXcebPrYHJsDt8o="
         }
       },
       "is_incremental": false,
@@ -2853,7 +2853,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.FormatEdgeAction-2.html",
-          "hash": "IH8qjS2JwAcF7G5Hh6gzKSMAs9ovNFDffgCvRqMKjtI="
+          "hash": "kDt0ZSYmvJmMzNpYw3f8dQDAzcOWvOyetS2j35YRorQ="
         }
       },
       "is_incremental": false,
@@ -2865,7 +2865,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.FormatEdgeEventArgs-2.html",
-          "hash": "cMklp/5JSjhMLgq4D5DrPcCHUQO/z09SyFw1tNtWwtw="
+          "hash": "F/gB4LITPBvaMHZajqfMoG6k3KunQvEdz6sMhwS+LsM="
         }
       },
       "is_incremental": false,
@@ -2877,7 +2877,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.FormatVertexEventArgs-1.html",
-          "hash": "aoeLxP2Ka/MmmgRHyXkXGdqi/6xOX9b9kBzTIsmep1s="
+          "hash": "qqrk7gzfkYCr7cc4fsix66Q7FWrjxWiz7bHZBLi/Oc4="
         }
       },
       "is_incremental": false,
@@ -2889,7 +2889,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.FormatVertexEventHandler-1.html",
-          "hash": "foUVRn6k7Ew5pYMvdvZPFf2/xMWJHl6JGMqAOfeYI/k="
+          "hash": "eJXHW6J2h4s7DTTSs1RxtXluC2RhTV+zKPGDue/JG6I="
         }
       },
       "is_incremental": false,
@@ -2901,7 +2901,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.GraphRendererBase-2.html",
-          "hash": "P+7Tk5Wi9YLJBGlOBwRK/XxdxVwydQy7G1IRVymAlZk="
+          "hash": "9h3px9GMzexFOLJ6EnyydPFD+xghTmxz3jtuvDzahrQ="
         }
       },
       "is_incremental": false,
@@ -2913,7 +2913,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.GraphvizAlgorithm-2.html",
-          "hash": "oWSIF/LpwF+VANJTnQHWGX/pR2kdILDoKQxLWommZYk="
+          "hash": "n/tG+DNgmtew6mffxYZdAkpzf3IJvxS8vQvxFLkTEzk="
         }
       },
       "is_incremental": false,
@@ -2925,7 +2925,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.GraphvizExtensions.html",
-          "hash": "RvJH28ZY+mhCKC5k9AZqNVzNYEHmM/t+QIoozkTjWzA="
+          "hash": "OLcQMiTEe3DrZp4//+YKx/dz2wL7OzZotM8v0etq/HY="
         }
       },
       "is_incremental": false,
@@ -2937,7 +2937,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.IDotEngine.html",
-          "hash": "4LRl3+r1Uu7/ovsd1yGGekwi63CkQVcF3vWFZBanKDY="
+          "hash": "4pYK3aPKiRykb2Cyalf15WF7JcPx1iIRkvIWH4TTezI="
         }
       },
       "is_incremental": false,
@@ -2949,7 +2949,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.SvgHtmlWrapper.html",
-          "hash": "EBDUrqz0kQQWJ5WsPlw0nscqzGTHrHAkWP5ZrfivunA="
+          "hash": "ewciSRdBb5f10YbMJk5Yc51VALpWhOXq3NP2An7eY5I="
         }
       },
       "is_incremental": false,
@@ -2961,7 +2961,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Graphviz.html",
-          "hash": "80VRZcg+nzrOxy/p5HQXPuOTIMbRUCf0Obks2tNRbj0="
+          "hash": "Rt2p3769JwaU7xtkZL8kbJIl8v7G/kvq1cTDUVvlmDI="
         }
       },
       "is_incremental": false,
@@ -2973,7 +2973,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IBidirectionalGraph-2.html",
-          "hash": "3RE+KRVFEDEG9jpq33E/IIIA6Xfr1MUkeYbSGxZC6Ok="
+          "hash": "UPc67BYaenR4Bjy7UbK3k6cBjBZoxi7h+YLLEK6bWkA="
         }
       },
       "is_incremental": false,
@@ -2985,7 +2985,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IBidirectionalIncidenceGraph-2.html",
-          "hash": "TrwN3waSzxMM+Vc5f9lCd05bizUQQYTXy+Xu8B3bS4A="
+          "hash": "CtrWKNl4N4WQe93SwwqpVGFbDGcn09oJg6qeFuqHGTM="
         }
       },
       "is_incremental": false,
@@ -2997,7 +2997,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ICloneableEdge-2.html",
-          "hash": "eIJKWOzN3HdgqNwYYrY086BTk9hUZs2SBxe09i2fpOA="
+          "hash": "4vxkN9CPnxb3a/P8e8geaGypZ/aQ8hRncG1TgeTsQVM="
         }
       },
       "is_incremental": false,
@@ -3009,7 +3009,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IClusteredGraph.html",
-          "hash": "EF93dhFw3Grh9Z0svhJDxAROHr1hCLfRGLUHku77NUU="
+          "hash": "J8PSS3EgM1BYybyuV+IWt3twpRXE67pVXJJFU1wGXWk="
         }
       },
       "is_incremental": false,
@@ -3021,7 +3021,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IEdge-1.html",
-          "hash": "eN01xRV5fsg2zJClEZtj/+n2wQYf76KCyZICmn+2BDs="
+          "hash": "LCwiud6REC0AGZUnFE0EU6jmKA+loS7NdkBDfsl/Ysw="
         }
       },
       "is_incremental": false,
@@ -3033,7 +3033,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IEdgeListAndIncidenceGraph-2.html",
-          "hash": "fCTSd8Dp6SUl8eaTz8kFW1hIZp7KHSdVFmt1ian+6r8="
+          "hash": "WDeUt37UMbKs29JNKcjjfdCaxo4lClgRP3vLGTYrFEk="
         }
       },
       "is_incremental": false,
@@ -3045,7 +3045,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IEdgeListGraph-2.html",
-          "hash": "vlFzuKWhCANWCBcN64H30nUV2wsmnuzKHvda3BeUCo8="
+          "hash": "jA810tW0dJEPDY4HuGciEJSf07nMWHWt9EZ3qEFKN4c="
         }
       },
       "is_incremental": false,
@@ -3057,7 +3057,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IEdgeSet-2.html",
-          "hash": "O6my1mXGV5saSmKfhAWbipRzoZgwrg+0NIrYAVCAquI="
+          "hash": "YpvxtoftUGIVtytPpYDFgKvk/83rEI85XGqvvWygVdk="
         }
       },
       "is_incremental": false,
@@ -3069,7 +3069,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IGraph-2.html",
-          "hash": "aRFPvhBmbOBQNxkSIpcaq3hIRI6cNIWEjnul5wF59l8="
+          "hash": "+G7s22npRGfbnsFo3O57qgAW6dneWmPJ+avKiStI8L0="
         }
       },
       "is_incremental": false,
@@ -3081,7 +3081,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IHierarchy-2.html",
-          "hash": "RReJStevZdpmej5iBla+ct/SuN5h2+nW/sKxWI7l+dQ="
+          "hash": "3G5WfnqSABNqRXH4o+w1Mze03u8tTb7p1Tnva3R4NW0="
         }
       },
       "is_incremental": false,
@@ -3093,7 +3093,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IImplicitGraph-2.html",
-          "hash": "B8a14DYhChfjtmNl9+jxe254B93vkkOk46tQQhUIf8o="
+          "hash": "wetZX7cXJbr4tZ/JgrcRk9TCBNqCIlq4lAst34ww5Uw="
         }
       },
       "is_incremental": false,
@@ -3105,7 +3105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IImplicitUndirectedGraph-2.html",
-          "hash": "ggOe3I26IFxj+tckgVWjUvKKukJIT76RfzvUegWzwTw="
+          "hash": "r89vkeblQZDEfvBscFp25pXoShXO2LMMEIjUX4IS1ME="
         }
       },
       "is_incremental": false,
@@ -3117,7 +3117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IImplicitVertexSet-1.html",
-          "hash": "LU4fckqX86SRe80S/FVXPQkCWsockk1cm/NvjL3Xmas="
+          "hash": "hH+fOgjt1/pHNYdLPQI/VegeC4ce9bcosCChjHl/eWc="
         }
       },
       "is_incremental": false,
@@ -3129,7 +3129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IIncidenceGraph-2.html",
-          "hash": "G/ZGHDcGBS/l86DFpM/VhlW4nF3nzZSjoG1lHYGYxBE="
+          "hash": "iMjSlKO770gRQV+JXJur0qQX6jujfnETyWZ7vP32oOo="
         }
       },
       "is_incremental": false,
@@ -3141,7 +3141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableBidirectionalGraph-2.html",
-          "hash": "VZEC44dn7ySQSXaY7vuWX3jh9oHFQ7dbW3CgevCRvOk="
+          "hash": "Kh3ruBX+obH06jNF+/3Dbx/e6+YJyRE2kHDtIV8KLOk="
         }
       },
       "is_incremental": false,
@@ -3153,7 +3153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableEdgeListGraph-2.html",
-          "hash": "tgS0XnKvGNKBXOZ2Gn0g1PpLdUCg1VvWkjaYcCR9HNQ="
+          "hash": "YupCc+sloVwly6VyBkjr8bztjJeylB05+80uO7MEM1g="
         }
       },
       "is_incremental": false,
@@ -3165,7 +3165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableGraph-2.html",
-          "hash": "CiDqEPKPgZBqVZkxjhYZaz3knUuSWSBnvhGsTzeuUow="
+          "hash": "MPnA/jP5zH/VtUBl3Sv+uCev7ndOKB/Rpdh3sO/i7K0="
         }
       },
       "is_incremental": false,
@@ -3177,7 +3177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableIncidenceGraph-2.html",
-          "hash": "K4l+O6Z/WBkmtBWhjENhuzdfUtRH63UiM7MqelDNu6o="
+          "hash": "hTZyBADB1WhuHAR9WvFEekTUQplrb70WABYygWCsOsE="
         }
       },
       "is_incremental": false,
@@ -3189,7 +3189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableTermBidirectionalGraph-2.html",
-          "hash": "3E++nWvuv82ph9MAc1GTRj9+XYGLsyp7ENhvLn4WAIU="
+          "hash": "vqA++j6Vtjs/69YvjmI4USHz9SEFU+x1hyh1RLElkAc="
         }
       },
       "is_incremental": false,
@@ -3201,7 +3201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableUndirectedGraph-2.html",
-          "hash": "O0MeyRpQ2ZQjCDngzX+059EpnOl+g5b5ARefjRaw8e4="
+          "hash": "r5+ITAtLh93HkbzJ138oy8tAd6TVsAEBUaMDKy4fQ8g="
         }
       },
       "is_incremental": false,
@@ -3213,7 +3213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableVertexAndEdgeListGraph-2.html",
-          "hash": "KNRc4zNq6gpY8OMc/h5X24hElAX1SLZ4MZ6aQmcRsso="
+          "hash": "9AeiUKSnSkEMSt8glwjN8hH7Q5zG4GCNvuGOjNxvxxU="
         }
       },
       "is_incremental": false,
@@ -3225,7 +3225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableVertexAndEdgeSet-2.html",
-          "hash": "iS3fL/Q2pWeZXmqrT8cmL+NB7o9LnbE3SKlc46Uu3wc="
+          "hash": "DqlOWq3NgXigAilc9U5qoxdBQCORwRPmMPN7s8Y18pA="
         }
       },
       "is_incremental": false,
@@ -3237,7 +3237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableVertexListGraph-2.html",
-          "hash": "jGf117fXoQk9yvZLYMculgX9Z684+EUq4eqLKCitsgA="
+          "hash": "1PnVNajMv/71NZEKxhjuWGX80dqV3qzSpvn0/Ln8afw="
         }
       },
       "is_incremental": false,
@@ -3249,7 +3249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IMutableVertexSet-1.html",
-          "hash": "gl+EN4rNBa9iK5sh0GtEKe5JppUFO0uoW31djqXkT5I="
+          "hash": "/BuqqUHNhSZrcEKIFylGj3R/EjMsCrWo9KdRSJABa0A="
         }
       },
       "is_incremental": false,
@@ -3261,7 +3261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ITagged-1.html",
-          "hash": "YTWJCg2tS4ddzvz70D5Itt3rl/DcqAZESQTR5MIifKo="
+          "hash": "KtrLLoMQfql6BPv8ryqjDAaRv7nB0MhDzlcOuhkX7sY="
         }
       },
       "is_incremental": false,
@@ -3273,7 +3273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ITermBidirectionalGraph-2.html",
-          "hash": "2y6AsT0S6Qwx3GFwsPcJ9A14WitjsD4WUL5Dl2ak1ig="
+          "hash": "HRTAEGwDWqFrmdAi6sSGhH6/a5TM5huZAKseCwSCaVY="
         }
       },
       "is_incremental": false,
@@ -3285,7 +3285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ITermEdge-1.html",
-          "hash": "QXbmKZpqDXSN+wTtuX8krTRF9hU5hGecNO+c+c6+f/Y="
+          "hash": "VmqlAb/9Vmz1YuUUO2Ivuf4dwcyHaIMmr4u5tUZDrMQ="
         }
       },
       "is_incremental": false,
@@ -3297,7 +3297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IUndirectedEdge-1.html",
-          "hash": "BzIbjc6LZOJSu8ZW9iLuO8gnnbb4PrMBg5Y+D8lRKpU="
+          "hash": "Evk/EVogmDcwmnwXQsNRXVJPwcbXuFTGcyGIJMHDLNE="
         }
       },
       "is_incremental": false,
@@ -3309,7 +3309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IUndirectedGraph-2.html",
-          "hash": "+y6OIL+GVuYt6gTj5pNzoGWEc/OEe1mpfzXZfNNbvh8="
+          "hash": "nPWA5gZtY5wbzk4RtNM9Ikj2t0RnGoJO13PT3buf6e0="
         }
       },
       "is_incremental": false,
@@ -3321,7 +3321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IVertexAndEdgeListGraph-2.html",
-          "hash": "t0V/x3qtyAxTDoGmIJlM60tnN9L5eWUkmTYtiTsuGIk="
+          "hash": "q2Ks4vjPnpY1WvdNxAaQ+yqC6l1C5Nr8j8PcokcAWm0="
         }
       },
       "is_incremental": false,
@@ -3333,7 +3333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IVertexListGraph-2.html",
-          "hash": "4ja9apeN64ChaP0kYZcr53zQ3Gpd5aCS1RQvkeO2ytw="
+          "hash": "ysGsnkUaYMkMMuOMQV74xJMzT7FLDCbhQo9030FLBvY="
         }
       },
       "is_incremental": false,
@@ -3345,7 +3345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IVertexSet-1.html",
-          "hash": "oaJP00G+4xYEAzALj0KrVzHN5AsWWXQb4w6B8u+bf2s="
+          "hash": "+V19aCQSC6WXeX6xnars1v18SVviLqJVB5/quWYbFo8="
         }
       },
       "is_incremental": false,
@@ -3357,7 +3357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IdentifiableEdgeFactory-2.html",
-          "hash": "5sn1b8GOcmnRA0+R3JwbdARc9xsFwHBUTwknB5ZTs4I="
+          "hash": "RMyj5MBMNVy3bufp2kppc9MH3eW2QpiXN8DUzNb+3js="
         }
       },
       "is_incremental": false,
@@ -3369,7 +3369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.IdentifiableVertexFactory-1.html",
-          "hash": "A2SUpg6XQ7X1NlzXreZ3AIUVjJw8h/mc0YyknXZ+Umo="
+          "hash": "oFvgGjiULYI69DWzX4/SfWmOaSj31Hy9rCxplJLwYyI="
         }
       },
       "is_incremental": false,
@@ -3381,7 +3381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.MSAGL.MsaglDefaultGraphPopulator-2.html",
-          "hash": "poF1XHRDZUFD7rRHw2YhDPdjAXczz3dQ/LGy3tWzrNY="
+          "hash": "AEhkM7LkttcGH5w7KblbUJtf/DOF6Syv9r5ZOxbldUQ="
         }
       },
       "is_incremental": false,
@@ -3393,7 +3393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.MSAGL.MsaglEdgeEventArgs-2.html",
-          "hash": "1t1li2iSBPxSVuwRBTnmzbMKCX52AOnhj/n5qAvr1x0="
+          "hash": "ksCqv4nol3VrIm1rmlU91C/wPjnon7OWqj1ON+Y6jO0="
         }
       },
       "is_incremental": false,
@@ -3405,7 +3405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.MSAGL.MsaglEdgeEventHandler-2.html",
-          "hash": "ZqN6o7M+A6vkT39+2R8sqyv1QTrz+15x5Lm64fXrmw4="
+          "hash": "ITBgsAwSvLf8W53uVMC0TrMC2EvU+JmZKpL1iTNg53w="
         }
       },
       "is_incremental": false,
@@ -3417,7 +3417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.MSAGL.MsaglGraphExtensions.html",
-          "hash": "VyuvxTH03f5TIaFZ6JaOPDLQMSqFgXMxMekBGc6YwfI="
+          "hash": "/RU8oYAemoaJ8Xr4XXSnAN13wesShXXjRBZ+KeZ/gSk="
         }
       },
       "is_incremental": false,
@@ -3429,7 +3429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.MSAGL.MsaglGraphPopulator-2.html",
-          "hash": "5ZRcZbIkh+upgtacq+SdJ313g/pWBF+RtYRdIVXLILw="
+          "hash": "AQjvFIseV97bp6vs1kOj3rtC7Y9vC++TpyiPnRR3uas="
         }
       },
       "is_incremental": false,
@@ -3441,7 +3441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.MSAGL.MsaglIdentifiableGraphPopulator-2.html",
-          "hash": "UzrnJY4TZ8/iUtVUkr2Enl4QhKCcX/Uia2o5d6wmslc="
+          "hash": "jUaU1eoiOIT+2OeANYmqg8TsQybSmkCtE4FTQfOiRYc="
         }
       },
       "is_incremental": false,
@@ -3453,7 +3453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.MSAGL.MsaglToStringGraphPopulator-2.html",
-          "hash": "MGgDoumBi1UF3Ay4FTC/awJnLRPFmHE7Yj6Q53TuRDE="
+          "hash": "gsCGA/iaq1jNuYb5Dx5gdMh6545eg590SdbCAyQej0U="
         }
       },
       "is_incremental": false,
@@ -3465,7 +3465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.MSAGL.MsaglVertexEventArgs-1.html",
-          "hash": "6rJiUuQo9mFY17/eQAnbybed34tPyf8jNT6KzkUHbhU="
+          "hash": "MZ+qc5c/uH4CuKDj8gPfmNOGST1NO7UM2DIwAcnRNeQ="
         }
       },
       "is_incremental": false,
@@ -3477,7 +3477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.MSAGL.MsaglVertexNodeEventHandler-1.html",
-          "hash": "Wd63ANFJN28+6PzRlayP9b+cnD7YwW9CCI9bQ82NJdc="
+          "hash": "ploSB+NSgAYAiRpr5/uexhkC2eHKpFMTxVJXQzTaA2E="
         }
       },
       "is_incremental": false,
@@ -3489,7 +3489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.MSAGL.html",
-          "hash": "SlpE6kP9U5X/2RvEFXW8JwpIZxlupbdjVzqq44E+DWk="
+          "hash": "F+hXS0+ChGFwKwvs4s1n4QFcTHG+aEYOZNIUtwWc8as="
         }
       },
       "is_incremental": false,
@@ -3501,7 +3501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.NegativeCapacityException.html",
-          "hash": "NzKJB0DUIAeby/Sm0MngZY7qDRjIxMwo0iGydbsojqo="
+          "hash": "g1XSTR0bjV9Zppd8lRI+JJMOLRww4thm4V/tY56+xrQ="
         }
       },
       "is_incremental": false,
@@ -3513,7 +3513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.NegativeCycleGraphException.html",
-          "hash": "4yjWKCfyCMQEsaAdwfLYqEnyRKNlyzNRF8M1z5warXg="
+          "hash": "KJeYoNd5z01jlF1+aB4NQkvRbA0gYPgub0tTPVkh2e0="
         }
       },
       "is_incremental": false,
@@ -3525,7 +3525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.NegativeWeightException.html",
-          "hash": "lCfuRbQHB9+L9O6QbL13RTIleW8EEv4pGWyLKE6A92Y="
+          "hash": "ha0p3jp3b23JCFUxB/9qxlBj1ed8mMF20KtjSsPkIyE="
         }
       },
       "is_incremental": false,
@@ -3537,7 +3537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.NoPathFoundException.html",
-          "hash": "W+EGKkZxTy+lOmlpUFIqW5JjyEEx5A7Kj9DmpEZkstc="
+          "hash": "RYmDn25Fmgo8MLqtN3009t0NFTgxUZXeZkjet1lp2CA="
         }
       },
       "is_incremental": false,
@@ -3549,7 +3549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.NonAcyclicGraphException.html",
-          "hash": "Nd5oCX78xhZFo0f4zU9mNutKDUm4MtfM9gTsjZKYU+Q="
+          "hash": "GW6FW1M3YlUSXT0vPrhHNrHKECy6dCgtDlWES8GsMYM="
         }
       },
       "is_incremental": false,
@@ -3561,7 +3561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.NonStronglyConnectedGraphException.html",
-          "hash": "424cQEEIXfJGXZGGDZfw8e/dHyQPvcqXc8oqw4r3C78="
+          "hash": "fILG4eVMQmGh6Kl+wlmiPK3NcXLgGcuQKUiUDOFin3c="
         }
       },
       "is_incremental": false,
@@ -3573,7 +3573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ParallelEdgeNotAllowedException.html",
-          "hash": "YL3QaL8Jn3Iy4eLDFclLjzSqWpB9PHaHumWWF/t4HNE="
+          "hash": "helDSFfF3oxrdPb0CaZ/R52pmG3u1WVoDheyX33GfYo="
         }
       },
       "is_incremental": false,
@@ -3585,7 +3585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Petri.AlwaysTrueConditionExpression-1.html",
-          "hash": "W3eexgux288AjKhtXu/wmU+4mTZPiqQ5FTUgNilIv2A="
+          "hash": "W/adl97n6wviuSBIrWRRHKKbCznCJAJErb88PW8P4JE="
         }
       },
       "is_incremental": false,
@@ -3597,7 +3597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Petri.IArc-1.html",
-          "hash": "sNDvcyzQo2/xHThijILGoB0Xkz03YO7rFKtq9Q0ORa4="
+          "hash": "Tccp7DsfAqfqxVfkcJYP+0pwhLicFwekKvh744Mby/o="
         }
       },
       "is_incremental": false,
@@ -3609,7 +3609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Petri.IConditionExpression-1.html",
-          "hash": "pKaGkCpdxC2b+gcVwu0S1eGZ7PfYM9JFI1BR5oqFvdw="
+          "hash": "cvx+w7apMJaWbAbc5196NJ+9JW+I9LDkObIh729sNTo="
         }
       },
       "is_incremental": false,
@@ -3621,7 +3621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Petri.IExpression-1.html",
-          "hash": "qxQll4+SQxy0GaWL5jzsk47TaibgMRQ5lxhxanIXZLw="
+          "hash": "Kf4fuQItsZN+4ZT0XHcxkNy2l2DcZDBSp1We1BPCCJg="
         }
       },
       "is_incremental": false,
@@ -3633,7 +3633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Petri.IMutablePetriNet-1.html",
-          "hash": "r4da5C/IzjAet/hUL/cIyuKutXLzeatRujR4UQyW07g="
+          "hash": "4gSpKuMlgz28/G8MfOvLQ4QjR3Xm1pmNYV7LsUOqs3E="
         }
       },
       "is_incremental": false,
@@ -3645,7 +3645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Petri.IPetriGraph-1.html",
-          "hash": "tFWCpZfpkTznaIYmVebpu+A1sW30drMrrJYkP0uOO64="
+          "hash": "vPJ8Po/gXWeCapP/6LSZZXGNCJUUkdoh4fyJNFpZllU="
         }
       },
       "is_incremental": false,
@@ -3657,7 +3657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Petri.IPetriNet-1.html",
-          "hash": "OhqmibZBmkTM51PyjfcIS50Sd5TFeMMnfKDxGD6dykU="
+          "hash": "KQy01ZqG7W8liOkIBbshBVFSJNV9DPODyFQm0D9bvtM="
         }
       },
       "is_incremental": false,
@@ -3669,7 +3669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Petri.IPetriVertex.html",
-          "hash": "H0V1T6aLZ1YcKT2I87HQFcryU7VMQe3X87cfPNTBqwA="
+          "hash": "HWv862l5krwFF7TuSROtiowwHGjIJifnBnZ+nPs6Z0k="
         }
       },
       "is_incremental": false,
@@ -3681,7 +3681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Petri.IPlace-1.html",
-          "hash": "P+2Q5vnF7dvsnybFW+S6WRrT5DzOdbqKFAl13zddADA="
+          "hash": "ItC6iOtbmvEYZG1R6daENXwxY2MorKApOV761wCvDhw="
         }
       },
       "is_incremental": false,
@@ -3693,7 +3693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Petri.IReadOnlyPetriGraph-1.html",
-          "hash": "l0NGXiebQPf6llo+FBWLzJBMNOsSFOcYpceeULObEBU="
+          "hash": "xTEds7IOtHphlXTkys/JBTssuk++PnB7JyUezqs9KIk="
         }
       },
       "is_incremental": false,
@@ -3705,7 +3705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Petri.ITransition-1.html",
-          "hash": "5lIeNG6lizkNFQtoSCTXFa7G1OYD9ttAV2dHJ7AigZM="
+          "hash": "JirgAaAxD82jbGmTVSK69U5pQC28mZDQI76mH4qKXbo="
         }
       },
       "is_incremental": false,
@@ -3717,7 +3717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Petri.IdentityExpression-1.html",
-          "hash": "nEYGMEZ46mUwTMtCz3cvm5UiMtGbRtRNHK5GHfsYIrE="
+          "hash": "UcvWX+sC3OUGsA6b+ymGnEKPhDjXomhBZiujwWbvswE="
         }
       },
       "is_incremental": false,
@@ -3729,7 +3729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Petri.PetriNet-1.html",
-          "hash": "Ylmkfc4vkur8i6KWQfKzLs8Gc2rqqB9wzQMWHVggrjs="
+          "hash": "PatjITyARhae+nglR8ObYRBNXpeXQ59WJ3D+wgaiYBk="
         }
       },
       "is_incremental": false,
@@ -3741,7 +3741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Petri.PetriNetSimulator-1.html",
-          "hash": "mQB2M6vXwhagDEpPejiRsm5VO2etlt49MItu7frwuII="
+          "hash": "3yhrjlJbW8CI5fSUkRNFPOUTdoxrQVIyLTHa0G6A/LA="
         }
       },
       "is_incremental": false,
@@ -3753,7 +3753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Petri.html",
-          "hash": "o6UkMzHPgFrbUJCd6iei/R4LwoTQ6MjfcH7zZWgtD/Q="
+          "hash": "4VnitXxow+iArxJa8q8J2YutIAQwd/pbRxlRN4CVOAE="
         }
       },
       "is_incremental": false,
@@ -3765,7 +3765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredBidirectionalGraph-3.html",
-          "hash": "AhiQvAb4QKatehdMZYLqzOvC8uMrc8C8uIE308S43Do="
+          "hash": "Lr5sawW+kmUdhomNs98vRk0mLxUUzpvv3Q6UlV5nkRQ="
         }
       },
       "is_incremental": false,
@@ -3777,7 +3777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredEdgeListGraph-3.html",
-          "hash": "UL33IN02NvJx+gFMQnxlrNenCUSlWgC8V8ut3toe034="
+          "hash": "dEY8ubca/1W2G2DrFKsgMusI/jT8dxwReYXQq2mswEk="
         }
       },
       "is_incremental": false,
@@ -3789,7 +3789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredGraph-3.html",
-          "hash": "5acwDkmVxpwK7BQuiGUvcgk2aCR3GzJ0LmTCJ3LZmmY="
+          "hash": "Z+cOWW4vZM4Q5VLjIsSQUF6euS1GHQAGzChNNcg16JM="
         }
       },
       "is_incremental": false,
@@ -3801,7 +3801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredImplicitGraph-3.html",
-          "hash": "GoFoaKHHk5iI11yKZuXs9tQXkb9gva8N5FsIt13zWAs="
+          "hash": "Msw07jf7HfhFxMkLe5xoM++lkOtVZfhCUcfXGNF/Gpo="
         }
       },
       "is_incremental": false,
@@ -3813,7 +3813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredImplicitVertexSet-3.html",
-          "hash": "oulaprj/p5P8KwfW+XP9PPD+vRJsg6/R89hYX/U8x70="
+          "hash": "B2+xftwuDxq0lfrdRbh9zTnkXXhgTFOgZUT47DtG/Q4="
         }
       },
       "is_incremental": false,
@@ -3825,7 +3825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredIncidenceGraph-3.html",
-          "hash": "8hpWhOf6Vwuvrd9fhVItp8tnxa8za6/Ft1Lsis5SHg8="
+          "hash": "hH83baEf/teHGIzS9DoyMXgABavK4jvNcU6JXNIK4+w="
         }
       },
       "is_incremental": false,
@@ -3837,7 +3837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredUndirectedGraph-3.html",
-          "hash": "Z5jNCeCfoZyx563ewGvrD5lJ0AvTTu9JudsPVXrkO7w="
+          "hash": "x4wxAIG/AAc2yQThoVvTu66RNUY+XdV5sNqnBEwkuE0="
         }
       },
       "is_incremental": false,
@@ -3849,7 +3849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredVertexAndEdgeListGraph-3.html",
-          "hash": "27U01gVl1IUYX9AG80zJfh4vaWlmQO/Tt047AD/Em2I="
+          "hash": "zNf6ahEXuednIv0ZPHf1kd0+1o8CoFTqFx49Z2UaPOk="
         }
       },
       "is_incremental": false,
@@ -3861,7 +3861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.FilteredVertexListGraph-3.html",
-          "hash": "7fL/biQ8P5E7qwAyNzMwykqBcfHAD1uXtatn8kt/2KQ="
+          "hash": "R0d0X6wZJsGVj1u7sefLMW0SHqz00XC9MfMaAOYL4rg="
         }
       },
       "is_incremental": false,
@@ -3873,7 +3873,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.InDictionaryVertexPredicate-2.html",
-          "hash": "/QKFtfexMUVEa8toQLSSSp/Lfqxb4qkib+ejHGZGgSI="
+          "hash": "xrQU/FZ1gP4e8pSEESHTUVfHLduUbk2qzpQ7XdyKFEA="
         }
       },
       "is_incremental": false,
@@ -3885,7 +3885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.IsolatedVertexPredicate-2.html",
-          "hash": "b9KA0dzyKXl/bxogyq1NW0kWdgquhLUW8Y1Oiucj50s="
+          "hash": "hcO4ibA/3FTQBYdYwXJh5YiD0LdxBYfXqhb7eFL+R+s="
         }
       },
       "is_incremental": false,
@@ -3897,7 +3897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.ResidualEdgePredicate-2.html",
-          "hash": "M27sxri8bge+xOTEJYgVLojAOClfuD32YgbTK6VM+wA="
+          "hash": "ae0GhFNZ4SlxQzV1Pe/Q1DZ+Oc7Kh8oqV0YjcNV0x+A="
         }
       },
       "is_incremental": false,
@@ -3909,7 +3909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.ReversedResidualEdgePredicate-2.html",
-          "hash": "V/fuK7UTEJ8Q8YSm3c+qSdOQBDOdu7EVOBZ26CsaZQA="
+          "hash": "2bRWu5YG872x7FXEHeRh/jfwPwq9DjS9s9/Hh/aF9q8="
         }
       },
       "is_incremental": false,
@@ -3921,7 +3921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.SinkVertexPredicate-2.html",
-          "hash": "SIYkgYs4mSMMXTM8J6N1McKB0IBdjitzxA0KlvTYEfQ="
+          "hash": "sr9RdBsxPR9AaZz2hN8KJjdYeh6vbQHwVJVhWemt4Fw="
         }
       },
       "is_incremental": false,
@@ -3933,7 +3933,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Predicates.html",
-          "hash": "mYV9uudoK6CLk57SO0vwDcYL4oEARTxq7jEmn9FPNDU="
+          "hash": "AT7DdDxpMoNLKm8AI2Q31Bn1X1tdYR6/Em3KLtLS/Nw="
         }
       },
       "is_incremental": false,
@@ -3945,7 +3945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.QuikGraphException.html",
-          "hash": "HJaEPRjQTzsr9bidFnnry1HFJAh4hFYa1QTecueYzdA="
+          "hash": "8uHRV7KZdWqo87i8g9PBUrjWEr+HZf12lH2GIMJz8ok="
         }
       },
       "is_incremental": false,
@@ -3957,7 +3957,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.ReversedBidirectionalGraph-2.html",
-          "hash": "ZJIddIsp0vMGhpgBFUgVdfqLkHmu/z0gwSF1mTFwVoo="
+          "hash": "0AGXiHE69HfhYSTNNR5U3QXJ3enGzpT32+G230reqKY="
         }
       },
       "is_incremental": false,
@@ -3969,7 +3969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.SEdge-1.html",
-          "hash": "VcKfcInj8gabVwCWEzs1nZ48+vrErBlJiWaVIPNwJV4="
+          "hash": "zYbwsJAvruib+hogeUyuW3d2nKqglbOoeBE7rLDeQzM="
         }
       },
       "is_incremental": false,
@@ -3981,7 +3981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.SEquatableEdge-1.html",
-          "hash": "udtVhtURcOwoFun6lFxZe3zb8mB9anllPfxX5M+bRj0="
+          "hash": "HqMU/it/2T2y2/VBw1e40FMe5zoIETazzpYz5qmBg/I="
         }
       },
       "is_incremental": false,
@@ -3993,7 +3993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.SEquatableTaggedEdge-2.html",
-          "hash": "MZj3rq8xp3LGYHVHUasFWRJwnE9i/o1mcKGT29Sx67Q="
+          "hash": "wGTji6Sp7hnWKK/sXDWIk+q1KDpqdgBgNMrmIs8fOaI="
         }
       },
       "is_incremental": false,
@@ -4005,7 +4005,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.SReversedEdge-2.html",
-          "hash": "6Rp/Lfunl9mtFHL2FBeRC/V12M+5qyHV/d1DfA3m2Gg="
+          "hash": "1IZgE/336TfLPGkJn6DFUbUA3DWefaJAfZixWXPWS3M="
         }
       },
       "is_incremental": false,
@@ -4017,7 +4017,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.STaggedEdge-2.html",
-          "hash": "8cJeE/ScbYboPbcpA2CIcukAQPa9jw8FzEputZv5wws="
+          "hash": "CfsZgdd+rQjCuFjKZwpiXerL1G0yD6zVSw9ZCm82sZk="
         }
       },
       "is_incremental": false,
@@ -4029,7 +4029,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.STaggedUndirectedEdge-2.html",
-          "hash": "xj+lgypOIM2lEUOhyRr/HzsisldjjFuTRnNp3/JMIzM="
+          "hash": "JC8NtkdcUcRCV+yUGqD2xIt4ralY6ah8VwTtvJqnXVI="
         }
       },
       "is_incremental": false,
@@ -4041,7 +4041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.SUndirectedEdge-1.html",
-          "hash": "SBuEssWwk3nrJP2HqnUH53rX3M6bZWc25XItC77YZ/c="
+          "hash": "Zrf1o6KOm914S1Ot+JvoMq4VEFJ2jXphZuecr15vtBY="
         }
       },
       "is_incremental": false,
@@ -4053,7 +4053,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.ClrBoolean.html",
-          "hash": "gsm1924RUNyBQacejMr2Hfd9pajbuIWjG9/dil47V48="
+          "hash": "83o8rbPPq0DrgDX+pYC5/Dy0r+O0mY4sxoEuEPoIVy0="
         }
       },
       "is_incremental": false,
@@ -4065,7 +4065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.DirectedGraph.html",
-          "hash": "FnhG4Bs3pWeZTG5IRQL8vsUEPY1LUQfUhStaO6/3TEc="
+          "hash": "/qskJ9H+bZqM3uBu7bVdAA0op5Gzuz0sCcwzTVnqJSE="
         }
       },
       "is_incremental": false,
@@ -4077,7 +4077,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.DirectedGraphAlias.html",
-          "hash": "SznIyH91WO5nqmzxmwjojJKk552MlM5MJYhWy0YpH6A="
+          "hash": "Ri+qVpDPeA6yhe+75UreI5wKGJdRo1t8T/zoQugAclo="
         }
       },
       "is_incremental": false,
@@ -4089,7 +4089,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.DirectedGraphCategory.html",
-          "hash": "OOdTbSVpwnknBAXcliTuoHCCzwtEIvOcBXk6qZ5BfPs="
+          "hash": "CeemJR0cp6/3snqBKw5D5hzOT6icIxuMyxQ5VoEnr1Q="
         }
       },
       "is_incremental": false,
@@ -4101,7 +4101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.DirectedGraphLink.html",
-          "hash": "Cw05wr/ToBnkZE1cT7x+OmxNRq4nCExroFVzvF/AFDo="
+          "hash": "SvwSApQCzTLhOC9U6bDMbw3oai9af9boUpWaUd5XbM4="
         }
       },
       "is_incremental": false,
@@ -4113,7 +4113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.DirectedGraphLinkCategory.html",
-          "hash": "3jFEwGXDllp+hjW70g+bcqb7VIA33P642KJetzAOAXw="
+          "hash": "k8ILiMbCR/Nx9odZqRNcGHJQWXVEj+WoN1NQIW5n1z8="
         }
       },
       "is_incremental": false,
@@ -4125,7 +4125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.DirectedGraphName.html",
-          "hash": "cUFZMa27MqH7WnWUdUXBkGs9haR0ETzFEq2uHrvnHmQ="
+          "hash": "VFk6+9KtejIcayCqZP69rJvk+qeA4IaPQjRuJrgNQpA="
         }
       },
       "is_incremental": false,
@@ -4137,7 +4137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.DirectedGraphNode.html",
-          "hash": "AeHgLaXae4O4+ucMyy8kQa3GLP+pCN62v8MxLMTyf/k="
+          "hash": "aU1CsDT4x+JryctoZo0+0rWUjVZ3ZC6mSYc0lnzNAx4="
         }
       },
       "is_incremental": false,
@@ -4149,7 +4149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.DirectedGraphNodeCategory.html",
-          "hash": "IqPRkZ9aYYCk139YOU4DzBEHdUzcD3rFu+b68uhT/N8="
+          "hash": "xucZ4B1DqWiOQcOk+FkWoOw1EqFCzUnPdieP0bNtCew="
         }
       },
       "is_incremental": false,
@@ -4161,7 +4161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.DirectedGraphPath.html",
-          "hash": "guFIQ/UoT/t6edp/H7FEu1pdUyVPZAPAHxHUIv/eA6Q="
+          "hash": "/rtK7uVSP7Oo2VXJWBxnaWxWLT0e+IZPMbhWCLXMMvY="
         }
       },
       "is_incremental": false,
@@ -4173,7 +4173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.DirectedGraphProperty.html",
-          "hash": "E7wna2168RUd1o9t4YDld2ZNf1f6U7zZgxOKz6mNWOs="
+          "hash": "61ceAaWEhPz10PIdo2DVGBoAaDkeHd/wdLumHaArjI4="
         }
       },
       "is_incremental": false,
@@ -4185,7 +4185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.DirectedGraphStyle.html",
-          "hash": "DMQdJjDkjUqrUxZo0kp7NM3YXMMSgBGTSRTnuD570Ng="
+          "hash": "Nt8wuCuzno/GwOc4dtXCdekWTQijclMktgRxPuXw8hs="
         }
       },
       "is_incremental": false,
@@ -4197,7 +4197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.DirectedGraphStyleCondition.html",
-          "hash": "zO4mAWohgjdFxyySHenzxn00h/JHdR+UUexwjPrk/wM="
+          "hash": "1G68JmmI22u/Amvk2zltm7k0FVHBwwLY6rLAigiZXcs="
         }
       },
       "is_incremental": false,
@@ -4209,7 +4209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.DirectedGraphStyleSetter.html",
-          "hash": "yRdk+Pab/x6DvA3jp0kaSZ/P4tSaOht3fVaCz+kqKu8="
+          "hash": "li6QrQ1eGPKfMPDvAvy55CapxMZ92v249zt0+8LuY5c="
         }
       },
       "is_incremental": false,
@@ -4221,7 +4221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.FontStyleEnum.html",
-          "hash": "qOrCsL+Lp/DNmX+n1EAxtUduWlp6eK1FGcyk6O+Yxpw="
+          "hash": "80q7uDVkPDwVR/eHZT6pND+hqqRVoK9eRgMjl/ZqAnY="
         }
       },
       "is_incremental": false,
@@ -4233,7 +4233,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.FontWeightEnum.html",
-          "hash": "RSiNIkixTs0++nrz4X1jL7AEECwCpLyXUDBmYujDVoA="
+          "hash": "04qgs4XB1GozlJ6x+I0hVUlcVkoShsnVMK/Ev02Wrek="
         }
       },
       "is_incremental": false,
@@ -4245,7 +4245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.FrameKindEnum.html",
-          "hash": "wW5PfVMzDehAbY2ArMA8/kdaSUKexMdVi0p3tqkd36A="
+          "hash": "KTwFTVAACWiE8yzfki+rPTBVeVjCt8nFBqOeNEHufGU="
         }
       },
       "is_incremental": false,
@@ -4257,7 +4257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.GraphDirectionEnum.html",
-          "hash": "b7a6gwp2wLmaamCOn+zKdfoItqBUr5LAOvuhcBib0Z8="
+          "hash": "D+gbVr5GCCP1H9zDyWH9/bexMTPmbhyAB4dPV7SQYLw="
         }
       },
       "is_incremental": false,
@@ -4269,7 +4269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.GroupEnum.html",
-          "hash": "0R2XoVvCGw+f0GrjqKXNpdMxz1T+4x4AoJPOqrQhGhQ="
+          "hash": "9asvo1/Tk3+s0Ik2D9zItWy+Byhq2wJYMOA9/yALnpI="
         }
       },
       "is_incremental": false,
@@ -4281,7 +4281,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.HorizontalAlignmentEnum.html",
-          "hash": "tLhJHqWn4b9xzIb+xb2reIQiaVwialw6lSJr+w4L6Tc="
+          "hash": "CToQbJXNRlZeXCMIk1Qy919sMxJNa8j4SOTQOAnR6LY="
         }
       },
       "is_incremental": false,
@@ -4293,7 +4293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.LayoutEnum.html",
-          "hash": "IDIIl8ExMpmMbbODapqC//K5eXHyDO5J3OroMz5OHyE="
+          "hash": "x2DjnRDH/F3FrUVLzzzk9iJuhmbbTPmksoSOW8KR8AM="
         }
       },
       "is_incremental": false,
@@ -4305,7 +4305,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.PropertyType.html",
-          "hash": "Y7okTvNfELiU5gl71/7EZIKwpr9VcclZIc4jFve+Amw="
+          "hash": "slcux1yonKCmNIRr4pBRjpZwOe79IufwY/BGlhwHOuA="
         }
       },
       "is_incremental": false,
@@ -4317,7 +4317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.TargetTypeEnum.html",
-          "hash": "ck7xn9teeHXJuh+ceXZVdXHHDgnWgCrdgLDB4dWj8Ns="
+          "hash": "0an7FjDOmhGzSn8vpMs9beEUa9KubYqt/E9IPeI9kBU="
         }
       },
       "is_incremental": false,
@@ -4329,7 +4329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.VerticalAlignmentEnum.html",
-          "hash": "gINaPhx0lEW5PJOPI7ynMfY9GFe12oDrHrFFVaoHtt8="
+          "hash": "GFW2t/xmcT4gB/eZsE8qeWO4JyK5FMRwFmyvJS5OY9c="
         }
       },
       "is_incremental": false,
@@ -4341,7 +4341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.VisibilityEnum.html",
-          "hash": "9PWrb4VQaoWTYhsCuABIaOzJXTSWdxZuakBFVA5RQzw="
+          "hash": "cIhgWVusRVqk2ZVwqXeBA0bYLwuFccuIJLlwUHV8HUY="
         }
       },
       "is_incremental": false,
@@ -4353,7 +4353,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphML.html",
-          "hash": "Q8LsN24q65BJO8CGyByd8Npdwlznbg2kFENETM3vIeU="
+          "hash": "WB2odyJbsbJjLbCJizN1r/c5OEeiRtrgN6N2FN778W8="
         }
       },
       "is_incremental": false,
@@ -4365,7 +4365,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphMLAlgorithm-2.html",
-          "hash": "K2cjzGEZbT+PMvJklBVY/uS8HIDfEuScXYeT5WPsUxg="
+          "hash": "/7gY+6kbaJ02PM5uxZe789DjRBBi80rPEQVmESfWdH4="
         }
       },
       "is_incremental": false,
@@ -4377,7 +4377,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.DirectedGraphMLExtensions.html",
-          "hash": "JnPMb6Vef68JAVC0j5eCntWtjALTG//Cp5/75mZqGX4="
+          "hash": "z6DwoVxbG7g105aMTh4Sp0fPE0hLja5XpIrLxo9bG+E="
         }
       },
       "is_incremental": false,
@@ -4389,7 +4389,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.GraphMLDeserializer-3.html",
-          "hash": "Cdufgs7VHibIqgNZFWXCA6MoOQtAUrZZQL65d+01mLc="
+          "hash": "FFo6ZcZbBe2SirVlRzN+UHlbeAgd1avCZH4+CbSVvVA="
         }
       },
       "is_incremental": false,
@@ -4401,7 +4401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.GraphMLExtensions.html",
-          "hash": "uLJ7BeqAQb4cdyJDy1JhKVj/OCVdAAWNtYfcWHRrmMM="
+          "hash": "xdlvFE1sVR+7AsCLggECS4Qqoep71kYSINl2mbqwUbQ="
         }
       },
       "is_incremental": false,
@@ -4413,7 +4413,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.GraphMLSerializer-3.html",
-          "hash": "QRSUxMka5/ARcluk6wCxy8PhH5knQK1oqpSxp41Kiec="
+          "hash": "MEioaveb3I1qyJkaDu9CdUtwFCiTec5XlTkXfpHYxhM="
         }
       },
       "is_incremental": false,
@@ -4425,7 +4425,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.GraphMLXmlResolver.html",
-          "hash": "RyU1rZiA/DFGkotFDDUdqriE27YfuDX/QskuHS4H6s4="
+          "hash": "XRPQE5hL3NAMtB3+RDLve7pYjzn63RhDkKKWTCw22ls="
         }
       },
       "is_incremental": false,
@@ -4437,7 +4437,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.SerializationExtensions.html",
-          "hash": "3LuysU6TdMdZs4uJoGXpfh1oRDHLttD4gnDpSKyH+bk="
+          "hash": "Ct5uBahinvLdfZZ5/TZSH62yjyuIj7NA4PY0EAqeVJI="
         }
       },
       "is_incremental": false,
@@ -4449,7 +4449,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.SerializerBase.html",
-          "hash": "ULS5AMO4YQ2CYk6KI2kwm1DVAP7e0kqoZPZiZrGAcDU="
+          "hash": "45HnZFS0rQ1eAhNQ8hNAdKHsepnwYqANV4+lv3vUigE="
         }
       },
       "is_incremental": false,
@@ -4461,7 +4461,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.XmlReaderExtensions.html",
-          "hash": "Of35e7887NCfmLBfYKr/3etF5KEqILeJdHB0eZinLkY="
+          "hash": "x3UNFwVCzsunOwo0Q4EECDtDdY4+gu8ayn8np4Rgzdk="
         }
       },
       "is_incremental": false,
@@ -4473,7 +4473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.XmlSerializableEdge-1.html",
-          "hash": "RRN4Fv+8iuAyHI5uhTtfxzQ/Pu2TMmvCjbFurD3NCQI="
+          "hash": "vWrO5PQ3tKcUWLw5n+RFNuOKnUJqhEZQTTg3P/1/FC0="
         }
       },
       "is_incremental": false,
@@ -4485,7 +4485,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.XmlSerializableGraph-3.XmlEdgeList.html",
-          "hash": "ooftQvc8t2d1gM/lvFND5THPJBxrCGACRhTlY4/c3Ow="
+          "hash": "CcT+HyRZHpSbOkEIj4XNwIQ0U+XaaplHkXZ2LPXmpEs="
         }
       },
       "is_incremental": false,
@@ -4497,7 +4497,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.XmlSerializableGraph-3.XmlVertexList.html",
-          "hash": "3EKXrI+na5Ozlm8d9axsnhtrC1MU+sJqJyrPgm8QW80="
+          "hash": "rZ0QxjVXjXB1xpD5h0nMlZlT9FCeNP8pZUmy3A+d2ok="
         }
       },
       "is_incremental": false,
@@ -4509,7 +4509,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.XmlSerializableGraph-3.html",
-          "hash": "gGzRjwhhVrJD9SC1F/l8FnIF3uNrDm5im/Tt05Sxhv0="
+          "hash": "2SfOQlb9PMO8yw9CQbqw4SByAJ5+vuWMHXKz9XNA5Jc="
         }
       },
       "is_incremental": false,
@@ -4521,7 +4521,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.XmlWriterExtensions.html",
-          "hash": "zZ4KOvn2HX1+7OMWLZ7rvWvq9YZFT4UaI5MoUmgWeGo="
+          "hash": "zpRFOySVt4i6ISkpgjuyNydHqvxUriY4Lb7COZYVKeg="
         }
       },
       "is_incremental": false,
@@ -4533,7 +4533,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Serialization.html",
-          "hash": "/DK/T3fnsj0bDv/ZEH2tBhH+C0ql3ggIi3+Tq1zpxmQ="
+          "hash": "qDVEDpswaI6Wi9lvNJ5E0igeepRd+EYVagUJlIeNYB4="
         }
       },
       "is_incremental": false,
@@ -4545,7 +4545,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.TaggedEdge-2.html",
-          "hash": "2/NhqjsS4DsihyNyR/mI+Naa2bEsAJqQkPaXXQuchIY="
+          "hash": "DDzzZsLlU4qTAGkoWECAKIEgmcjzsUTElUKns+uCrTQ="
         }
       },
       "is_incremental": false,
@@ -4557,7 +4557,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.TaggedUndirectedEdge-2.html",
-          "hash": "LPJ5TRHpwyJ2dp1M4ClzBWvPg+d9RfS8cPnxiwaz+E0="
+          "hash": "T0/GIviCQw6hNhkkpCQCap53r+tWcDP4AfgzHDp4Ujs="
         }
       },
       "is_incremental": false,
@@ -4569,7 +4569,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.TermEdge-1.html",
-          "hash": "ixXLmMWOYQtn1pQWkVup2+7JrY2R6uWtDC+vDbNc/Rs="
+          "hash": "HUSBCZoqJWghrThC+pNBf5iV0q1l4t6j5rrO2T1mRUA="
         }
       },
       "is_incremental": false,
@@ -4581,7 +4581,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.TryFunc-2.html",
-          "hash": "XBMgBfYWM62n/k56eq+jHh3xWEofAq8ok1QDddfM3og="
+          "hash": "oO1yaTEdTsciu7n08vlmHS8Cwlk21xL3J5MGAqGCrqs="
         }
       },
       "is_incremental": false,
@@ -4593,7 +4593,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.TryFunc-3.html",
-          "hash": "rR8xxE3yuuopy5wLsKkTD82MhT73e2xDt56GlaxhKS4="
+          "hash": "rwX9a2rpd0souZ0OByJPz0tqdIvDhLJ+zxZxRn2AVC8="
         }
       },
       "is_incremental": false,
@@ -4605,7 +4605,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.TryFunc-4.html",
-          "hash": "KtltCKSJqTd5sui5O7SIS5UbzJT8PQZTkvtw4eeyibQ="
+          "hash": "wIkf9d50IeGkngd57oiHQ6YKtI0PrOhj3xMH/g4fM/E="
         }
       },
       "is_incremental": false,
@@ -4617,7 +4617,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.TryFunc-5.html",
-          "hash": "7oaxcXfsFBmlEGPy3SaN8iTo/pzaMBfcafUCPVdH8kU="
+          "hash": "6hCgBW9QcCfTy+NA9hOIAYgCT8hzO/Rz2pXeeqm002I="
         }
       },
       "is_incremental": false,
@@ -4629,7 +4629,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.UndirectedBidirectionalGraph-2.html",
-          "hash": "fMy3tZZo95Fan3oPsWXiaySRObQc83/+woANgGImxkM="
+          "hash": "suS26RGu2/CgzJvpo7wfkfnl4RG8KVqnMVZg89Fezzs="
         }
       },
       "is_incremental": false,
@@ -4641,7 +4641,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.UndirectedEdge-1.html",
-          "hash": "Jpll82xNLQrj6Xh54XxoL7ud/nKrMQ4Mu6VRYCGR8Co="
+          "hash": "a+yGpCwkFSxyAJZaknNmn4ivjb054Hruh4pgidScREc="
         }
       },
       "is_incremental": false,
@@ -4653,7 +4653,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.UndirectedEdgeAction-2.html",
-          "hash": "kDe8nqwWaSa8JIq7AuWkr4YjHGqVwbXElVdkqdJa7Xk="
+          "hash": "6Hr4teqZFhiy5vvMDDjyX5+/dI54GUsz8QFF6hdG7Rc="
         }
       },
       "is_incremental": false,
@@ -4665,7 +4665,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.UndirectedEdgeEventArgs-2.html",
-          "hash": "4oy4pVNYOXgQ5i4tUhEafrWjSmaGu8V2F+waN1Hkgy8="
+          "hash": "vPzC4orter8bEUesuyjAEI+I9zGfX4F/hP+9KUjAnPE="
         }
       },
       "is_incremental": false,
@@ -4677,7 +4677,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.UndirectedGraph-2.html",
-          "hash": "5ZRs0XVtZfk5fgzH3CYcuvXdsmRJwRPLgpWpALvum0Q="
+          "hash": "G7tctQcHNXLzdceDwvaEwH+ENDqwJ8nYA5gl6MpLmdU="
         }
       },
       "is_incremental": false,
@@ -4689,7 +4689,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Utils.CryptoRandom.html",
-          "hash": "5CDTiQKKfu4Pi2f6DJ2rykJ3Rmd6T3cwsXvcdMNwfj4="
+          "hash": "wzySMQv79hkCwyOSJGvdVaFmsV9IDY83VFMn7fkcGG4="
         }
       },
       "is_incremental": false,
@@ -4701,7 +4701,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.Utils.html",
-          "hash": "mMtgt4ceqm8g+RC8OqQEAIc1csbxKtjU7IhGssdZCGw="
+          "hash": "gUY+6kpKQ0DwqX1oTs7nzpOGgN+pirJ1beclDQ9FQ5A="
         }
       },
       "is_incremental": false,
@@ -4713,7 +4713,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.VertexAction-1.html",
-          "hash": "3QV7J/VmL0DyGk3CrUE2C+i9bkvXZ2jNtOCKVIbICe0="
+          "hash": "P+Jp+nIK4sP95T+K97CodS2baVli1kfPi7omCvF5JGo="
         }
       },
       "is_incremental": false,
@@ -4725,7 +4725,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.VertexEventArgs-1.html",
-          "hash": "XffygDHAWBGYeRvJGSBf0ulCT6+s27KWW8s7uTPnbFw="
+          "hash": "eNqKyBXCSDcyIW6jE7Sm5c1ztjA5RyT5monoxS+kmTU="
         }
       },
       "is_incremental": false,
@@ -4737,7 +4737,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.VertexEventHandler-1.html",
-          "hash": "+XPPyHMhEvTJu+F8snn51OLQGgizI0m2Zus31IwxlRQ="
+          "hash": "HHquWGZ45rYSTZMoGM1oDlocRXUMPtyGF5ABc4x9hAs="
         }
       },
       "is_incremental": false,
@@ -4749,7 +4749,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.VertexFactory-1.html",
-          "hash": "az4GXOdR8b2eKbKBWMaZwCOIqVhn8bOAFIKDmA3FVSc="
+          "hash": "rxBYCkFU7fj+ZDNRX8I6z3gkCpYyapS9qzPi2UDSFLw="
         }
       },
       "is_incremental": false,
@@ -4761,7 +4761,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.VertexIdentity-1.html",
-          "hash": "oeJCg8c18ZildetmG4vckxO6IApOjXNevEPCfantAl4="
+          "hash": "VTij+kJlMDotxcvKtjQgsH9/FM6vB5dR6/2uEkAelcs="
         }
       },
       "is_incremental": false,
@@ -4773,7 +4773,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.VertexNotFoundException.html",
-          "hash": "JRa/nvpE04u3ivrC3m6LT2LKlL45/q45icz3gNa/c/8="
+          "hash": "RU0bGHxou/n8Vlnfv1YyPZQ4NnCbJ8lavt08a0asFVs="
         }
       },
       "is_incremental": false,
@@ -4785,7 +4785,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.VertexPredicate-1.html",
-          "hash": "17G2ZKoxOafzvXeo9lu4JIBqECOzkYfj0rxnk5FyTaM="
+          "hash": "bO2ePa5O2ReDMDGxWrztMQqtSPSCK05PY3S1qL1k8Hc="
         }
       },
       "is_incremental": false,
@@ -4797,7 +4797,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QuikGraph.html",
-          "hash": "ufN32bltVivFjdvs38YD8K8perrPmZfNyJRZe9z1ylM="
+          "hash": "3NIdMra5x1GmNlK21vEgG8K4XlR+bjYDcKGkEWQ2ZqE="
         }
       },
       "is_incremental": false,
@@ -4809,7 +4809,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "kFrkVnXg0UuBNSHfi+WPwqDawcTlVQS//WH651RlaFw="
+          "hash": "ZGCfzi6KIHyaZLYKiYBsJ2G3ciuESlwgPk53S8+E9oE="
         }
       },
       "is_incremental": false,
@@ -4833,7 +4833,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/general-coding-guidelines.html",
-          "hash": "nXnm5MAnyElYVTC8bjOIDxZRjzvIX4Zh2rV2DyPo0LI="
+          "hash": "xTOu/YtyXfJ6fUoTgv/1VyHsiho9GGPRgjmYU/mMdGc="
         }
       },
       "is_incremental": false,
@@ -4845,7 +4845,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/guidelines/csharp-best-practices.html",
-          "hash": "VGu57rdnDogVFrTNqIVtoTpyWm/JBD2UWgnS7laKWyw="
+          "hash": "ZmXitk8dleofbiEsbiBtKhO/KOdJ4iq4KO4DLLRY1Ao="
         }
       },
       "is_incremental": false,
@@ -4857,7 +4857,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/guidelines/csharp-coding-guidelines.html",
-          "hash": "r67dvCDiktTKHHA5HfcEXK2HpIyKjE71Ywpx6O0PWYY="
+          "hash": "siv9/JIU+Km+95rrhkOy4dVJJ4iLwqDQFazMSdjcSSc="
         }
       },
       "is_incremental": false,
@@ -4869,7 +4869,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/history.html",
-          "hash": "1n7HHUCgSt0EjZA/nOrp+vlUra3ngzReERQYNh3GVCY="
+          "hash": "iDLf6pzqSHKgPK7gzQKY8hhgVHqwr4grMKsurZWF1Xg="
         }
       },
       "is_incremental": false,
@@ -4893,7 +4893,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/tutorials.html",
-          "hash": "Y5xutS71V19MqMB1jQmb3/TZ6/m5+86TpMMQ8md4yP0="
+          "hash": "EyAp9lhGVCyh/NiZ38OX2maIv9Eae/5rxho8E6+H1aI="
         }
       },
       "is_incremental": false,
@@ -4905,7 +4905,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/tutorials/use-under-unity.html",
-          "hash": "fBDephxi21B60oasp6hf+QhKVrL9TtOLZCvE5L+LgCo="
+          "hash": "pxnWLe1wb9A9kjly21nKlA1JoIDIcdD8CPt0Ef45v4U="
         }
       },
       "is_incremental": false,
@@ -4935,6 +4935,28 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/quikgraph_logo.png",
       "output": {
         "resource": {
@@ -4950,7 +4972,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "xL5eeZ4Z0c/jt9C5DWRASkjSkB9PckYN6prlOIjgXPs="
+          "hash": "D1IU6IavShPag6mbNUX8UQty0hm/NiwmDOpGsUjL7u4="
         }
       },
       "is_incremental": false,

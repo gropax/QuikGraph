@@ -129,7 +129,7 @@ and checks if content is valid.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void DeserializeAndValidateFromGraphML&lt;TVertex, TEdge, TGraph&gt;(this TGraph graph, TextReader reader, IdentifiableVertexFactory&lt;TVertex&gt; vertexFactory, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)
-    where TEdge : IEdge&lt;TVertex&gt; where TGraph : IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;</code></pre>
+    where TEdge : IEdge&lt;TVertex&gt; where TGraph : IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -259,7 +259,7 @@ and checks if content is valid.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(this TGraph graph, TextReader reader, IdentifiableVertexFactory&lt;TVertex&gt; vertexFactory, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)
-    where TEdge : IEdge&lt;TVertex&gt; where TGraph : IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;</code></pre>
+    where TEdge : IEdge&lt;TVertex&gt; where TGraph : IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -389,7 +389,7 @@ and checks if content is valid.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(this TGraph graph, string filePath, IdentifiableVertexFactory&lt;TVertex&gt; vertexFactory, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)
-    where TEdge : IEdge&lt;TVertex&gt; where TGraph : IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;</code></pre>
+    where TEdge : IEdge&lt;TVertex&gt; where TGraph : IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -519,7 +519,7 @@ and checks if content is valid.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void DeserializeFromGraphML&lt;TVertex, TEdge, TGraph&gt;(this TGraph graph, XmlReader reader, IdentifiableVertexFactory&lt;TVertex&gt; vertexFactory, IdentifiableEdgeFactory&lt;TVertex, TEdge&gt; edgeFactory)
-    where TEdge : IEdge&lt;TVertex&gt; where TGraph : IMutableVertexAndEdgeListGraph&lt;TVertex, TEdge&gt;</code></pre>
+    where TEdge : IEdge&lt;TVertex&gt; where TGraph : IMutableVertexAndEdgeSet&lt;TVertex, TEdge&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

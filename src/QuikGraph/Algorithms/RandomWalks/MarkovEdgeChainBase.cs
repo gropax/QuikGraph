@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 #if SUPPORTS_CRYPTO_RANDOM
 using QuikGraph.Utils;
@@ -11,9 +11,6 @@ namespace QuikGraph.Algorithms.RandomWalks
     /// </summary>
     /// <typeparam name="TVertex">Vertex type.</typeparam>
     /// <typeparam name="TEdge">Edge type.</typeparam>
-#if SUPPORTS_SERIALIZATION
-    [Serializable]
-#endif
     public abstract class MarkovEdgeChainBase<TVertex, TEdge> : IMarkovEdgeChain<TVertex, TEdge>
         where TEdge : IEdge<TVertex>
     {
